@@ -1,0 +1,6 @@
+markdown: redcarpet
+permalink: /:title/
+baseurl: ""
+exclude: ['README.md']
+
+name: FLY Program
