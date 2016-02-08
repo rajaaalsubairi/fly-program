@@ -1,6 +1,6 @@
 markdown: redcarpet
 permalink: /:title/
 baseurl: ""
-exclude: ['README.md']
+exclude: ['README.md', 'scss']
 
 name: FLY Program
