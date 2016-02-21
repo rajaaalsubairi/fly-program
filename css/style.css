@@ -628,7 +628,7 @@ h1 {
 
 .navigation ul a {
   display: block;
-  padding: 1em 1em;
+  padding: 1.8em 1.5em;
   border-bottom: 1px solid #F6F6F6;
   text-decoration: none;
   color: #222;
@@ -638,6 +638,7 @@ h1 {
 
 .navigation ul a:hover {
   background-color: #BAA2B9;
+  transition: all 300ms ease-in-out;
 }
 
 .toggle-btn,
@@ -776,4 +777,10 @@ body.noscript .navigation {
 .logo {
   height: 2.5em;
   margin: 1em;
+  opacity: 1;
+}
+
+.logo:hover {
+  opacity: .6;
+  transition: all 300ms ease-in-out;
 }
