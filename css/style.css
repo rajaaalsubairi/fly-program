@@ -596,6 +596,7 @@ header {
   padding: 0 1em;
   position: relative;
   background-color: #743C70;
+  z-index: 100;
 }
 
 h1 {
@@ -627,7 +628,7 @@ h1 {
 
 .navigation ul a {
   display: block;
-  padding: 1em 1em;
+  padding: 1.8em 1.5em;
   border-bottom: 1px solid #F6F6F6;
   text-decoration: none;
   color: #222;
@@ -637,6 +638,7 @@ h1 {
 
 .navigation ul a:hover {
   background-color: #BAA2B9;
+  transition: all 300ms ease-in-out;
 }
 
 .toggle-btn,
@@ -749,4 +751,36 @@ body.noscript .navigation {
     background-color: #BAA2B9;
     color: #222;
   }
+}
+
+/* Video STARTS */
+.embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-16by9 {
+  margin-top: -6%;
+  padding-top: 56.25%;
+}
+
+/* LOGO STARTS */
+.logo {
+  height: 2.5em;
+  margin: 1em;
+  opacity: 1;
+}
+
+.logo:hover {
+  opacity: .6;
+  transition: all 300ms ease-in-out;
 }
