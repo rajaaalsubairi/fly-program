@@ -32,6 +32,7 @@ header {
   padding: 0 1em;
   position: relative;
   background-color: $purple;
+  z-index: 100;
 }
 
 h1 {
@@ -193,4 +194,26 @@ body.noscript .navigation {
       }
     }
   }
+}
+
+
+/* Video STARTS */
+
+.embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-16by9 {
+  margin-top: -6%;
+  padding-top: 56.25%;
 }
