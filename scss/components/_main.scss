@@ -6,17 +6,17 @@
 
 html {
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: sans-serif;
 }
+
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body{
   font-family: sans-serif;
@@ -26,11 +26,6 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
-}
-
-img {
-    width: 100%;
-    display: block;
 }
 
 header {
@@ -76,9 +71,8 @@ h1 {
     background-color: $light-purple;
   }
   }
+
 }
-
-
 
 .toggle-btn,
 .close-btn {
@@ -196,7 +190,7 @@ body.noscript .navigation {
           background-color: $light-purple;
           color: $text-color;
           }
-        }
       }
     }
+  }
 }
