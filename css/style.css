@@ -771,3 +771,9 @@ body.noscript .navigation {
   margin-top: -6%;
   padding-top: 56.25%;
 }
+
+/* LOGO STARTS */
+.logo {
+  height: 2.5em;
+  margin: 1em;
+}
