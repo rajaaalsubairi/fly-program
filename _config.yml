@@ -1,6 +1,5 @@
-markdown: redcarpet
-permalink: /:title/
-baseurl: "fly-program"
+permalink: pretty
+baseurl: ""
 exclude: ['README.md', 'scss']
 
 name: FLY Program
