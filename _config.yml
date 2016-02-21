@@ -1,5 +1,4 @@
 markdown: redcarpet
 baseurl: /fly-program
 exclude: ['README.md', 'scss']
-
 name: FLY Program
