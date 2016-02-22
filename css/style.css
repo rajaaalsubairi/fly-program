@@ -914,14 +914,13 @@ body.noscript .navigation {
   }
 }
 
-copyright {
+.copyright {
   background: #4A0E3E;
 }
 
-copyright p {
+.copyright p {
   color: #fff;
   text-align: center;
-  margin: .5em auto;
 }
 
 @media only screen and (min-width: 75em) {
