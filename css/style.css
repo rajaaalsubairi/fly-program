@@ -632,7 +632,7 @@ h1 {
 }
 
 .navigation ul li:first-child a {
-  border-top: 1px solid #F6F6F6;
+  border-top: 0px solid #F6F6F6;
 }
 
 .navigation ul li:last-child a {
@@ -919,7 +919,7 @@ body.noscript .navigation {
     overflow: visible;
     position: absolute;
     top: 100%;
-    width: 19%;
+    width: 18.8%;
   }
   .header-title-wrap {
     width: 60%;
@@ -927,6 +927,9 @@ body.noscript .navigation {
     left: 5%;
     top: 15vh;
     background-color: rgba(26, 28, 36, 0.8);
+  }
+  .embed {
+    top: 2em;
   }
 }
 

@@ -64,7 +64,7 @@ h1 {
   li {
     list-style-type: none;
     &:first-child a {
-      border-top: 1px solid $light-grey;
+      border-top: 0px solid $light-grey;
     }
 
     &:last-child a {
@@ -375,7 +375,7 @@ body.noscript .navigation {
           overflow: visible;
           position:absolute;
           top:100%;
-          width: 19%;
+          width: 18.8%;
          }
         }
       }
@@ -388,6 +388,10 @@ body.noscript .navigation {
     left: 5%;
     top: 15vh;
     background-color: rgba($dark-blue, 0.8)
+  }
+
+  .embed {
+    top: 2em;
   }
 }
 
