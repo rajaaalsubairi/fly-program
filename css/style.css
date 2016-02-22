@@ -583,6 +583,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-family: "roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -594,10 +595,12 @@ body.noscript .toggle-btn {
 }
 
 header {
-  padding: 0 1em;
-  position: relative;
-  background-color: #743C70;
+  padding: 0;
+  position: absolute;
   z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-title-wrap {
@@ -693,6 +696,7 @@ h1 {
   .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
+    padding-top: 76px;
     position: relative;
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -763,6 +767,10 @@ body.noscript .navigation {
 .logo:hover {
   opacity: .6;
   transition: all 300ms ease-in-out;
+}
+
+.logo-bg {
+  background-color: #743C70;
 }
 
 /* BUTTONS */
@@ -875,23 +883,26 @@ body.noscript .navigation {
 
 @media only screen and (min-width: 60em) {
   header {
-    padding: 0 0 0 1em;
+    padding: 0;
   }
   .btn-donate {
     display: none;
   }
-  .navigation ul {
+  .navigation > ul {
     margin: 0;
   }
-  .navigation ul li {
+  .navigation > ul > li {
     float: left;
     display: inline-block;
     width: 25%;
   }
-  .navigation ul li:first-child a {
+  .navigation > ul > li:first-child a {
     border-top: none;
   }
-  .navigation ul li a {
+  .navigation > ul > li > ul {
+    display: none;
+  }
+  .navigation > ul > li a {
     padding: 1.8em .8em;
     border-bottom: none;
     text-decoration: none;
@@ -899,9 +910,16 @@ body.noscript .navigation {
     text-align: center;
     background-color: #743C70;
   }
-  .navigation ul li a:hover {
+  .navigation > ul > li a:hover {
     background-color: #fff;
     color: #743C70;
+  }
+  .navigation > ul > li a:hover + ul {
+    display: block;
+    overflow: visible;
+    position: absolute;
+    top: 100%;
+    width: 19%;
   }
   .header-title-wrap {
     width: 60%;
