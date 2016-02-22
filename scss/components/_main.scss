@@ -64,12 +64,9 @@ h1 {
   li {
     list-style-type: none;
     &:first-child a {
-      border-top: 1px solid $light-grey;
-    }
-
-    &:last-child a {
-      background-color: $green;
-      color: $nav-color;
+      border-top: 0px solid $light-grey;
+      background-color: $purple;
+      color: $white;
     }
   }
 
@@ -355,6 +352,11 @@ body.noscript .navigation {
         border-top: none;
       }
 
+      &:last-child a {
+      background-color: $green;
+      color: $nav-color;
+    }
+
       > ul{
         display: none;
       }
@@ -373,9 +375,13 @@ body.noscript .navigation {
          + ul{
           display: block;
           overflow: visible;
-          position:absolute;
-          top:100%;
-          width: 19%;
+          position: absolute;
+          top: 100%;
+          width: 18.8%;
+            &:last-child a {
+              background-color: $purple;
+              color: $white;
+            }
          }
         }
       }
@@ -388,6 +394,10 @@ body.noscript .navigation {
     left: 5%;
     top: 15vh;
     background-color: rgba($dark-blue, 0.8)
+  }
+
+  .embed {
+    top: 4em;
   }
 }
 
