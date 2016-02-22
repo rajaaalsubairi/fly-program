@@ -10,9 +10,13 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+<<<<<<< HEAD
+  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
+=======
 
-  <link rel="shortcut icon" href="img/favicon.ico"> 
+  <link rel="shortcut icon" href="img/favicon.ico">
 
+>>>>>>> gh-pages
 </head>
 <body>
 
@@ -24,7 +28,7 @@
           <div class="unit xs-1 s-1 m-1 l-1-4">
             <a href="{{site.baseurl}}/">
               <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="FLY Logo">
-            </a>
+            </a><a class="btn-donate" href="donate.html">Donate</a>
           </div>
 
           <div class="unit xs-1 s-1 m-1 l-3-4">
@@ -61,22 +65,22 @@
           </div>
       </header>
 
-      <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 ">
-          <div class="embed embed-16by9">
-            <video class="embed-item smasher-vid" src="{{site.baseurl}}/vid/fly-vid.mp4" poster="" autoplay loop >
-              Crazy Balls
-            </video>
-          </div>
-          <button class="btn-pause">Pause</button>
-        </div>
-
-        <div class="island unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 ">
-          <h2>Spark change! Invest in a FLY Youth.</h2>
-          <p>Come see how you can make hope happen for over 2,000 youth a year. Join us for FLY’s Annual Showcase Breakfast on December 4, 2015.</p>
-          <p><a href="#">Donate to FLY</a></p>
-        </div>
+      <div class="embed embed-16by9">
+        <video class="embed-item smasher-vid" src="{{site.baseurl}}/vid/fly-vid.mp4" poster="" autoplay loop >
+          Crazy Balls
+        </video>
       </div>
+
+      <button class="btn-pause kilo">Pause</button>
+
+      <div class="header-title-wrap island">
+        <h1 class="header-title">Spark change! Invest in a FLY Youth.</h1>
+        <p class="white mega">We are uniquely able to give teens the right environment, role models, and the right tools to turn their lives around and build better futures.</p>
+        <p><a class="btn-green mega" href="#">Donate to FLY</a></p>
+      </div>
+
+      <a class="btn social" href="#"><i class="icon-facebook-official"></i></a>
+      <a class="btn social social-2" href="#"><i class="icon-social-youtube"></i></a>
 
       <main>
         {{content}}
