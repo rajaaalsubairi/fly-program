@@ -19,7 +19,7 @@ html {
 
 
 body{
-  font-family: sans-serif;
+  font-family: $main-text;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -41,10 +41,15 @@ header {
 
 h1 {
   color: $green;
+    font-family: $display-text;
+    font-size: 2em;
 }
 
 .white {
-  color: $white;
+ color: $white;
+ font-family: $display-text;
+ font-size: 1.5em;
+    
 }
 
 .toggle-btn {

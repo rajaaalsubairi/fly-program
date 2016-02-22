@@ -13,30 +13,25 @@
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -326,8 +321,7 @@
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-      flex-grow: 2;
+  flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -335,12 +329,11 @@
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  align-self: center;
 }
 
 html {
-  font: normal 100%/1.5, serif;
+  font: normal 100%/1.5;
 }
 
 @media only screen and (min-width: 60em) {
@@ -561,6 +554,11 @@ sub {
   scale: 1;
 }
 
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
 @-webkit-viewport {
   width: device-width;
   scale: 1;
@@ -573,6 +571,7 @@ sub {
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -583,7 +582,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -606,10 +605,14 @@ header {
 
 h1 {
   color: #9BA33F;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 2em;
 }
 
 .white {
   color: #fff;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 1.5em;
 }
 
 .toggle-btn {
@@ -648,6 +651,7 @@ h1 {
 .navigation ul a:hover {
   background-color: #BAA2B9;
   color: nav-color;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -692,15 +696,11 @@ h1 {
     width: 100%;
     height: 100%;
     position: relative;
-    -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
-    -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-            transform: translateX(-100%);
+    transform: translateX(-100%);
   }
   .site-wrapper[data-state="slide-open"] {
     overflow: visible;
@@ -760,6 +760,7 @@ body.noscript .navigation {
 
 .logo:hover {
   opacity: .6;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -780,6 +781,7 @@ body.noscript .navigation {
 .btn-donate:hover {
   background-color: #fff;
   color: #743C70;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -798,6 +800,7 @@ body.noscript .navigation {
 .btn-green:hover {
   background-color: #BAA2B9;
   color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -824,6 +827,7 @@ body.noscript .navigation {
 .social:hover {
   background-color: #9BA33F;
   color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -852,6 +856,7 @@ body.noscript .navigation {
 .btn-pause:hover {
   background-color: #9BA33F;
   color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
