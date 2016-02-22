@@ -633,10 +633,7 @@ h1 {
 
 .navigation ul li:first-child a {
   border-top: 0px solid #F6F6F6;
-}
-
-.navigation ul li:last-child a {
-  background-color: #9BA33F;
+  background-color: #743C70;
   color: #fff;
 }
 
@@ -899,6 +896,10 @@ body.noscript .navigation {
   .navigation > ul > li:first-child a {
     border-top: none;
   }
+  .navigation > ul > li:last-child a {
+    background-color: #9BA33F;
+    color: #fff;
+  }
   .navigation > ul > li > ul {
     display: none;
   }
@@ -921,6 +922,10 @@ body.noscript .navigation {
     top: 100%;
     width: 18.8%;
   }
+  .navigation > ul > li a:hover + ul:last-child a {
+    background-color: #743C70;
+    color: #fff;
+  }
   .header-title-wrap {
     width: 60%;
     position: absolute;
@@ -929,7 +934,7 @@ body.noscript .navigation {
     background-color: rgba(26, 28, 36, 0.8);
   }
   .embed {
-    top: 2em;
+    top: 4em;
   }
 }
 
