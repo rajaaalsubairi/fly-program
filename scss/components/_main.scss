@@ -373,6 +373,24 @@ body.noscript .navigation {
   }
 }
 
+form {
+  background: $dark-blue;
+    div {
+      margin: 0 auto 1.5em auto; 
+    }
+    h2 {
+      color: $white;
+      text-align: center;
+    }
+}
+
+input,
+select,
+textarea {
+  font-size: 1.25em;
+  width: 10em;
+}
+
 .copyright {
   background: $dark-purple;
     p {

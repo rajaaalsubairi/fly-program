@@ -914,6 +914,26 @@ body.noscript .navigation {
   }
 }
 
+form {
+  background: #1A1C24;
+}
+
+form div {
+  margin: 0 auto 1.5em auto;
+}
+
+form h2 {
+  color: #fff;
+  text-align: center;
+}
+
+input,
+select,
+textarea {
+  font-size: 1.25em;
+  width: 10em;
+}
+
 .copyright {
   background: #4A0E3E;
 }
