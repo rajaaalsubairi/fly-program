@@ -241,6 +241,7 @@ body.noscript .navigation {
   &:hover {
     background-color: $light-purple;
     color: $white;
+
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
   }
@@ -264,6 +265,14 @@ body.noscript .navigation {
   right: 0;
   top: 29%;
   visibility: hidden;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
 }
 
 .social i {
@@ -286,6 +295,14 @@ body.noscript .navigation {
   margin-bottom: 3px;
   right: 0;
   top: 21%;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
 }
 
 @media only screen and (min-width: 25em){
@@ -345,8 +362,16 @@ body.noscript .navigation {
   .header-title-wrap {
     width: 40%;
     position: absolute;
-    top: 9em;
+    top: 9.5em;
     left: 10%;
     background-color: rgba($dark-blue, 0.8)
   }
+}
+
+@media only screen and (min-width: 75em){
+
+  .header-title-wrap {
+    top: 40%;
+  }
+
 }

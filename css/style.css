@@ -821,6 +821,12 @@ body.noscript .navigation {
   visibility: hidden;
 }
 
+.social:hover {
+  background-color: #9BA33F;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+}
+
 .social i {
   vertical-align: middle;
 }
@@ -841,6 +847,12 @@ body.noscript .navigation {
   margin-bottom: 3px;
   right: 0;
   top: 21%;
+}
+
+.btn-pause:hover {
+  background-color: #9BA33F;
+  color: #fff;
+  transition: all 300ms ease-in-out;
 }
 
 @media only screen and (min-width: 25em) {
@@ -892,8 +904,14 @@ body.noscript .navigation {
   .header-title-wrap {
     width: 40%;
     position: absolute;
-    top: 9em;
+    top: 9.5em;
     left: 10%;
     background-color: rgba(26, 28, 36, 0.8);
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .header-title-wrap {
+    top: 40%;
   }
 }
