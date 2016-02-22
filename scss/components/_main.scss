@@ -17,8 +17,8 @@ html {
   box-sizing: inherit;
 }
 
-
 body{
+  overflow: hidden;
   font-family: $main-text;
   @include zero;
   // Hides close button if there is no js
@@ -29,10 +29,12 @@ body{
 }
 
 header {
-  padding: 0 1em;
-  position: relative;
-  background-color: $purple;
+  padding: 0;
+  position: absolute;
   z-index: 100;
+  top: 0;
+  left: 0;
+  right:0;
 }
 
 .header-title-wrap {
@@ -41,15 +43,13 @@ header {
 
 h1 {
   color: $green;
-    font-family: $display-text;
+    font-family: $main-text;
     font-size: 2em;
 }
 
 .white {
  color: $white;
- font-family: $display-text;
- font-size: 1.5em;
-    
+
 }
 
 .toggle-btn {
@@ -64,12 +64,9 @@ h1 {
   li {
     list-style-type: none;
     &:first-child a {
-      border-top: 1px solid $light-grey;
-    }
-
-    &:last-child a {
-      background-color: $green;
-      color: $nav-color;
+      border-top: 0px solid $light-grey;
+      background-color: $purple;
+      color: $white;
     }
   }
 
@@ -129,6 +126,7 @@ h1 {
     .sliding-canvas {
       width: 100%;
       height: 100%;
+      padding-top: 76px;
       position: relative;
       transform: translateX(0);
       transition: all 300ms ease-in-out;
@@ -210,6 +208,10 @@ body.noscript .navigation {
     }
 }
 
+.logo-bg {
+  background-color: $purple;
+}
+
 /* BUTTONS */
 
 .btn-donate {
@@ -263,12 +265,12 @@ body.noscript .navigation {
   color: $white;
   text-decoration: none;
   font-size: 4em;
-  width: 80px;
-  height: 70px;
+  width: 1.2em;
+  height: 1em;
   text-align: center;
   margin-bottom: 3px;
   right: 0;
-  top: 29%;
+  top: 4em;
   visibility: hidden;
 
   &:hover {
@@ -285,24 +287,25 @@ body.noscript .navigation {
 }
 
 .social-2 {
-  top: 39%;
+  top: 5.1em;
+
 }
 
 .btn-pause {
   position: absolute;
   display:block;
   width: 80px;
-  background-color: $dark-blue;
-  color: $green;
-  border: 0 solid $dark-blue;
+  background-color: $green;
+  color: $white;
+  border: 0 solid $green;
   padding: 1em 1em;
   cursor: pointer;
   margin-bottom: 3px;
   right: 0;
-  top: 21%;
+  top: 10em;
 
   &:hover {
-    background-color: $green;
+    background-color: $dark-blue;
     color: $white;
 
     -webkit-transition: all 300ms ease-in-out;
@@ -329,23 +332,33 @@ body.noscript .navigation {
 
 @media only screen and (min-width: 60em){
   header {
-    padding: 0 0 0 1em;
+    padding: 0;
   }
 
   .btn-donate {
     display: none;
   }
 
-  .navigation ul {
+  .navigation > ul {
     margin: 0;
 
-      li {
+
+      > li {
         float:left;
         display: inline-block;
         width: 25%;
 
       &:first-child a {
         border-top: none;
+      }
+
+      &:last-child a {
+      background-color: $green;
+      color: $nav-color;
+    }
+
+      > ul{
+        display: none;
       }
 
       a {
@@ -356,23 +369,34 @@ body.noscript .navigation {
         text-align: center;
         background-color: $purple;
 
-          &:hover {
-          background-color: $nav-color;
-          color: $purple;
-          }
+        &:hover {
+        background-color: $nav-color;
+        color: $purple;
+         + ul{
+          display: block;
+          overflow: visible;
+          position: absolute;
+          top: 100%;
+          width: 18.8%;
+            &:last-child a {
+              background-color: $purple;
+              color: $white;
+            }
+         }
+        }
       }
     }
   }
 
   .header-title-wrap {
-    width: 40%;
+    width: 60%;
     position: absolute;
-    top: 9.5em;
-    left: 10%;
+    left: 5%;
+    top: 15vh;
     background-color: rgba($dark-blue, 0.8)
   }
-}
 
+<<<<<<< HEAD
 form {
   background: $dark-blue;
     div {
@@ -457,10 +481,18 @@ button[type=submit] {
 
 
 @media only screen and (min-width: 75em){
-
-  .header-title-wrap {
-    top: 40%;
+=======
+  .embed {
+    top: 4em;
   }
+}
+>>>>>>> gh-pages
+
+@media only screen and (min-width: 70em){
+  .header-title-wrap {
+    top: 25vh;
+  }
+<<<<<<< HEAD
   
 <<<<<<< HEAD
   input,
@@ -492,5 +524,13 @@ button[type=submit] {
     
 }
 =======
+=======
+}
+
+@media only screen and (min-width: 80em){
+  .header-title-wrap {
+    top: 35vh;
+  }
+>>>>>>> gh-pages
 }
 >>>>>>> origin/footer
