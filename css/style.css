@@ -13,25 +13,30 @@
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -321,7 +326,8 @@
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  flex-grow: 2;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -329,7 +335,8 @@
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
 html {
@@ -554,11 +561,6 @@ sub {
   scale: 1;
 }
 
-@-o-viewport {
-  width: device-width;
-  scale: 1;
-}
-
 @-webkit-viewport {
   width: device-width;
   scale: 1;
@@ -571,7 +573,6 @@ sub {
 
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -582,6 +583,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-family: "roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -593,10 +595,12 @@ body.noscript .toggle-btn {
 }
 
 header {
-  padding: 0 1em;
-  position: relative;
-  background-color: #743C70;
+  padding: 0;
+  position: absolute;
   z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-title-wrap {
@@ -605,14 +609,12 @@ header {
 
 h1 {
   color: #9BA33F;
-  font-family: "Sue Ellen Francisco", cursive;
+  font-family: "roboto", sans-serif;
   font-size: 2em;
 }
 
 .white {
   color: #fff;
-  font-family: "Sue Ellen Francisco", cursive;
-  font-size: 1.5em;
 }
 
 .toggle-btn {
@@ -651,7 +653,6 @@ h1 {
 .navigation ul a:hover {
   background-color: #BAA2B9;
   color: nav-color;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -695,12 +696,17 @@ h1 {
   .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
+    padding-top: 76px;
     position: relative;
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   .site-wrapper[data-state="slide-open"] {
     overflow: visible;
@@ -760,8 +766,11 @@ body.noscript .navigation {
 
 .logo:hover {
   opacity: .6;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+
+.logo-bg {
+  background-color: #743C70;
 }
 
 /* BUTTONS */
@@ -781,7 +790,6 @@ body.noscript .navigation {
 .btn-donate:hover {
   background-color: #fff;
   color: #743C70;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -800,7 +808,6 @@ body.noscript .navigation {
 .btn-green:hover {
   background-color: #BAA2B9;
   color: #fff;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -815,19 +822,18 @@ body.noscript .navigation {
   color: #fff;
   text-decoration: none;
   font-size: 4em;
-  width: 80px;
-  height: 70px;
+  width: 1.2em;
+  height: 1em;
   text-align: center;
   margin-bottom: 3px;
   right: 0;
-  top: 29%;
+  top: 4em;
   visibility: hidden;
 }
 
 .social:hover {
   background-color: #9BA33F;
   color: #fff;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -836,27 +842,26 @@ body.noscript .navigation {
 }
 
 .social-2 {
-  top: 39%;
+  top: 5.1em;
 }
 
 .btn-pause {
   position: absolute;
   display: block;
   width: 80px;
-  background-color: #1A1C24;
-  color: #9BA33F;
-  border: 0 solid #1A1C24;
+  background-color: #9BA33F;
+  color: #fff;
+  border: 0 solid #9BA33F;
   padding: 1em 1em;
   cursor: pointer;
   margin-bottom: 3px;
   right: 0;
-  top: 21%;
+  top: 10em;
 }
 
 .btn-pause:hover {
-  background-color: #9BA33F;
+  background-color: #1A1C24;
   color: #fff;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -878,23 +883,26 @@ body.noscript .navigation {
 
 @media only screen and (min-width: 60em) {
   header {
-    padding: 0 0 0 1em;
+    padding: 0;
   }
   .btn-donate {
     display: none;
   }
-  .navigation ul {
+  .navigation > ul {
     margin: 0;
   }
-  .navigation ul li {
+  .navigation > ul > li {
     float: left;
     display: inline-block;
     width: 25%;
   }
-  .navigation ul li:first-child a {
+  .navigation > ul > li:first-child a {
     border-top: none;
   }
-  .navigation ul li a {
+  .navigation > ul > li > ul {
+    display: none;
+  }
+  .navigation > ul > li a {
     padding: 1.8em .8em;
     border-bottom: none;
     text-decoration: none;
@@ -902,21 +910,34 @@ body.noscript .navigation {
     text-align: center;
     background-color: #743C70;
   }
-  .navigation ul li a:hover {
+  .navigation > ul > li a:hover {
     background-color: #fff;
     color: #743C70;
   }
-  .header-title-wrap {
-    width: 40%;
+  .navigation > ul > li a:hover + ul {
+    display: block;
+    overflow: visible;
     position: absolute;
-    top: 9.5em;
-    left: 10%;
+    top: 100%;
+    width: 19%;
+  }
+  .header-title-wrap {
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15vh;
     background-color: rgba(26, 28, 36, 0.8);
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 70em) {
   .header-title-wrap {
-    top: 40%;
+    top: 25vh;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .header-title-wrap {
+    top: 35vh;
   }
 }
