@@ -373,6 +373,15 @@ body.noscript .navigation {
   }
 }
 
+copyright {
+  background: $dark-purple;
+    p {
+      color: $white;
+      text-align: center;
+      margin: .5em auto;
+    }
+}
+
 @media only screen and (min-width: 75em){
 
   .header-title-wrap {
