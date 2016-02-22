@@ -628,10 +628,10 @@ h1 {
 
 .navigation ul a {
   display: block;
-  padding: 1.8em .8em;
+  padding: 1.2em .8em;
   border-bottom: 1px solid #F6F6F6;
   text-decoration: none;
-  color: #222;
+  color: #1A1C24;
   text-align: center;
   background-color: #F6F6F6;
 }
@@ -731,10 +731,10 @@ body.noscript .navigation {
 
 .embed-item {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  left: -12%;
+  top: -5%;
+  width: 125%;
+  height: 125%;
 }
 
 .embed-16by9 {
@@ -754,8 +754,8 @@ body.noscript .navigation {
   transition: all 300ms ease-in-out;
 }
 
-/* DONATE Starts */
-.donate {
+/* BUTTONS */
+.btn-donate {
   position: absolute;
   padding: 1.8em 1em;
   display: inline-block;
@@ -768,21 +768,39 @@ body.noscript .navigation {
   text-transform: uppercase;
 }
 
-.donate:hover {
-  background-color: #BAA2B9;
-  color: nav-color;
+.btn-donate:hover {
+  background-color: #fff;
+  color: #743C70;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-white {
+  padding: 1.8em 1em;
+  display: block;
+  color: #743C70;
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.btn-white:hover {
+  background-color: #1A1C24;
+  color: #fff;
   transition: all 300ms ease-in-out;
 }
 
 @media only screen and (min-width: 25em) {
-  .donate {
+  .btn-donate {
     right: 4em;
     width: 140px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .donate {
+  .btn-donate {
     width: 180px;
   }
 }
@@ -791,7 +809,7 @@ body.noscript .navigation {
   header {
     padding: 0 0 0 1em;
   }
-  .donate {
+  .btn-donate {
     display: none;
   }
   h1 {
@@ -810,6 +828,7 @@ body.noscript .navigation {
     border-top: none;
   }
   .navigation ul li a {
+    padding: 1.8em .8em;
     border-bottom: none;
     text-decoration: none;
     color: #fff;
@@ -817,7 +836,14 @@ body.noscript .navigation {
     background-color: #743C70;
   }
   .navigation ul li a:hover {
-    background-color: #BAA2B9;
+    background-color: #fff;
     color: #743C70;
+  }
+  .header-title-wrap {
+    width: 40%;
+    position: absolute;
+    top: 9em;
+    left: 10%;
+    background-color: rgba(186, 162, 185, 0.8);
   }
 }
