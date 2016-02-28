@@ -434,62 +434,62 @@ button[type=submit] {
 
 @media only screen and (min-width: 60em) {
 
-    header {
+  header {
     padding: 0;
-    }
+  }
 
-    .btn-donate {
+  .btn-donate {
     display: none;
-    }
+  }
 
-    .navigation > ul {
+  .navigation > ul {
     margin: 0;
 
 
-      > li {
-        float:left;
-        display: inline-block;
-        width: 25%;
+    > li {
+      float:left;
+      display: inline-block;
+      width: 25%;
 
-      &:first-child a {
-        border-top: none;
-      }
+    &:first-child a {
+      border-top: none;
+    }
 
-      &:last-child a {
+    &:last-child a {
       background-color: $green;
       color: $nav-color;
     }
 
-      > ul{
-        display: none;
-      }
+    > ul{
+      display: none;
+    }
 
-      a {
-        padding: 1.8em .8em;
-        border-bottom: none;
-        text-decoration: none;
-        color: $nav-color;
-        text-align: center;
-        background-color: $purple;
+    a {
+      padding: 1.8em .8em;
+      border-bottom: none;
+      text-decoration: none;
+      color: $nav-color;
+      text-align: center;
+      background-color: $purple;
 
-        &:hover {
-        background-color: $nav-color;
-        color: $purple;
-         + ul{
-          display: block;
-          overflow: visible;
-          position: absolute;
-          top: 100%;
-          width: 18.8%;
-            &:last-child a {
-              background-color: $purple;
-              color: $white;
-            } // last-child
-         } // +ul
-        } // &:hover
-      } // a
-    } // >li
-    } // ul
+      &:hover {
+      background-color: $nav-color;
+      color: $purple;
+       + ul{
+        display: block;
+        overflow: visible;
+        position: absolute;
+        top: 100%;
+        width: 18.8%;
+          &:last-child a {
+            background-color: $purple;
+            color: $white;
+          } // last-child
+       } // +ul
+      } // &:hover
+    } // a
+  } // >li
+} // ul
 
   .b-nav {
     padding: 1em 6em 0;
@@ -501,7 +501,7 @@ button[type=submit] {
     left: 5%;
     top: 15vh;
     background-color: rgba($dark-blue, 0.8);
-}
+  }
 
 }
 
