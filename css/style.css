@@ -603,6 +603,8 @@ header {
 
 .header-title-wrap {
   background-color: rgba(26, 28, 36, 0.9);
+  width: 100%;
+  position: relative;
 }
 
 h1 {
@@ -902,14 +904,6 @@ body.noscript .navigation {
   }
 }
 
-.header-title-wrap {
-  width: 60%;
-  position: absolute;
-  left: 5%;
-  top: 15vh;
-  background-color: rgba(26, 28, 36, 0.8);
-}
-
 form {
   background: #1A1C24;
 }
@@ -1039,6 +1033,13 @@ button[type=submit] {
   }
   .b-nav {
     padding: 1em 6em 0;
+  }
+  .header-title-wrap {
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15vh;
+    background-color: rgba(26, 28, 36, 0.8);
   }
 }
 
