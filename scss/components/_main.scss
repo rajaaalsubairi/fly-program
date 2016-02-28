@@ -346,6 +346,7 @@ body.noscript .navigation {
 .celebration {
   width: 100%;
   background-color: $purple;
+  z-index: 100;
 
   h2{
     color: $white;
@@ -517,6 +518,18 @@ button[type=submit] {
     left: 5%;
     top: 15vh;
     background-color: rgba($dark-blue, 0.8);
+  }
+
+  .video-overlay {
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    display: block;
+    margin-top: -6%;
+    padding-top: 56.25%;
   }
 
 }
