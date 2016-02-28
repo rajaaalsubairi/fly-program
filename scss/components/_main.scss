@@ -37,7 +37,9 @@ header {
 }
 
 .header-title-wrap {
-    background-color: rgba($dark-blue, .9)
+    background-color: rgba($dark-blue, .9);
+    width: 100%;
+    position: relative;
   }
 
 h1 {
@@ -66,7 +68,6 @@ h1 {
       border-top: 0px solid $light-grey;
       background-color: $purple;
       color: $white;
-        
     }
   }
 
@@ -103,7 +104,7 @@ h1 {
   &:before {
     border: 0;
     display: inline-block;
-    padding: 13px 11px;
+    padding: 11px 2px;
     font-size: 2em;
     height: 40px;
     width: 40px;
@@ -163,27 +164,25 @@ h1 {
 } //max-width media query
 
 .icons {
-    
+
     background-color: $green;
-    
+
     a {
     text-decoration: none;
     color: $white;
     }
-    
+
     i {
     display: inline-block;
     font-size: 6em;
     background-color: $green;
     padding: 1em;
     }
-    
+
     p{
     font-size: 0;
     }
 }
-
-
 
 //reset  the page when desktop, even if nav is toggled open
 @media only screen and (min-width: 60em) {
@@ -250,6 +249,7 @@ body.noscript .navigation {
   background-color: $green;
   right: 18%;
   width: 110px;
+  top: -1px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -343,7 +343,7 @@ body.noscript .navigation {
 
 @media only screen and (min-width: 25em){
   .btn-donate {
-    right: 4em;
+    right: 5em;
     width: 140px;
     }
 }
@@ -358,18 +358,10 @@ body.noscript .navigation {
   }
 }
 
-.header-title-wrap {
-    width: 60%;
-    position: absolute;
-    left: 5%;
-    top: 15vh;
-    background-color: rgba($dark-blue, 0.8);
-}
-
 form {
   background: $dark-blue;
     div {
-      margin: 0 auto 1.5em auto; 
+      margin: 0 auto 1.5em auto;
     }
     h2 {
       color: $white;
@@ -413,7 +405,7 @@ button[type=submit] {
     h3 {
       margin-bottom: .25em;
       font-weight: 500;
-      padding-left: 2em; 
+      padding-left: 2em;
       font-size: .75em;
     }
     ul {
@@ -421,7 +413,7 @@ button[type=submit] {
     }
     li {
       list-style: none;
-      margin: 0 auto; 
+      margin: 0 auto;
       font-size: .75em;
     }
     a {
@@ -441,7 +433,7 @@ button[type=submit] {
 
 
 @media only screen and (min-width: 60em) {
-  
+
     header {
     padding: 0;
     }
@@ -498,11 +490,19 @@ button[type=submit] {
       } // a
     } // >li
     } // ul
-    
+
   .b-nav {
-    padding: 1em 6em 0;  
+    padding: 1em 6em 0;
   }
-  
+
+  .header-title-wrap {
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15vh;
+    background-color: rgba($dark-blue, 0.8);
+}
+
 }
 
 @media only screen and (min-width: 75em){

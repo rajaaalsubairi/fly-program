@@ -603,6 +603,8 @@ header {
 
 .header-title-wrap {
   background-color: rgba(26, 28, 36, 0.9);
+  width: 100%;
+  position: relative;
 }
 
 h1 {
@@ -668,7 +670,7 @@ h1 {
 .close-btn:before {
   border: 0;
   display: inline-block;
-  padding: 13px 11px;
+  padding: 11px 2px;
   font-size: 2em;
   height: 40px;
   width: 40px;
@@ -799,6 +801,7 @@ body.noscript .navigation {
   background-color: #9BA33F;
   right: 18%;
   width: 110px;
+  top: -1px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -888,7 +891,7 @@ body.noscript .navigation {
 
 @media only screen and (min-width: 25em) {
   .btn-donate {
-    right: 4em;
+    right: 5em;
     width: 140px;
   }
 }
@@ -900,14 +903,6 @@ body.noscript .navigation {
   .social {
     visibility: visible;
   }
-}
-
-.header-title-wrap {
-  width: 60%;
-  position: absolute;
-  left: 5%;
-  top: 15vh;
-  background-color: rgba(26, 28, 36, 0.8);
 }
 
 form {
@@ -1039,6 +1034,13 @@ button[type=submit] {
   }
   .b-nav {
     padding: 1em 6em 0;
+  }
+  .header-title-wrap {
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15vh;
+    background-color: rgba(26, 28, 36, 0.8);
   }
 }
 
