@@ -341,6 +341,22 @@ body.noscript .navigation {
   }
 }
 
+// Homepage
+
+.celebration {
+  width: 100%;
+  background-color: $purple;
+
+  h2{
+    color: $white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+// Media Queries
+
 @media only screen and (min-width: 25em){
   .btn-donate {
     right: 5em;
@@ -506,7 +522,7 @@ button[type=submit] {
 }
 
 @media only screen and (min-width: 75em){
-  .embed {
+  .embed .celebration {
     top: 4em;
   }
 }
