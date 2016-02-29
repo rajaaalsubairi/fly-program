@@ -1309,7 +1309,7 @@ form {
     width: 100%;
     height: auto;
     background-color: rgba(26, 28, 36, 0.4);
-    top: 0;
+    top: -4em;
     display: block;
     padding-top: 56.25%;
   }
