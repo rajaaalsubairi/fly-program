@@ -6,13 +6,15 @@
   background-color: $green;
   z-index: 100;
 
-  h2{
+  h2 {
     color: $white;
     text-align: center;
     margin: 0;
     font-weight: 300;
   }
 }
+
+// Quotes
 
 .quote-1 {
   width: 100%;
@@ -21,6 +23,17 @@
 
     div {
       background-color: rgba($purple, 0.8);
+      width: 100%;
+    }
+}
+
+.quote-2 {
+  width: 100%;
+  background-image: url("../img/home-quote-1.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($green, 0.8);
       width: 100%;
     }
 }
@@ -39,5 +52,22 @@ blockquote {
   footer {
     text-align: right;
     width: 100%;
+    background-color: transparent;
   }
+}
+
+// Events
+
+.events {
+  width: 100%;
+  background-color: $purple;
+  color: $white;
+
+  h3 {
+    margin-top: 1.5em;
+  }
+}
+
+.events-bg {
+  padding: 1.5rem;
 }
