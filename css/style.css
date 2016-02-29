@@ -1083,10 +1083,11 @@ textarea {
   font-size: 1.25em;
   width: 80%;
   height: 2em;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
   border: none;
   margin: 0 10%;
+  padding-left: 1em;
 }
 
 textarea {
@@ -1107,26 +1108,28 @@ button[type=submit] {
 }
 
 footer {
-  background-color: #743C70;
+  background-color: #fff;
 }
 
 form {
   background-color: #1A1C24;
   margin: 0;
+  padding: 0 4.5em;
 }
 
 .b-nav {
-  background-color: #743C70;
+  background-color: #fff;
   padding: 5em 5em;
-  margin: 0 5em;
+  margin: 0 1em;
+  width: 80%;
 }
 
 .b-nav h3 {
   margin-bottom: .25em;
-  font-size: 1.5em;
-  color: #F6F6F6;
+  font-size: 1em;
+  color: #1A1C24;
   margin-bottom: .5em;
-  border-bottom: solid #F6F6F6 2px;
+  border-bottom: solid #1A1C24 1px;
   padding: .5em 1em .5em 0;
 }
 
@@ -1139,13 +1142,13 @@ form {
   list-style: none;
   margin: 0 auto;
   font-size: 1em;
-  color: #fff;
+  color: #1A1C24;
   line-height: 1.3em;
 }
 
 .b-nav a {
   text-decoration: none;
-  color: #fff;
+  color: #1A1C24;
 }
 
 .b-nav a:hover {
@@ -1154,25 +1157,33 @@ form {
 }
 
 .copyright {
-  background: #743C70;
+  background: #fff;
 }
 
 .copyright p {
-  color: #F6F6F6;
+  color: #1A1C24;
   text-align: left;
   padding: 1em 0;
-  margin: 0 5em;
+  margin: 0 15em;
   font-size: .5em;
 }
 
 .subscribe {
-  background-color: #743C70;
+  background-color: #fff;
+  padding: 1em 0;
+  margin: 0 2em;
+}
+
+.subscribe .sub-form {
+  display: inline-block;
+  float: left;
 }
 
 .subscribe i {
   color: #fff;
-  font-size: 4em;
+  font-size: 2em;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .subscribe a {
@@ -1183,10 +1194,49 @@ form {
   font-size: 0;
 }
 
-hr {
-  margin: 0 5em;
-  border-bottom: solid #F6F6F6 0.5px;
-  border-top: none;
+.subscribe .sub-btn {
+  margin: 1em .5em;
+  border: none;
+  width: 15em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1250rem;
+}
+
+.subscribe input {
+  font-size: 1.25em;
+  width: 13.5em;
+  height: 2.85em;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: none;
+  background-color: #743C70;
+  color: #fff;
+}
+
+.address {
+  background-color: #743C70;
+}
+
+.address .b-nav {
+  background-color: #743C70;
+}
+
+.address h3 {
+  color: #fff;
+  border: none;
+}
+
+.address li {
+  color: #fff;
+}
+
+.address .copyright {
+  background-color: #743C70;
+}
+
+.address .copyright p {
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
