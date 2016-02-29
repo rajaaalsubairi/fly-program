@@ -937,6 +937,17 @@ blockquote footer {
   width: 100%;
 }
 
+.events {
+  width: 100%;
+  background-color: #9BA33F;
+  color: #fff;
+}
+
+.events-bg {
+  background-color: #1A1C24;
+  padding: 1.5rem;
+}
+
 form {
   background: #1A1C24;
 }
@@ -1039,11 +1050,23 @@ button[type=submit] {
   .padding-island {
     padding: 2em;
   }
+  .div-wrap-left {
+    padding-left: 1.5em;
+  }
+  .div-wrap-right {
+    padding-right: 1.5em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
   header {
     padding: 0;
+  }
+  .div-wrap-m {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
   .btn-donate {
     display: none;

@@ -6,7 +6,7 @@
   background-color: $green;
   z-index: 100;
 
-  h2{
+  h2 {
     color: $white;
     text-align: center;
     margin: 0;
@@ -40,4 +40,17 @@ blockquote {
     text-align: right;
     width: 100%;
   }
+}
+
+// Events
+
+.events {
+  width: 100%;
+  background-color: $green;
+  color: $white;
+}
+
+.events-bg {
+  background-color: $dark-blue;
+  padding: 1.5rem;
 }

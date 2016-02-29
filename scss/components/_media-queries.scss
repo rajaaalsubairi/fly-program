@@ -27,11 +27,13 @@
   .padding-island {
     padding: 2em;
   }
-}
 
-@media only screen and (min-width: 50em){
-  blockquote {
+  .div-wrap-left {
+    padding-left: 1.5em;
+  }
 
+  .div-wrap-right {
+    padding-right: 1.5em;
   }
 }
 
@@ -39,6 +41,13 @@
 
   header {
     padding: 0;
+  }
+
+  .div-wrap-m {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
 
   .btn-donate {
