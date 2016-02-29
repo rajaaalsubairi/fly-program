@@ -59,23 +59,45 @@ margin: 0;
 .subscribe {
     
     background-color: $purple;
+    padding: 1em 0;
+    margin: 0 5em;
+    
+    .sub-form{
+    display: inline-block;
+        float: left;
+    }
     
     i {
     color:$white;
-    font-size: 4em;
+    font-size: 2em;
     display: inline-block;
+        vertical-align: middle;
     }
     
     a {
     text-decoration: none;
     }
+    
     p{
     font-size: 0;
     }
+    
+    .sub-btn {
+    margin: 1em 2em;
+    border: none;
+    width: 15em;
+    color: $white;
+    font-weight: 400;
+    font-size: 1.1250rem;
+    }
+    
+    input,{
+    font-size: 1.25em;
+    width: 13.5em;
+    height: 2.85em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border: none;
 }
 
-hr {
-    margin: 0 5em;
-    border-bottom: solid $light-grey .5px;
-    border-top: none;
 }

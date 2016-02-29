@@ -1075,10 +1075,11 @@ textarea {
   font-size: 1.25em;
   width: 80%;
   height: 2em;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
   border: none;
   margin: 0 10%;
+  padding-left: 1em;
 }
 
 textarea {
@@ -1159,12 +1160,20 @@ form {
 
 .subscribe {
   background-color: #743C70;
+  padding: 1em 0;
+  margin: 0 5em;
+}
+
+.subscribe .sub-form {
+  display: inline-block;
+  float: left;
 }
 
 .subscribe i {
   color: #fff;
-  font-size: 4em;
+  font-size: 2em;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .subscribe a {
@@ -1175,10 +1184,22 @@ form {
   font-size: 0;
 }
 
-hr {
-  margin: 0 5em;
-  border-bottom: solid #F6F6F6 0.5px;
-  border-top: none;
+.subscribe .sub-btn {
+  margin: 1em 2em;
+  border: none;
+  width: 15em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1250rem;
+}
+
+.subscribe input {
+  font-size: 1.25em;
+  width: 13.5em;
+  height: 2.85em;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: none;
 }
 
 @media only screen and (min-width: 25em) {
