@@ -819,26 +819,6 @@ header {
   }
 }
 
-.icons {
-  background-color: #9BA33F;
-}
-
-.icons a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.icons i {
-  display: inline-block;
-  font-size: 6em;
-  background-color: #9BA33F;
-  padding: 1em;
-}
-
-.icons p {
-  font-size: 0;
-}
-
 @media only screen and (min-width: 60em) {
   .toggle-btn,
   .close-btn {
@@ -1006,6 +986,33 @@ blockquote footer {
 
 .events-bg {
   padding: 1.5rem;
+}
+
+.icons {
+  background-color: pink;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.icons i {
+  display: inline-block;
+  font-size: 10em;
+  text-align: center;
+  background-color: #9BA33F;
+}
+
+.icons .icon-pos {
+  width: 30%;
+  margin: 0 25%;
+  align-content: center;
+}
+
+.icons p {
+  font-size: 0;
 }
 
 form {

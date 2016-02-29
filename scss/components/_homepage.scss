@@ -70,3 +70,32 @@ blockquote {
 .events-bg {
   padding: 1.5rem;
 }
+
+// 3 icons 
+.icons {
+
+    background-color: pink;
+
+    a {
+    text-decoration: none;
+    color: $white;
+    text-align: center;
+    }
+
+    i {
+    display: inline-block;
+    font-size: 10em;
+    text-align: center;
+    background-color: $green;
+    }
+    
+   .icon-pos{
+    width: 30%;
+    margin: 0 25%;
+    align-content: center;
+    }
+
+    p{
+    font-size: 0;
+    }
+}
