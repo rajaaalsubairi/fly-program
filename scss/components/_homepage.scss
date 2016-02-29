@@ -1,0 +1,156 @@
+// Homepage
+
+.celebration {
+  margin-top: -3px;
+  width: 100%;
+  background-color: $green;
+  z-index: 100;
+
+  h2 {
+    color: $white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+// Quotes
+
+.quote-1 {
+  width: 100%;
+  background-image: url("../img/home-quote.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($purple, 0.8);
+      width: 100%;
+    }
+}
+
+.quote-2 {
+  width: 100%;
+  background-image: url("../img/home-quote-1.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($green, 0.8);
+      width: 100%;
+    }
+}
+
+blockquote {
+  color: $white;
+  text-align: right;
+  display: block;
+
+  p {
+    font-family: $display-text;
+    font-weight: 100;
+    text-align: right;
+  }
+
+  footer {
+    text-align: right;
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+// Events
+
+.events {
+  width: 100%;
+  color: $dark-blue;
+
+  h3 {
+    margin-top: 1.5em;
+  }
+}
+
+.events-bg {
+  padding: 1.5rem;
+}
+
+// 3 icons 
+
+.icons {
+    display: block;
+    background-image: url("../img/home-quote-1.jpg");
+    background-color: rgba(0,0,0,.8);
+
+    a {
+    text-decoration: none;
+    color: $white;
+    text-align: center;
+    }
+
+    i {
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    padding: 15px 15px;
+    vertical-align: middle;
+    }
+    
+    p{
+    font-size: 0;
+    margin: 0;
+    }
+    
+    .icon-volunteer,
+    .icon-donate,
+    .icon-programs{
+        &:hover{
+        background-color: $purple;
+        }
+    }
+}
+    
+    
+@media only screen and (min-width: 38em) {
+    .icons {
+
+        background-image: url("../img/home-quote-1.jpg");
+        background-color:rgba($green, 0.8);
+        display: block;
+
+        a {
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        }
+
+        i {
+        display: inline-block;
+        font-size: 5em;
+        text-align: center;
+        padding: 20px 30px 0px;
+        background-color: $green;
+        height: 150px;
+        line-height: 150px;
+        white-space: nowrap;
+        margin: 30px 0;
+        }
+
+        i:before {
+        vertical-align: top;
+        position: relative;
+        top: 10px;
+        }
+
+       .icon-pos{
+         text-align: center;
+         vertical-align: middle;
+        }
+
+        .icon-programs,
+        .icon-volunteer{
+           // background-color: $purple;
+        }
+
+        p{
+        font-size: 0;
+        margin: 0;
+        }
+    }
+}
