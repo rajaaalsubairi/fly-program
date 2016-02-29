@@ -72,6 +72,42 @@ blockquote {
 }
 
 // 3 icons 
+
+.icons {
+    display: block;
+    background-image: url("../img/home-quote-1.jpg");
+    background-color: rgba(0,0,0,.8);
+
+    a {
+    text-decoration: none;
+    color: $white;
+    text-align: center;
+    }
+
+    i {
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    padding: 15px 15px;
+    vertical-align: middle;
+    }
+    
+    p{
+    font-size: 0;
+    margin: 0;
+    }
+    
+    .icon-volunteer,
+    .icon-donate,
+    .icon-programs{
+        &:hover{
+        background-color: $dark-purple;
+        }
+    }
+}
+    
+    
+@media only screen and (min-width: 38em) {
 .icons {
 
     background-image: url("../img/home-quote-1.jpg");
@@ -85,16 +121,20 @@ blockquote {
 
     i {
     display: inline-block;
-    font-size: 10em;
+    font-size: 5em;
     text-align: center;
-    padding: 15px 15px;
-    vertical-align: middle;
+    padding: 20px 30px 0px;
     background-color: $green;
-    height: 200px;
-    line-height: 200px;
+    height: 150px;
+    line-height: 150px;
     white-space: nowrap;
-    margin: 40px;
-    clip-path: circle(10px at center);
+    margin: 30px 0;
+    }
+    
+    i:before {
+    vertical-align: top;
+    position: relative;
+    top: 10px;
     }
     
    .icon-pos{
@@ -102,13 +142,14 @@ blockquote {
      vertical-align: middle;
     }
     
-    .icon-donate,
     .icon-programs,
     .icon-volunteer{
+        background-color: $dark-purple;
     }
 
     p{
     font-size: 0;
     margin: 0;
     }
+}
 }
