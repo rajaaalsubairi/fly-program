@@ -130,26 +130,6 @@ header {
 
 } //max-width media query
 
-.icons {
-
-    background-color: $green;
-
-    a {
-    text-decoration: none;
-    color: $white;
-    }
-
-    i {
-    display: inline-block;
-    font-size: 6em;
-    background-color: $green;
-    padding: 1em;
-    }
-
-    p{
-    font-size: 0;
-    }
-}
 
 //reset  the page when desktop, even if nav is toggled open
 @media only screen and (min-width: 60em) {
