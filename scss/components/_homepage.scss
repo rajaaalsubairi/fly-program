@@ -1,0 +1,43 @@
+// Homepage
+
+.celebration {
+  margin-top: -3px;
+  width: 100%;
+  background-color: $green;
+  z-index: 100;
+
+  h2{
+    color: $white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+.quote-1 {
+  width: 100%;
+  background-image: url("../img/home-quote.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($purple, 0.8);
+      width: 100%;
+    }
+}
+
+blockquote {
+  color: $white;
+  text-align: right;
+  display: block;
+
+  p {
+    font-family: $display-text;
+    font-weight: 100;
+    text-align: right;
+  }
+
+  footer {
+    text-align: right;
+    width: 100%;
+  }
+}

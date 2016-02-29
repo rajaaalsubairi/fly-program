@@ -1,0 +1,143 @@
+// Media Queries
+
+@media only screen and (min-width: 25em){
+  .btn-donate {
+    right: 5em;
+    width: 140px;
+    }
+}
+
+@media only screen and (min-width: 38em){
+  .btn-donate {
+    width: 180px;
+  }
+
+  .social {
+    visibility: visible;
+  }
+
+  .padding-gutter {
+    padding: 1.5 2em;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .padding-island {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 50em){
+  blockquote {
+
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    padding: 0;
+  }
+
+  .btn-donate {
+    display: none;
+  }
+
+  .navigation > ul {
+    margin: 0;
+
+
+    > li {
+      float:left;
+      display: inline-block;
+      width: 25%;
+
+    &:first-child a {
+      border-top: none;
+    }
+
+    &:last-child a {
+      background-color: $green;
+      color: $nav-color;
+    }
+
+    > ul{
+      display: none;
+    }
+
+    a {
+      padding: 1.8em .8em;
+      border-bottom: none;
+      text-decoration: none;
+      color: $nav-color;
+      text-align: center;
+      background-color: $purple;
+
+      &:hover {
+      background-color: $nav-color;
+      color: $purple;
+       + ul{
+        display: block;
+        overflow: visible;
+        position: absolute;
+        top: 100%;
+        width: 18.8%;
+          &:last-child a {
+            background-color: $purple;
+            color: $white;
+          } // last-child
+       } // +ul
+      } // &:hover
+    } // a
+  } // >li
+} // ul
+
+  .b-nav {
+    padding: 1em 6em 0;
+  }
+
+  .header-title-wrap {
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15vh;
+    background-color: rgba($dark-blue, 0.8);
+  }
+
+  .video-overlay {
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-color: rgba($dark-blue, 0.4);
+    top: 0;
+    display: block;
+    margin-top: -6%;
+    padding-top: 56.25%;
+  }
+
+  blockquote {
+    padding: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 75em){
+  .embed .celebration {
+    top: 4em;
+  }
+}
+
+@media only screen and (min-width: 70em){
+  .header-title-wrap {
+    top: 25vh;
+  }
+}
+
+@media only screen and (min-width: 80em){
+  .header-title-wrap {
+    top: 35vh;
+  }
+}

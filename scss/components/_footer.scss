@@ -1,0 +1,33 @@
+// Footer
+
+.b-nav {
+  background-color: $light-purple;
+  padding: 1em 0;
+    h3 {
+      margin-bottom: .25em;
+      font-weight: 500;
+      padding-left: 2em;
+      font-size: .75em;
+    }
+    ul {
+      margin-bottom: 1em;
+    }
+    li {
+      list-style: none;
+      margin: 0 auto;
+      font-size: .75em;
+    }
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+}
+
+.copyright {
+  background: $dark-purple;
+    p {
+      color: $white;
+      text-align: center;
+      padding: 1em 0;
+    }
+}
