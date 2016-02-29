@@ -1,38 +1,77 @@
 // Footer
 
 footer {
-  background-color: $dark-blue;
+  background-color: $purple;
+}
+
+form {
+background-color: $dark-blue;
 }
 
 .b-nav {
-  background-color: $light-purple;
-  padding: 1em 0;
+  background-color: $purple;
+  padding: 5em 0;
+  margin: 0 5em;
+    
     h3 {
       margin-bottom: .25em;
       font-weight: 500;
-      padding-left: 2em;
-      font-size: .75em;
+      font-size: 1.5em;
+      color: $light-grey;
+      margin-bottom: .5em;
     }
     ul {
       margin-bottom: 1em;
+      padding: 0;
     }
     li {
       list-style: none;
       margin: 0 auto;
-      font-size: .75em;
+      font-size: 1em;
+        color: $white;
+        line-height: 1.3em;
     }
     a {
       text-decoration: none;
-      color: $text-color;
+      color: $white;
+        &:hover {
+        text-decoration: underline;
+        color: $green;
+        }
     }
 }
 
 .copyright {
-  background: $dark-purple;
+  background: $purple;
     p {
-      color: $white;
-      text-align: center;
+      color: $light-grey;
+      text-align: left;
       padding: 1em 0;
-      margin: 0;
+      margin: 0 5em;
+      font-size: .5em;
     }
+}
+
+.subscribe {
+    
+    background-color: $purple;
+    
+    i {
+    color:$white;
+    font-size: 4em;
+    display: inline-block;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    p{
+    font-size: 0;
+    }
+}
+
+hr {
+    margin: 0 5em;
+    border-bottom: solid $light-grey .5px;
+    border-top: 0px;
 }
