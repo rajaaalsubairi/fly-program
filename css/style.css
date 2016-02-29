@@ -607,7 +607,7 @@ h2 {
   text-align: center;
 }
 
-.border {
+.border-radius {
   border-radius: 1em 0;
 }
 
@@ -989,12 +989,12 @@ blockquote footer {
   color: #fff;
 }
 
-.events-bg {
-  padding: 1.5rem;
+.events h3 {
+  margin-top: 1.5em;
 }
 
-h3 {
-  margin-top: 1.5em;
+.events-bg {
+  padding: 1.5rem;
 }
 
 form {

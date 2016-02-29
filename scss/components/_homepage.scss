@@ -48,12 +48,12 @@ blockquote {
   width: 100%;
   background-color: $green;
   color: $white;
+
+  h3 {
+    margin-top: 1.5em;
+  }
 }
 
 .events-bg {
   padding: 1.5rem;
-}
-
-h3 {
-  margin-top: 1.5em;
 }
