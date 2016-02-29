@@ -5,10 +5,84 @@
   width: 100%;
   height: 100%;
   display: block;
-  position: relative;
 }
 
-// Homepage
+/* Video STARTS */
+
+.embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-item {
+  position: absolute;
+  left: -12%;
+  top: -5%;
+  width: 125%;
+  height: 125%;
+}
+
+.embed-16by9 {
+  margin-top: -6%;
+  padding-top: 56.25%;
+}
+
+.btn-pause {
+  position: absolute;
+  display:block;
+  width: 80px;
+  background-color: $green;
+  color: $white;
+  border: 0 solid $green;
+  padding: 1em 1em;
+  cursor: pointer;
+  margin-bottom: 3px;
+  right: 0;
+  top: 10em;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+// Social Icons over video
+
+.social {
+  position: absolute;
+  padding: 0;
+  background-color: $dark-purple;
+  color: $white;
+  text-decoration: none;
+  font-size: 4em;
+  width: 1.2em;
+  height: 1em;
+  text-align: center;
+  margin-bottom: 3px;
+  right: 0;
+  top: 4em;
+  visibility: hidden;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.social i {
+  vertical-align: middle;
+}
+
+.social-2 {
+  top: 5.1em;
+}
 
 .celebration {
   margin-top: -3px;
@@ -84,83 +158,34 @@ blockquote {
 // 3 icons
 
 .icons {
-    display: block;
-    background-image: url("../img/home-quote-1.jpg");
-    background-color: rgba(0,0,0,.8);
+  background-color: $green;
 
-    a {
-    text-decoration: none;
-    color: $white;
-    text-align: center;
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding-left: 0;
     }
 
-    i {
-    display: block;
-    font-size: 10em;
-    text-align: center;
-    padding: 15px 15px;
-    vertical-align: middle;
-    }
+    ul li {
+      display: inline;
+      width: 33%;
+      padding-top: 1.5em;
 
-    p{
-    font-size: 0;
-    margin: 0;
-    }
-
-    .icon-volunteer,
-    .icon-donate,
-    .icon-programs{
-        &:hover{
+      &:hover {
         background-color: $purple;
-        }
+      }
     }
-}
 
+    ul li a {
+      text-decoration: none;
+      color: $white;
+      text-align: center;
 
-@media only screen and (min-width: 38em) {
-    .icons {
-
-        background-image: url("../img/home-quote-1.jpg");
-        background-color:rgba($green, 0.8);
-        display: block;
-
-        a {
-        text-decoration: none;
-        color: $white;
-        text-align: center;
-        }
-
-        i {
-        display: inline-block;
-        font-size: 5em;
-        text-align: center;
-        padding: 20px 30px 0px;
-        background-color: $green;
-        height: 150px;
-        line-height: 150px;
-        white-space: nowrap;
-        margin: 30px 0;
-        }
-
-        i:before {
-        vertical-align: top;
-        position: relative;
-        top: 10px;
-        }
-
-       .icon-pos{
-         text-align: center;
-         vertical-align: middle;
-        }
-
-        .icon-programs,
-        .icon-volunteer{
-           // background-color: $purple;
-        }
-
-        p{
-        font-size: 0;
-        margin: 0;
-        }
+      i {
+      display: block;
+      font-size: 4em;
+      text-align: center;
+      vertical-align: middle;
+      }
     }
 }
