@@ -763,6 +763,7 @@ body.noscript .navigation {
 /* LOGO STARTS */
 .logo {
   height: 2.5em;
+  width: 7em;
   margin: 1em;
   opacity: 1;
 }
@@ -780,7 +781,7 @@ body.noscript .navigation {
 /* BUTTONS */
 .btn-donate {
   position: absolute;
-  padding: 1.8em 1em;
+  padding: 1.7em 1em;
   display: inline-block;
   color: #fff;
   background-color: #9BA33F;
