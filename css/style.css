@@ -849,6 +849,13 @@ body.noscript .navigation {
   background-color: #743C70;
 }
 
+.billboard {
+  top: 1em;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* Video STARTS */
 .embed {
   position: relative;
@@ -921,14 +928,6 @@ body.noscript .navigation {
   top: 5.1em;
 }
 
-.billboard {
-  top: 1em;
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: relative;
-}
-
 .celebration {
   margin-top: -3px;
   width: 100%;
@@ -997,71 +996,36 @@ blockquote footer {
 }
 
 .icons {
-  display: block;
-  background-image: url("../img/home-quote-1.jpg");
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #9BA33F;
 }
 
-.icons a {
+.icons ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.icons ul li {
+  display: inline;
+  width: 33%;
+  padding-top: 1.5em;
+}
+
+.icons ul li:hover {
+  background-color: #743C70;
+}
+
+.icons ul li a {
   text-decoration: none;
   color: #fff;
   text-align: center;
 }
 
-.icons i {
+.icons ul li a i {
   display: block;
-  font-size: 10em;
+  font-size: 4em;
   text-align: center;
-  padding: 15px 15px;
   vertical-align: middle;
-}
-
-.icons p {
-  font-size: 0;
-  margin: 0;
-}
-
-.icons .icon-volunteer:hover,
-.icons .icon-donate:hover,
-.icons .icon-programs:hover {
-  background-color: #743C70;
-}
-
-@media only screen and (min-width: 38em) {
-  .icons {
-    background-image: url("../img/home-quote-1.jpg");
-    background-color: rgba(155, 163, 63, 0.8);
-    display: block;
-  }
-  .icons a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-  }
-  .icons i {
-    display: inline-block;
-    font-size: 5em;
-    text-align: center;
-    padding: 20px 30px 0px;
-    background-color: #9BA33F;
-    height: 150px;
-    line-height: 150px;
-    white-space: nowrap;
-    margin: 30px 0;
-  }
-  .icons i:before {
-    vertical-align: top;
-    position: relative;
-    top: 10px;
-  }
-  .icons .icon-pos {
-    text-align: center;
-    vertical-align: middle;
-  }
-  .icons p {
-    font-size: 0;
-    margin: 0;
-  }
 }
 
 form {
@@ -1244,6 +1208,9 @@ form {
     right: 5em;
     width: 140px;
   }
+  .icons ul li {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -1344,7 +1311,6 @@ form {
     background-color: rgba(26, 28, 36, 0.4);
     top: 0;
     display: block;
-    margin-top: -6%;
     padding-top: 56.25%;
   }
   blockquote {

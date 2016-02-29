@@ -5,9 +5,17 @@
     right: 5em;
     width: 140px;
     }
+
+  .icons {
+    ul li {
+      display: inline-block;
+    }
+  }
 }
 
 @media only screen and (min-width: 38em){
+
+
   .btn-donate {
     width: 180px;
   }
@@ -121,13 +129,11 @@
 
   .video-overlay {
     position: absolute;
-
     width: 100%;
     height: auto;
     background-color: rgba($dark-blue, 0.4);
     top: 0;
     display: block;
-    margin-top: -6%;
     padding-top: 56.25%;
   }
 
