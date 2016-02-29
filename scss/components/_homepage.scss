@@ -74,7 +74,8 @@ blockquote {
 // 3 icons 
 .icons {
 
-    background-color: pink;
+    background-image: url("../img/home-quote-1.jpg");
+    display: block;
 
     a {
     text-decoration: none;
@@ -86,14 +87,28 @@ blockquote {
     display: inline-block;
     font-size: 10em;
     text-align: center;
+    padding: 15px 15px;
+    vertical-align: middle;
     background-color: $green;
+    height: 200px;
+    line-height: 200px;
+    white-space: nowrap;
+    margin: 40px;
+    clip-path: circle(10px at center);
     }
     
    .icon-pos{
      text-align: center;
+     vertical-align: middle;
+    }
+    
+    .icon-donate,
+    .icon-programs,
+    .icon-volunteer{
     }
 
     p{
     font-size: 0;
+    margin: 0;
     }
 }

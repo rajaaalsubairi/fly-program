@@ -989,7 +989,8 @@ blockquote footer {
 }
 
 .icons {
-  background-color: pink;
+  background-image: url("../img/home-quote-1.jpg");
+  display: block;
 }
 
 .icons a {
@@ -1002,15 +1003,24 @@ blockquote footer {
   display: inline-block;
   font-size: 10em;
   text-align: center;
+  padding: 15px 15px;
+  vertical-align: middle;
   background-color: #9BA33F;
+  height: 200px;
+  line-height: 200px;
+  white-space: nowrap;
+  margin: 40px;
+  clip-path: circle(10px at center);
 }
 
 .icons .icon-pos {
   text-align: center;
+  vertical-align: middle;
 }
 
 .icons p {
   font-size: 0;
+  margin: 0;
 }
 
 form {
