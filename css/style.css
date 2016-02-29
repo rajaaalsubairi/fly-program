@@ -966,6 +966,17 @@ body.noscript .navigation {
   width: 100%;
 }
 
+.quote-2 {
+  width: 100%;
+  background-image: url("../img/home-quote-1.jpg");
+  background-size: cover;
+}
+
+.quote-2 div {
+  background-color: rgba(155, 163, 63, 0.8);
+  width: 100%;
+}
+
 blockquote {
   color: #fff;
   text-align: right;
