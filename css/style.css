@@ -597,6 +597,103 @@ img {
   width: 100%;
 }
 
+h1 {
+  color: #9BA33F;
+  font-family: "roboto", sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.border {
+  border-radius: 1em 0;
+}
+
+/* BUTTONS */
+.btn {
+  display: block;
+}
+
+.btn-donate {
+  position: absolute;
+  padding: 1.7em 1em;
+  display: inline-block;
+  color: #fff;
+  background-color: #9BA33F;
+  right: 18%;
+  width: 110px;
+  top: -1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-donate:hover {
+  background-color: #fff;
+  color: #743C70;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-green {
+  padding: 1em .8em;
+  display: block;
+  width: 50%;
+  color: #fff;
+  background-color: #9BA33F;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.btn-green:hover {
+  background-color: #BAA2B9;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-purple {
+  padding: 1em .8em;
+  display: block;
+  width: 50%;
+  color: #fff;
+  background-color: #743C70;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.btn-purple:hover {
+  background-color: #9BA33F;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-darkblue {
+  padding: 1em .8em;
+  display: block;
+  width: 50%;
+  color: #fff;
+  background-color: #1A1C24;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.btn-darkblue:hover {
+  background-color: #9BA33F;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
 header {
   padding: 0;
   position: absolute;
@@ -610,12 +707,6 @@ header {
   background-color: rgba(26, 28, 36, 0.9);
   width: 100%;
   position: relative;
-}
-
-h1 {
-  color: #9BA33F;
-  font-family: "roboto", sans-serif;
-  font-size: 2em;
 }
 
 .white {
@@ -778,28 +869,6 @@ body.noscript .navigation {
   background-color: #743C70;
 }
 
-/* BUTTONS */
-.btn-donate {
-  position: absolute;
-  padding: 1.7em 1em;
-  display: inline-block;
-  color: #fff;
-  background-color: #9BA33F;
-  right: 18%;
-  width: 110px;
-  top: -1px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.btn-donate:hover {
-  background-color: #fff;
-  color: #743C70;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
 /* Video STARTS */
 .embed {
   position: relative;
@@ -839,29 +908,6 @@ body.noscript .navigation {
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-}
-
-.btn-green {
-  padding: 1em .8em;
-  display: block;
-  width: 50%;
-  color: #fff;
-  background-color: #9BA33F;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 400;
-  margin: 0 auto;
-}
-
-.btn-green:hover {
-  background-color: #BAA2B9;
-  color: #fff;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.btn {
-  display: block;
 }
 
 .social {
@@ -944,8 +990,11 @@ blockquote footer {
 }
 
 .events-bg {
-  background-color: #1A1C24;
   padding: 1.5rem;
+}
+
+h3 {
+  margin-top: 1.5em;
 }
 
 form {
