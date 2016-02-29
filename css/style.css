@@ -368,7 +368,7 @@ fieldset, pre, table {
 
 .zetta {
   font-size: 2.0273rem;
-  line-height: 1.1998;
+  line-height: 1.8998;
 }
 
 h1, .exa {
@@ -889,20 +889,45 @@ body.noscript .navigation {
   transition: all 300ms ease-in-out;
 }
 
-@media only screen and (min-width: 25em) {
-  .btn-donate {
-    right: 5em;
-    width: 140px;
-  }
+.celebration {
+  width: 100%;
+  background-color: #9BA33F;
+  z-index: 100;
 }
 
-@media only screen and (min-width: 38em) {
-  .btn-donate {
-    width: 180px;
-  }
-  .social {
-    visibility: visible;
-  }
+.celebration h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-weight: 300;
+}
+
+.quote-1 {
+  width: 100%;
+  background-image: url("../img/home-quote.jpg");
+  background-size: cover;
+}
+
+.quote-1 div {
+  background-color: rgba(116, 60, 112, 0.8);
+  width: 100%;
+}
+
+blockquote {
+  color: #fff;
+  text-align: right;
+  display: block;
+}
+
+blockquote p {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 100;
+  text-align: right;
+}
+
+blockquote footer {
+  text-align: right;
+  width: 100%;
 }
 
 form {
@@ -984,6 +1009,31 @@ button[type=submit] {
   padding: 1em 0;
 }
 
+@media only screen and (min-width: 25em) {
+  .btn-donate {
+    right: 5em;
+    width: 140px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .btn-donate {
+    width: 180px;
+  }
+  .social {
+    visibility: visible;
+  }
+  .padding-gutter {
+    padding: 1.5 2em;
+  }
+  h1 {
+    padding: 0;
+  }
+  .padding-island {
+    padding: 2em;
+  }
+}
+
 @media only screen and (min-width: 60em) {
   header {
     padding: 0;
@@ -1042,10 +1092,23 @@ button[type=submit] {
     top: 15vh;
     background-color: rgba(26, 28, 36, 0.8);
   }
+  .video-overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgba(26, 28, 36, 0.4);
+    top: 0;
+    display: block;
+    margin-top: -6%;
+    padding-top: 56.25%;
+  }
+  blockquote {
+    padding: 6em;
+  }
 }
 
 @media only screen and (min-width: 75em) {
-  .embed {
+  .embed .celebration {
     top: 4em;
   }
 }

@@ -341,22 +341,50 @@ body.noscript .navigation {
   }
 }
 
-@media only screen and (min-width: 25em){
-  .btn-donate {
-    right: 5em;
-    width: 140px;
+// Homepage
+
+.celebration {
+  width: 100%;
+  background-color: $green;
+  z-index: 100;
+
+  h2{
+    color: $white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+.quote-1 {
+  width: 100%;
+  background-image: url("../img/home-quote.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($purple, 0.8);
+      width: 100%;
     }
 }
 
-@media only screen and (min-width: 38em){
-  .btn-donate {
-    width: 180px;
+blockquote {
+  color: $white;
+  text-align: right;
+  display: block;
+
+  p {
+    font-family: $display-text;
+    font-weight: 100;
+    text-align: right;
   }
 
-  .social {
-    visibility: visible;
+  footer {
+    text-align: right;
+    width: 100%;
   }
 }
+
+// Footer
 
 form {
   background: $dark-blue;
@@ -432,6 +460,44 @@ button[type=submit] {
 }
 
 
+
+// Media Queries
+
+@media only screen and (min-width: 25em){
+  .btn-donate {
+    right: 5em;
+    width: 140px;
+    }
+}
+
+@media only screen and (min-width: 38em){
+  .btn-donate {
+    width: 180px;
+  }
+
+  .social {
+    visibility: visible;
+  }
+
+  .padding-gutter {
+    padding: 1.5 2em;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .padding-island {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 50em){
+  blockquote {
+
+  }
+}
+
 @media only screen and (min-width: 60em) {
 
   header {
@@ -503,10 +569,26 @@ button[type=submit] {
     background-color: rgba($dark-blue, 0.8);
   }
 
+  .video-overlay {
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-color: rgba($dark-blue, 0.4);
+    top: 0;
+    display: block;
+    margin-top: -6%;
+    padding-top: 56.25%;
+  }
+
+  blockquote {
+    padding: 6em;
+  }
+
 }
 
 @media only screen and (min-width: 75em){
-  .embed {
+  .embed .celebration {
     top: 4em;
   }
 }
