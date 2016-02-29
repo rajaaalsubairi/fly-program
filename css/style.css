@@ -921,6 +921,14 @@ body.noscript .navigation {
   top: 5.1em;
 }
 
+.billboard {
+  top: 1em;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
 .celebration {
   margin-top: -3px;
   width: 100%;

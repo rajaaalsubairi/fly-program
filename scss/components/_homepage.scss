@@ -1,3 +1,13 @@
+//Billboard
+
+.billboard {
+  top: 1em;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
 // Homepage
 
 .celebration {
@@ -71,7 +81,7 @@ blockquote {
   padding: 1.5rem;
 }
 
-// 3 icons 
+// 3 icons
 
 .icons {
     display: block;
@@ -91,12 +101,12 @@ blockquote {
     padding: 15px 15px;
     vertical-align: middle;
     }
-    
+
     p{
     font-size: 0;
     margin: 0;
     }
-    
+
     .icon-volunteer,
     .icon-donate,
     .icon-programs{
@@ -105,8 +115,8 @@ blockquote {
         }
     }
 }
-    
-    
+
+
 @media only screen and (min-width: 38em) {
     .icons {
 
