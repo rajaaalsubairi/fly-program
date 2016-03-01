@@ -63,6 +63,9 @@
   .btn-donate {
     display: none;
   }
+.navigation ul li:hover > ul {
+  display: block;
+}
 
   .navigation > ul {
     margin: 0;
@@ -93,13 +96,15 @@
       color: $nav-color;
       text-align: center;
       background-color: $purple;
+      position: relative;
 
       &:hover {
       background-color: $nav-color;
       color: $purple;
+
        + ul{
         display: block;
-        overflow: visible;
+        overflow: hidden;
         position: absolute;
         top: 100%;
         width: 18.8%;
@@ -130,7 +135,8 @@
     width: 100%;
     height: auto;
     background-color: rgba($dark-blue, 0.4);
-    top: -4em;
+    margin-top: -6%;
+    top: 0;
     display: block;
     padding-top: 56.25%;
   }

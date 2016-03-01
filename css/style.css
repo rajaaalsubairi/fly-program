@@ -847,6 +847,7 @@ body.noscript .navigation {
 
 .logo-bg {
   background-color: #743C70;
+  height: 4.7em;
 }
 
 .billboard {
@@ -1249,6 +1250,9 @@ form {
   .btn-donate {
     display: none;
   }
+  .navigation ul li:hover > ul {
+    display: block;
+  }
   .navigation > ul {
     margin: 0;
   }
@@ -1274,6 +1278,7 @@ form {
     color: #fff;
     text-align: center;
     background-color: #743C70;
+    position: relative;
   }
   .navigation > ul > li a:hover {
     background-color: #fff;
@@ -1281,7 +1286,7 @@ form {
   }
   .navigation > ul > li a:hover + ul {
     display: block;
-    overflow: visible;
+    overflow: hidden;
     position: absolute;
     top: 100%;
     width: 18.8%;
@@ -1305,7 +1310,8 @@ form {
     width: 100%;
     height: auto;
     background-color: rgba(26, 28, 36, 0.4);
-    top: -4em;
+    margin-top: -6%;
+    top: 0;
     display: block;
     padding-top: 56.25%;
   }
