@@ -847,6 +847,14 @@ body.noscript .navigation {
 
 .logo-bg {
   background-color: #743C70;
+  height: 4.7em;
+}
+
+.billboard {
+  top: 1em;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 /* Video STARTS */
@@ -984,76 +992,37 @@ blockquote footer {
   margin-top: 1.5em;
 }
 
-.events-bg {
-  padding: 1.5rem;
-}
-
 .icons {
-  display: block;
-  background-image: url("../img/home-quote-1.jpg");
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #9BA33F;
 }
 
-.icons a {
+.icons ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.icons ul li {
+  display: inline;
+  width: 33%;
+  padding-top: 1.5em;
+}
+
+.icons ul li:hover {
+  background-color: #743C70;
+}
+
+.icons ul li a {
   text-decoration: none;
   color: #fff;
   text-align: center;
 }
 
-.icons i {
+.icons ul li a i {
   display: block;
-  font-size: 10em;
+  font-size: 4em;
   text-align: center;
-  padding: 15px 15px;
   vertical-align: middle;
-}
-
-.icons p {
-  font-size: 0;
-  margin: 0;
-}
-
-.icons .icon-volunteer:hover,
-.icons .icon-donate:hover,
-.icons .icon-programs:hover {
-  background-color: #743C70;
-}
-
-@media only screen and (min-width: 38em) {
-  .icons {
-    background-image: url("../img/home-quote-1.jpg");
-    background-color: rgba(155, 163, 63, 0.8);
-    display: block;
-  }
-  .icons a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-  }
-  .icons i {
-    display: inline-block;
-    font-size: 5em;
-    text-align: center;
-    padding: 20px 30px 0px;
-    background-color: #9BA33F;
-    height: 150px;
-    line-height: 150px;
-    white-space: nowrap;
-    margin: 30px 0;
-  }
-  .icons i:before {
-    vertical-align: top;
-    position: relative;
-    top: 10px;
-  }
-  .icons .icon-pos {
-    text-align: center;
-    vertical-align: middle;
-  }
-  .icons p {
-    font-size: 0;
-    margin: 0;
-  }
 }
 
 form {
@@ -1075,10 +1044,11 @@ textarea {
   font-size: 1.25em;
   width: 80%;
   height: 2em;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
   border: none;
   margin: 0 10%;
+  padding-left: 1em;
 }
 
 textarea {
@@ -1099,26 +1069,28 @@ button[type=submit] {
 }
 
 footer {
-  background-color: #743C70;
+  background-color: #fff;
 }
 
 form {
   background-color: #1A1C24;
   margin: 0;
+  padding: 0 4.5em;
 }
 
 .b-nav {
-  background-color: #743C70;
+  background-color: #fff;
   padding: 5em 5em;
-  margin: 0 5em;
+  margin: 0 1em;
+  width: 80%;
 }
 
 .b-nav h3 {
   margin-bottom: .25em;
-  font-size: 1.5em;
-  color: #F6F6F6;
+  font-size: 1em;
+  color: #1A1C24;
   margin-bottom: .5em;
-  border-bottom: solid #F6F6F6 2px;
+  border-bottom: solid #1A1C24 1px;
   padding: .5em 1em .5em 0;
 }
 
@@ -1131,13 +1103,13 @@ form {
   list-style: none;
   margin: 0 auto;
   font-size: 1em;
-  color: #fff;
+  color: #1A1C24;
   line-height: 1.3em;
 }
 
 .b-nav a {
   text-decoration: none;
-  color: #fff;
+  color: #1A1C24;
 }
 
 .b-nav a:hover {
@@ -1146,25 +1118,33 @@ form {
 }
 
 .copyright {
-  background: #743C70;
+  background: #fff;
 }
 
 .copyright p {
-  color: #F6F6F6;
-  text-align: left;
+  color: #1A1C24;
+  text-align: center;
   padding: 1em 0;
-  margin: 0 5em;
-  font-size: .5em;
+  margin: 0 15em;
+  font-size: .75em;
 }
 
 .subscribe {
-  background-color: #743C70;
+  background-color: #fff;
+  padding: 1em 0;
+  margin: 0 2em;
+}
+
+.subscribe .sub-form {
+  display: inline-block;
+  float: left;
 }
 
 .subscribe i {
   color: #fff;
-  font-size: 4em;
+  font-size: 2em;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .subscribe a {
@@ -1175,16 +1155,57 @@ form {
   font-size: 0;
 }
 
-hr {
-  margin: 0 5em;
-  border-bottom: solid #F6F6F6 0.5px;
-  border-top: none;
+.subscribe .sub-btn {
+  margin: 1em .5em;
+  border: none;
+  width: 15em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1250rem;
+}
+
+.subscribe input {
+  font-size: 1.25em;
+  width: 13.5em;
+  height: 2.85em;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: solid #743C70 2px;
+  color: #743C70;
+}
+
+.address {
+  background-color: #743C70;
+}
+
+.address .b-nav {
+  background-color: #743C70;
+}
+
+.address h3 {
+  color: #fff;
+  border: none;
+}
+
+.address li {
+  color: #fff;
+}
+
+.address .copyright {
+  background-color: #743C70;
+}
+
+.address .copyright p {
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
   .btn-donate {
     right: 5em;
     width: 140px;
+  }
+  .icons ul li {
+    display: inline-block;
   }
 }
 
@@ -1210,6 +1231,9 @@ hr {
   .div-wrap-right {
     padding-right: 1.5em;
   }
+  .billboard {
+    top: 4em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -1224,6 +1248,9 @@ hr {
   }
   .btn-donate {
     display: none;
+  }
+  .navigation ul li:hover > ul {
+    display: block;
   }
   .navigation > ul {
     margin: 0;
@@ -1250,6 +1277,7 @@ hr {
     color: #fff;
     text-align: center;
     background-color: #743C70;
+    position: relative;
   }
   .navigation > ul > li a:hover {
     background-color: #fff;
@@ -1257,7 +1285,7 @@ hr {
   }
   .navigation > ul > li a:hover + ul {
     display: block;
-    overflow: visible;
+    overflow: hidden;
     position: absolute;
     top: 100%;
     width: 18.8%;
@@ -1281,9 +1309,9 @@ hr {
     width: 100%;
     height: auto;
     background-color: rgba(26, 28, 36, 0.4);
+    margin-top: -6%;
     top: 0;
     display: block;
-    margin-top: -6%;
     padding-top: 56.25%;
   }
   blockquote {

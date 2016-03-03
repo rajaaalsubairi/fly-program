@@ -17,10 +17,11 @@ textarea {
   font-size: 1.25em;
   width: 80%;
   height: 2em;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-    border: none;
-    margin: 0 10%;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: none;
+  margin: 0 10%;
+  padding-left: 1em;
 }
 
 textarea {
@@ -28,7 +29,7 @@ height: 5.2em;
 }
 
 button[type=submit] {
- border: none;
+    border: none;
     padding: 1em .8em;
     width: 50%;
     background-color: $green;

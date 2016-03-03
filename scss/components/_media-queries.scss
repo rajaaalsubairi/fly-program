@@ -5,6 +5,12 @@
     right: 5em;
     width: 140px;
     }
+
+  .icons {
+    ul li {
+      display: inline-block;
+    }
+  }
 }
 
 @media only screen and (min-width: 38em){
@@ -35,6 +41,10 @@
   .div-wrap-right {
     padding-right: 1.5em;
   }
+
+  .billboard {
+    top: 4em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -53,6 +63,9 @@
   .btn-donate {
     display: none;
   }
+.navigation ul li:hover > ul {
+  display: block;
+}
 
   .navigation > ul {
     margin: 0;
@@ -83,13 +96,15 @@
       color: $nav-color;
       text-align: center;
       background-color: $purple;
+      position: relative;
 
       &:hover {
       background-color: $nav-color;
       color: $purple;
+
        + ul{
         display: block;
-        overflow: visible;
+        overflow: hidden;
         position: absolute;
         top: 100%;
         width: 18.8%;
@@ -117,13 +132,12 @@
 
   .video-overlay {
     position: absolute;
-
     width: 100%;
     height: auto;
     background-color: rgba($dark-blue, 0.4);
+    margin-top: -6%;
     top: 0;
     display: block;
-    margin-top: -6%;
     padding-top: 56.25%;
   }
 
