@@ -1063,7 +1063,7 @@ textarea {
 button[type=submit] {
   border: none;
   padding: 1em .8em;
-  width: 50%;
+  width: 15em;
   background-color: #9BA33F;
   color: #fff;
   display: block;
@@ -1071,6 +1071,15 @@ button[type=submit] {
   margin: 0 auto;
   font-weight: 400;
   font-size: 1.1250rem;
+}
+
+.billboard-img {
+  position: absolute;
+}
+
+.billboard-text {
+  position: absolute;
+  top: 5em;
 }
 
 footer {
@@ -1089,12 +1098,12 @@ form {
   width: 80%;
 }
 
-.b-nav h3 {
+.b-nav h4 {
   margin-bottom: .25em;
   font-size: 1em;
-  color: #1A1C24;
+  color: #fff;
   margin-bottom: .5em;
-  border-bottom: solid #1A1C24 1px;
+  border-bottom: solid #fff 1px;
   padding: .5em 1em .5em 0;
 }
 
@@ -1121,20 +1130,7 @@ form {
   color: #9BA33F;
 }
 
-.copyright {
-  background: #fff;
-}
-
-.copyright p {
-  color: #1A1C24;
-  text-align: center;
-  padding: 1em 0;
-  margin: 0 15em;
-  font-size: .75em;
-}
-
 .subscribe {
-  background-color: #fff;
   padding: 1em 0;
   margin: 0 2em;
 }
@@ -1178,8 +1174,14 @@ form {
   color: #743C70;
 }
 
+.sub-info {
+  margin: .5em 0 0 2em;
+  width: 15em;
+}
+
 .address {
   background-color: #743C70;
+  display: inline-block;
 }
 
 .address .b-nav {
@@ -1201,6 +1203,21 @@ form {
 
 .address .copyright p {
   color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  margin: 0 15em;
+  font-size: .75em;
+}
+
+.icon-facebook,
+.icon-youtube {
+  font-size: 3em;
+  display: inline-block;
+}
+
+.icon-facebook p,
+.icon-youtube p {
+  font-size: 0;
 }
 
 @media only screen and (min-width: 25em) {

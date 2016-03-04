@@ -16,12 +16,12 @@ padding: 0 4.5em;
   margin: 0 1em;
     width: 80%;
 
-    h3 {
+    h4 {
       margin-bottom: .25em;
       font-size: 1em;
-      color: $dark-blue;
+      color: $white;
       margin-bottom: .5em;
-      border-bottom: solid $dark-blue 1px;
+      border-bottom: solid $white 1px;
       padding: .5em 1em .5em 0;
     }
 
@@ -46,20 +46,10 @@ padding: 0 4.5em;
     }
 }
 
-.copyright {
-  background: $white;
-    p {
-      color: $dark-blue;
-      text-align: center;
-      padding: 1em 0;
-      margin: 0 15em;
-      font-size: .75em;
-    }
-}
 
 .subscribe {
 
-    background-color: $white;
+   // background-color: $white;
     padding: 1em 0;
     margin: 0 2em;
 
@@ -104,8 +94,15 @@ padding: 0 4.5em;
 
 }
 
+.sub-info {
+margin: .5em 0 0 2em;
+    width: 15em;
+
+}
+
  .address {
     background-color: $purple;
+     display: inline-block;
 
      .b-nav {
      background-color: $purple;
@@ -124,6 +121,20 @@ padding: 0 4.5em;
          background-color: $purple;
         p{
     color: $white;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 15em;
+    font-size: .75em;
         }
+    }
+}
+
+.icon-facebook,
+.icon-youtube{
+font-size: 3em;
+    display: inline-block;
+    
+    p{
+    font-size: 0;
     }
 }
