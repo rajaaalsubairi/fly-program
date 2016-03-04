@@ -14,15 +14,14 @@ padding: 0 4.5em;
   background-color: $dark-blue;
   padding: 5em 5em;
   margin: 0 1em;
-    width: 80%;
 
     h4 {
       margin-bottom: .25em;
       font-size: 1em;
       color: $white;
       margin-bottom: .5em;
-      border-bottom: solid $white 1px;
-      padding: .5em 1em .5em 0;
+      //border-bottom: solid $white 1px;
+     // padding: .5em 1em .5em 0;
     }
 
     ul {
@@ -51,18 +50,16 @@ padding: 0 4.5em;
 
    // background-color: $white;
     padding: 1em 0;
-    margin: 0 2em;
 
     .sub-form{
-    display: inline-block;
-        float: left;
+    display: block;
     }
 
     i {
     color:$white;
     font-size: 2em;
     display: inline-block;
-        vertical-align: middle;
+    vertical-align: middle;
     }
 
     a {
@@ -74,9 +71,8 @@ padding: 0 4.5em;
     }
 
     .sub-btn {
-    margin: 1em .5em;
+    margin: 0;
     border: none;
-    width: 15em;
     color: $white;
     font-weight: 400;
     font-size: 1.1250rem;
@@ -85,6 +81,7 @@ padding: 0 4.5em;
     input,{
     font-size: 1.25em;
     width: 13.5em;
+      margin: 0 0 1em 0;
     height: 2.85em;
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
@@ -95,38 +92,24 @@ padding: 0 4.5em;
 }
 
 .sub-info {
-margin: .5em 0 0 2em;
+    margin: 0;
     width: 15em;
 
 }
 
  .address {
     background-color: $dark-blue;
-     display: inline-block;
-
-     .b-nav {
-     background-color: $dark-blue;
-     }
 
      h3{
      color: $white;
-               border: none;
+     border: none;
+     line-height: 1em;
      }
 
     li {
     color: $white;
     }
 
-    .copyright{
-         background-color: $dark-blue;
-        p{
-    color: $white;
-    text-align: center;
-    padding: 1em 0;
-    margin: 0 15em;
-    font-size: .75em;
-        }
-    }
 }
 
 .icon-facebook,
@@ -134,8 +117,31 @@ margin: .5em 0 0 2em;
 font-size: 3em;
     display: inline-block;
     color: $white;
+    margin: 0;
+    padding-right: 1em;
     
     p{
     font-size: 0;
+    }
+    &:hover{
+    color: $green;
+    }
+}
+
+ .copyright{
+         background-color: $dark-blue;
+        p{
+    color: $white;
+    text-align: center;
+    margin: 0 15em;
+    font-size: .75em;
+        }
+ }
+
+.footer-qoute {
+    padding: 0;
+    p{
+    font-size: 1.5em;
+        text-align:right;
     }
 }

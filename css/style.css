@@ -1095,7 +1095,6 @@ form {
   background-color: #1A1C24;
   padding: 5em 5em;
   margin: 0 1em;
-  width: 80%;
 }
 
 .b-nav h4 {
@@ -1103,8 +1102,6 @@ form {
   font-size: 1em;
   color: #fff;
   margin-bottom: .5em;
-  border-bottom: solid #fff 1px;
-  padding: .5em 1em .5em 0;
 }
 
 .b-nav ul {
@@ -1132,12 +1129,10 @@ form {
 
 .subscribe {
   padding: 1em 0;
-  margin: 0 2em;
 }
 
 .subscribe .sub-form {
-  display: inline-block;
-  float: left;
+  display: block;
 }
 
 .subscribe i {
@@ -1156,9 +1151,8 @@ form {
 }
 
 .subscribe .sub-btn {
-  margin: 1em .5em;
+  margin: 0;
   border: none;
-  width: 15em;
   color: #fff;
   font-weight: 400;
   font-size: 1.1250rem;
@@ -1167,6 +1161,7 @@ form {
 .subscribe input {
   font-size: 1.25em;
   width: 13.5em;
+  margin: 0 0 1em 0;
   height: 2.85em;
   border-bottom-right-radius: 1em;
   border-top-left-radius: 1em;
@@ -1175,38 +1170,22 @@ form {
 }
 
 .sub-info {
-  margin: .5em 0 0 2em;
+  margin: 0;
   width: 15em;
 }
 
 .address {
-  background-color: #1A1C24;
-  display: inline-block;
-}
-
-.address .b-nav {
   background-color: #1A1C24;
 }
 
 .address h3 {
   color: #fff;
   border: none;
+  line-height: 1em;
 }
 
 .address li {
   color: #fff;
-}
-
-.address .copyright {
-  background-color: #1A1C24;
-}
-
-.address .copyright p {
-  color: #fff;
-  text-align: center;
-  padding: 1em 0;
-  margin: 0 15em;
-  font-size: .75em;
 }
 
 .icon-facebook,
@@ -1214,11 +1193,38 @@ form {
   font-size: 3em;
   display: inline-block;
   color: #fff;
+  margin: 0;
+  padding-right: 1em;
 }
 
 .icon-facebook p,
 .icon-youtube p {
   font-size: 0;
+}
+
+.icon-facebook:hover,
+.icon-youtube:hover {
+  color: #9BA33F;
+}
+
+.copyright {
+  background-color: #1A1C24;
+}
+
+.copyright p {
+  color: #fff;
+  text-align: center;
+  margin: 0 15em;
+  font-size: .75em;
+}
+
+.footer-qoute {
+  padding: 0;
+}
+
+.footer-qoute p {
+  font-size: 1.5em;
+  text-align: right;
 }
 
 @media only screen and (min-width: 25em) {
