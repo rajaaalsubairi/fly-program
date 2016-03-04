@@ -2,7 +2,7 @@
 
 footer{
 
-background-color: $white;
+background-color: $dark-blue;
 }
 
 form {
@@ -11,7 +11,7 @@ padding: 0 4.5em;
 }
 
 .b-nav {
-  background-color: $white;
+  background-color: $dark-blue;
   padding: 5em 5em;
   margin: 0 1em;
     width: 80%;
@@ -101,11 +101,11 @@ margin: .5em 0 0 2em;
 }
 
  .address {
-    background-color: $purple;
+    background-color: $dark-blue;
      display: inline-block;
 
      .b-nav {
-     background-color: $purple;
+     background-color: $dark-blue;
      }
 
      h3{
@@ -118,7 +118,7 @@ margin: .5em 0 0 2em;
     }
 
     .copyright{
-         background-color: $purple;
+         background-color: $dark-blue;
         p{
     color: $white;
     text-align: center;
@@ -133,6 +133,7 @@ margin: .5em 0 0 2em;
 .icon-youtube{
 font-size: 3em;
     display: inline-block;
+    color: $white;
     
     p{
     font-size: 0;

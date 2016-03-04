@@ -1083,7 +1083,7 @@ button[type=submit] {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #1A1C24;
 }
 
 form {
@@ -1092,7 +1092,7 @@ form {
 }
 
 .b-nav {
-  background-color: #fff;
+  background-color: #1A1C24;
   padding: 5em 5em;
   margin: 0 1em;
   width: 80%;
@@ -1180,12 +1180,12 @@ form {
 }
 
 .address {
-  background-color: #743C70;
+  background-color: #1A1C24;
   display: inline-block;
 }
 
 .address .b-nav {
-  background-color: #743C70;
+  background-color: #1A1C24;
 }
 
 .address h3 {
@@ -1198,7 +1198,7 @@ form {
 }
 
 .address .copyright {
-  background-color: #743C70;
+  background-color: #1A1C24;
 }
 
 .address .copyright p {
@@ -1213,6 +1213,7 @@ form {
 .icon-youtube {
   font-size: 3em;
   display: inline-block;
+  color: #fff;
 }
 
 .icon-facebook p,
