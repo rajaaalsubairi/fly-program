@@ -50,6 +50,7 @@ padding: 0 4.5em;
 
    // background-color: $white;
     padding: 1em 0;
+    display: block;
 
     .sub-form{
     display: block;
@@ -111,11 +112,14 @@ padding: 0 4.5em;
     }
      
      img {
-     width: 40%;
-    margin: 0 30% 0 30%;
+     width: 50%;
      }
 
 }
+
+
+.follow-us {
+    padding: 0 0 0 5em;
 
 .icon-facebook,
 .icon-youtube{
@@ -132,7 +136,8 @@ font-size: 3em;
     color: $green;
     }
 }
-
+    
+}
  .copyright{
          background-color: $dark-blue;
         p{
@@ -146,7 +151,7 @@ font-size: 3em;
 .footer-qoute {
     padding: 0;
     p{
-    font-size: 1.5em;
-        text-align:right;
+    font-size: 1.6em;
+        text-align:center;
     }
 }

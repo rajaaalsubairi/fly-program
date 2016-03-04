@@ -1129,6 +1129,7 @@ form {
 
 .subscribe {
   padding: 1em 0;
+  display: block;
 }
 
 .subscribe .sub-form {
@@ -1189,12 +1190,15 @@ form {
 }
 
 .address img {
-  width: 40%;
-  margin: 0 30% 0 30%;
+  width: 50%;
 }
 
-.icon-facebook,
-.icon-youtube {
+.follow-us {
+  padding: 0 0 0 5em;
+}
+
+.follow-us .icon-facebook,
+.follow-us .icon-youtube {
   font-size: 3em;
   display: inline-block;
   color: #fff;
@@ -1202,13 +1206,13 @@ form {
   padding-right: 1em;
 }
 
-.icon-facebook p,
-.icon-youtube p {
+.follow-us .icon-facebook p,
+.follow-us .icon-youtube p {
   font-size: 0;
 }
 
-.icon-facebook:hover,
-.icon-youtube:hover {
+.follow-us .icon-facebook:hover,
+.follow-us .icon-youtube:hover {
   color: #9BA33F;
 }
 
@@ -1228,8 +1232,8 @@ form {
 }
 
 .footer-qoute p {
-  font-size: 1.5em;
-  text-align: right;
+  font-size: 1.6em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
