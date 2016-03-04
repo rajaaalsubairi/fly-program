@@ -1188,6 +1188,11 @@ form {
   color: #fff;
 }
 
+.address img {
+  width: 40%;
+  margin: 0 30% 0 30%;
+}
+
 .icon-facebook,
 .icon-youtube {
   font-size: 3em;
