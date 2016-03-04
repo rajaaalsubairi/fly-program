@@ -1,7 +1,6 @@
 // Forms Footer
 
 form {
-  background: $dark-blue;
     div {
       margin: 0 auto 1.5em auto;
     }
@@ -9,6 +8,11 @@ form {
       color: $white;
       text-align: center;
     }
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: 0 auto;
 }
 
 input,

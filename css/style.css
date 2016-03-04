@@ -694,6 +694,10 @@ h2 {
   transition: all 300ms ease-in-out;
 }
 
+.dark-blue {
+  background: #1A1C24;
+}
+
 header {
   padding: 0;
   position: absolute;
@@ -1025,10 +1029,6 @@ blockquote footer {
   vertical-align: middle;
 }
 
-form {
-  background: #1A1C24;
-}
-
 form div {
   margin: 0 auto 1.5em auto;
 }
@@ -1036,6 +1036,11 @@ form div {
 form h2 {
   color: #fff;
   text-align: center;
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: 0 auto;
 }
 
 input,
@@ -1073,7 +1078,6 @@ footer {
 }
 
 form {
-  background-color: #1A1C24;
   margin: 0;
   padding: 0 4.5em;
 }
