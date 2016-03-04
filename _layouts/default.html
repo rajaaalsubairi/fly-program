@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Fly Program</title>
-  <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
-  <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
-</head>
-
-<body class="noscript">
-  <div class="site-wrapper" data-state="slide-closed">
-    <div class="sliding-canvas">
-      <header class="header">
-        <div class="grid logo-bg">
-          <div class="unit xs-1 s-1 m-1 l-1-4">
-            <a href="{{site.baseurl}}/">
+  <head>
+    <meta charset="utf-8">
+    <title>Fly Program</title>
+    <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
+  </head>
+  <body class="noscript">
+    <div class="site-wrapper" data-state="slide-closed">
+      <div class="sliding-canvas">
+        <header class="header">
+          <div class="grid logo-bg">
+            <div class="unit xs-1 s-1 m-1 l-1-4">
+              <a href="{{site.baseurl}}/">
               <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="FLY Program Logo">
-            </a><a class="btn-donate" href="donate.html">Donate</a>
-          </div>
-
-
-          <div class="unit xs-1 s-1 m-1 l-3-4">
-            <!-- Menu Toggle Icon -->
-            <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
-
-            <nav class="navigation slide-menu">
-            <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
-              <ul>
-                  <li><a href="#">About</a>
+              </a><a class="btn-donate" href="donate.html">Donate</a>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-3-4">
+              <!-- Menu Toggle Icon -->
+              <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
+              <nav class="navigation slide-menu">
+                <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
+                <ul>
+                  <li>
+                    <a href="#">About</a>
                     <ul class="skew">
                       <li><a href="#">What We do</a></li>
                       <li><a href="#">Who We Are</a></li>
                       <li><a href="#">News and Events</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Our Programs</a>
+                  <li>
+                    <a href="#">Our Programs</a>
                     <ul class="skew">
                       <li><a href="#">Law</a></li>
                       <li><a href="#">Leadership</a></li>
@@ -46,140 +44,127 @@
                       <li><a href="#">Other Programs</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Get Involved</a>
+                  <li>
+                    <a href="#">Get Involved</a>
                     <ul class="skew">
                       <li><a href="#">Donate</a></li>
                       <li><a href="#">Volunteer</a></li>
                     </ul>
                   </li>
                   <li><a href="#">Donate</a></li>
-              </ul>
-            </nav>
+                </ul>
+              </nav>
+            </div>
           </div>
-        </div>
-      </header>
+        </header>
 
+        {{content}}
 
-
-  <main>
-    {{content}}
-  </main>
-
-    <form action="#" method="post" class="c-form pad-t-2 pad-b-2">
-      <h2>Contact Us</h2>
-
-    <div class="grid">
-        <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <div class="grid">
-        <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-      <div class="form-left">
-        <input id="name" placeholder="Name">
-      </div>
-      </div><!--unit-->
-    <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-      <div class="form-left">
-        <input type="email" id="email" placeholder="E-mail">
-      </div>
-    </div><!--unit-->
-    </div><!--grid-->
-       </div><!--grid-->
-        <div class="push-0 unit-1 unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-      <div class="form-right">
-        <textarea id="message" placeholder="Message"></textarea>
-      </div>
-
-        </div><!--unit-->
-        </div>
-      <button class="border-radius" type="submit">Send</button>
-   </form>
-
-      <footer>
-
-    <div class="grid b-nav">
-<!--      <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">-->
-
-        <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <h3>About</h3>
-            <ul>
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Who We Are</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">TBD</a></li>
-            </ul>
-        </div>
-
-        <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <h3>Our Programs</h3>
-            <ul>
-              <li><a href="#">Law</a></li>
-              <li><a href="#">Leadership</a></li>
-              <li><a href="#">Mentor</a></li>
-              <li><a href="#">Other Programs</a></li>
-            </ul>
-        </div>
-
-        <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <h3>Get Involved</h3>
-            <ul>
-              <li><a href="#">Donate</a></li>
-              <li><a href="#">Volunteer</a></li>
-            </ul>
-        </div>
-
-        <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <h4>Stay up to date with us.Subscribe to our mailing list!</h4>
-            <form class="subscribe sub-form">
+        <form action="#" method="post" class="c-form pad-t-2 pad-b-2">
+          <h2>Contact Us</h2>
+          <div class="grid">
+            <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <div class="grid">
+                <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                  <div class="form-left">
+                    <input id="name" placeholder="Name">
+                  </div>
+                </div>
+                <!--unit-->
+                <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                  <div class="form-left">
+                    <input type="email" id="email" placeholder="E-mail">
+                  </div>
+                </div>
+                <!--unit-->
+              </div>
+              <!--grid-->
+            </div>
+            <!--grid-->
+            <div class="push-0 unit-1 unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <div class="form-right">
+                <textarea id="message" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <!--unit-->
+          </div>
+          <button class="border-radius" type="submit">Send</button>
+        </form>
+        <footer>
+          <div class="grid b-nav">
+            <!--      <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">-->
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">TBD</a></li>
+              </ul>
+            </div>
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+              <h3>Our Programs</h3>
+              <ul>
+                <li><a href="#">Law</a></li>
+                <li><a href="#">Leadership</a></li>
+                <li><a href="#">Mentor</a></li>
+                <li><a href="#">Other Programs</a></li>
+              </ul>
+            </div>
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+              <h3>Get Involved</h3>
+              <ul>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Volunteer</a></li>
+              </ul>
+            </div>
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+              <h4>Stay up to date with us.Subscribe to our mailing list!</h4>
+              <form class="subscribe sub-form">
                 <input type="email" id="email" placeholder="E-mail">
                 <button class="border-radius sub-btn" type="submit">Subscribe</button>
-             </form>
-        </div>
-
-        </div>
-<div class="address">
-    <div class="grid b-nav">
-      <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-        <h3>CORPORATE OFFICE</h3>
-        <ul>
-          <li>Sobrato Center for Nonprofits</li>
-          <li>568 Valley Way</li>
-          <li>Milpitas, CA 95035</li>
-          <li>Phone: 408.263.2630</li>
-        </ul>
-
+              </form>
+            </div>
           </div>
-      <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-        <h3>SAN MATEO OFFICE</h3>
-        <ul>
-          <li>Sobrato Center for Nonprofits</li>
-          <li>330 Twin Dolphin Drive, Suite 109</li>
-          <li>Redwood City, CA 94065</li>
-          <li>Phone: 650.450.6265</li>
-        </ul>
-      </div>
+          <div class="address">
+            <div class="grid b-nav">
               <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-        <h3>ALAMEDA COUNTY OFFICE</h3>
-        <ul>
-          <li>333 Hegenberger Road</li>
-          <li>Suite 707</li>
-          <li>Oakland, CA 94621</li>
-          <li>Phone: 510.123.3456</li>
-        </ul>
+                <h3>CORPORATE OFFICE</h3>
+                <ul>
+                  <li>Sobrato Center for Nonprofits</li>
+                  <li>568 Valley Way</li>
+                  <li>Milpitas, CA 95035</li>
+                  <li>Phone: 408.263.2630</li>
+                </ul>
+              </div>
+              <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+                <h3>SAN MATEO OFFICE</h3>
+                <ul>
+                  <li>Sobrato Center for Nonprofits</li>
+                  <li>330 Twin Dolphin Drive, Suite 109</li>
+                  <li>Redwood City, CA 94065</li>
+                  <li>Phone: 650.450.6265</li>
+                </ul>
+              </div>
+              <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+                <h3>ALAMEDA COUNTY OFFICE</h3>
+                <ul>
+                  <li>333 Hegenberger Road</li>
+                  <li>Suite 707</li>
+                  <li>Oakland, CA 94621</li>
+                  <li>Phone: 510.123.3456</li>
+                </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <p class="micro">© 2016 Fresh Lifelines for Youth. Designed by Fly.</p>
+            </div>
+          </div>
+        </footer>
       </div>
-
     </div>
-
-    <div class="copyright">
-      <p class="micro">© 2016 Fresh Lifelines for Youth. Designed by Fly.</p>
-    </div>
-    </div>
-  </footer>
-
-   </div>
-</div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="{{site.baseurl}}/js/push-menu.js"></script>
-  <script src="{{site.baseurl}}/js/video.js"></script>
-
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/push-menu.js"></script>
+    <script src="{{site.baseurl}}/js/video.js"></script>
+  </body>
 </html>
