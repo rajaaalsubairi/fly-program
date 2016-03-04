@@ -23,6 +23,11 @@ padding: 0 4.5em;
       //border-bottom: solid $white 1px;
      // padding: .5em 1em .5em 0;
     }
+    
+    h3{
+    color: $white;
+    font-weight: 400;
+    }
 
     ul {
       margin-bottom: 1em;
@@ -32,12 +37,12 @@ padding: 0 4.5em;
       list-style: none;
       margin: 0 auto;
       font-size: 1em;
-        color: $dark-blue;
+        color: $white;
         line-height: 1.3em;
     }
     a {
       text-decoration: none;
-      color: $dark-blue;
+      color: $white;
         &:hover {
         text-decoration: underline;
         color: $green;
@@ -119,15 +124,15 @@ padding: 0 4.5em;
 
 
 .follow-us {
-    padding: 0 0 0 5em;
-
+   float: right;
+    padding:0 0 0 4.5em;
 .icon-facebook,
 .icon-youtube{
-font-size: 3em;
+font-size: 2em;
     display: inline-block;
     color: $white;
     margin: 0;
-    padding-right: 1em;
+   // padding:0 0 0 4.5em;
     
     p{
     font-size: 0;
@@ -154,4 +159,10 @@ font-size: 3em;
     font-size: 1.6em;
         text-align:center;
     }
+}
+
+hr {
+border-top: solid $white 1px;
+border-bottom: none;
+margin: 1em 6em 3em;
 }

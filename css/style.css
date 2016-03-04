@@ -1038,6 +1038,11 @@ form h2 {
   text-align: center;
 }
 
+.c-form {
+  background: linear-gradient(rgba(116, 60, 112, 0.7), rgba(116, 60, 112, 0.7)), url(../img/talk-with-young.jpg);
+  background-size: cover;
+}
+
 .form-wrapper {
   width: 60%;
   margin: 0 auto;
@@ -1104,6 +1109,11 @@ form {
   margin-bottom: .5em;
 }
 
+.b-nav h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
 .b-nav ul {
   margin-bottom: 1em;
   padding: 0;
@@ -1113,13 +1123,13 @@ form {
   list-style: none;
   margin: 0 auto;
   font-size: 1em;
-  color: #1A1C24;
+  color: #fff;
   line-height: 1.3em;
 }
 
 .b-nav a {
   text-decoration: none;
-  color: #1A1C24;
+  color: #fff;
 }
 
 .b-nav a:hover {
@@ -1194,16 +1204,16 @@ form {
 }
 
 .follow-us {
-  padding: 0 0 0 5em;
+  float: right;
+  padding: 0 0 0 4.5em;
 }
 
 .follow-us .icon-facebook,
 .follow-us .icon-youtube {
-  font-size: 3em;
+  font-size: 2em;
   display: inline-block;
   color: #fff;
   margin: 0;
-  padding-right: 1em;
 }
 
 .follow-us .icon-facebook p,
@@ -1234,6 +1244,12 @@ form {
 .footer-qoute p {
   font-size: 1.6em;
   text-align: center;
+}
+
+hr {
+  border-top: solid #fff 1px;
+  border-bottom: none;
+  margin: 1em 6em 3em;
 }
 
 @media only screen and (min-width: 25em) {

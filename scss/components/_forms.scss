@@ -10,6 +10,11 @@ form {
     }
 }
 
+.c-form {
+    background: linear-gradient(rgba($purple, 0.7), rgba($purple, 0.7)),url(../img/talk-with-young.jpg);
+    background-size: cover;
+}
+
 .form-wrapper {
   width: 60%;
   margin: 0 auto;
