@@ -445,7 +445,7 @@ sub {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .italic {
@@ -675,7 +675,7 @@ h2 {
   display: inline-block;
   color: #fff;
   background-color: #9BA33F;
-  right: 18%;
+  right: 24%;
   width: 110px;
   top: -1px;
   text-align: center;
@@ -782,22 +782,17 @@ header {
 
 .navigation ul {
   padding: 0;
+  background: #743C70;
 }
 
 .navigation ul li {
   list-style-type: none;
 }
 
-.navigation ul li:first-child a {
-  border-top: 0px solid #F6F6F6;
-  background-color: #743C70;
-  color: #fff;
-}
-
 .navigation ul a {
   display: block;
   padding: 1.2em .8em;
-  border-bottom: 1px solid #F6F6F6;
+  border-bottom: 1px solid #BAA2B9;
   text-decoration: none;
   color: #191f35;
   text-align: center;
@@ -805,7 +800,7 @@ header {
 }
 
 .navigation ul a:hover {
-  background-color: #BAA2B9;
+  background-color: #9BA33F;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -875,7 +870,7 @@ header {
     height: 100%;
     padding: 0;
     min-height: 100px;
-    text: #191f35;
+    text: #fff;
     background-color: #743C70;
   }
 }
@@ -1535,7 +1530,7 @@ hr {
     display: none;
   }
   .navigation > ul > li a {
-    padding: 1.8em .8em;
+    padding: 1.85em .8em;
     border-bottom: none;
     text-decoration: none;
     color: #fff;
