@@ -3,14 +3,15 @@ layout: default
 ---
 
 <main id="main" role="main" class="main-forms">
-  <div class="form-wrapper-donate forms-donate">
-      <form action="{{site.baseurl}}/pages/thank-you" method="post">
-        <h1>Login to your account</h2>
-          <input type="email" id="email" placeholder="E-mail">
-          <input type="password" id="password" placeholder="Password">
+  <div class="island form-wrapper-login form-footer">
+      <form class="text-center" action="{{site.baseurl}}/pages/thank-you" method="post">
+        <h1 class="text-white center">Login to Your Account</h2>
+
+          <input class="margin-bottom" type="email" id="email" placeholder="E-mail">
+          <input class="margin-bottom" type="password" id="password" placeholder="Password">
+          <p class="milli"><a class="center" href="#">Password Recovery</a></p>
           <button class="border-radius forms-btn-purple" type="submit">Continue</button>
       </form>
-
   </div>
 </main>
 
