@@ -12,7 +12,6 @@ html {
   text-size-adjust: 100%;
 }
 
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -25,6 +24,26 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  top: -3em;
+   li {
+    padding: 0.5em 0.75em;
+    position: absolute;
+    top: -3em;
+    background-color: $green;
+    color: $white;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-decoration: none;
+      &:focus {
+        top: 0;
+      }
+   }
 }
 
 img {
@@ -54,7 +73,7 @@ h2 {
 
 .btn-donate {
   position: absolute;
-  padding: 1.7em 1em;
+  padding: 1.85em 1em;
   display: inline-block;
   color: $nav-color;
   background-color: $green;
