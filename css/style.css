@@ -641,6 +641,10 @@ img {
   width: 100%;
 }
 
+main {
+  position: relative;
+}
+
 h1 {
   color: #9BA33F;
   font-family: "roboto", sans-serif;
@@ -724,7 +728,7 @@ h2 {
   display: block;
   width: 50%;
   color: #fff;
-  background-color: #1A1C24;
+  background-color: #191f35;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
@@ -739,7 +743,7 @@ h2 {
 }
 
 .dark-blue {
-  background: #1A1C24;
+  background: #191f35;
 }
 
 .margin-bottom {
@@ -756,7 +760,7 @@ header {
 }
 
 .header-title-wrap {
-  background-color: rgba(26, 28, 36, 0.9);
+  background-color: rgba(25, 31, 53, 0.9);
   width: 100%;
   position: relative;
 }
@@ -790,7 +794,7 @@ header {
   padding: 1.2em .8em;
   border-bottom: 1px solid #F6F6F6;
   text-decoration: none;
-  color: #1A1C24;
+  color: #191f35;
   text-align: center;
   background-color: #F6F6F6;
 }
@@ -866,7 +870,7 @@ header {
     height: 100%;
     padding: 0;
     min-height: 100px;
-    text: #1A1C24;
+    text: #191f35;
     background-color: #743C70;
   }
 }
@@ -919,10 +923,8 @@ body.noscript .navigation {
 }
 
 .billboard-text {
-  position: relative;
-  background-color: rgba(26, 28, 36, 0.9);
-  padding: .5em;
   font-size: 2em;
+  margin-bottom: 1em;
 }
 
 /* Video STARTS */
@@ -960,7 +962,7 @@ body.noscript .navigation {
 }
 
 .btn-pause:hover {
-  background-color: #1A1C24;
+  background-color: #191f35;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1052,7 +1054,7 @@ blockquote footer {
 
 .events {
   width: 100%;
-  color: #1A1C24;
+  color: #191f35;
 }
 
 .events h3 {
@@ -1159,6 +1161,7 @@ button[type=submit] {
   margin: 0 auto;
   background-color: #BAA2B9;
   margin-bottom: 4em;
+  top: 4em;
 }
 
 .forms-donate {
@@ -1186,7 +1189,7 @@ button[type=submit] {
 }
 
 .forms-donate ul li:last-child a:hover {
-  border: 2px solid #1A1C24;
+  border: 2px solid #191f35;
 }
 
 .forms-donate ul li a {
@@ -1198,14 +1201,14 @@ button[type=submit] {
 }
 
 .forms-donate ul li a:hover {
-  background-color: #1A1C24;
+  background-color: #191f35;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
 .forms-btn-blue {
-  background-color: #1A1C24;
+  background-color: #191f35;
   color: #fff;
 }
 
@@ -1251,11 +1254,11 @@ button[type=submit] {
 }
 
 footer {
-  background-color: #1A1C24;
+  background-color: #191f35;
 }
 
 .b-nav {
-  background-color: #1A1C24;
+  background-color: #191f35;
   padding: 3em 2em;
   margin: 0 1em;
 }
@@ -1345,7 +1348,7 @@ footer {
 }
 
 .address {
-  background-color: #1A1C24;
+  background-color: #191f35;
 }
 
 .address h3 {
@@ -1382,7 +1385,7 @@ footer {
 }
 
 .copyright {
-  background-color: #1A1C24;
+  background-color: #191f35;
 }
 
 .copyright p {
@@ -1421,6 +1424,16 @@ hr {
   .padding-right {
     padding-right: 1.5em;
   }
+  .main-forms .social {
+    top: 3em;
+  }
+  .main-forms .social-2 {
+    top: 4.1em;
+  }
+  .form-wrapper-donate {
+    width: 80%;
+    margin-top: 4em;
+  }
   .btn-donate {
     width: 180px;
   }
@@ -1456,6 +1469,19 @@ hr {
     margin: 0 auto;
     padding-top: 4em;
     padding-bottom: 4em;
+  }
+  .form-wrapper-donate {
+    width: 600px;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .donate-60 {
+    height: 34em;
+  }
+  .billboard-text {
+    font-size: 3em;
   }
   .btn-donate {
     display: none;
@@ -1510,13 +1536,13 @@ hr {
     position: absolute;
     left: 5%;
     top: 8em;
-    background-color: rgba(26, 28, 36, 0.8);
+    background-color: rgba(25, 31, 53, 0.8);
   }
   .video-overlay {
     position: absolute;
     width: 100%;
     height: auto;
-    background-color: rgba(26, 28, 36, 0.4);
+    background-color: rgba(25, 31, 53, 0.4);
     margin-top: -4%;
     top: 0;
     display: block;
@@ -1526,14 +1552,14 @@ hr {
     padding: 6em;
   }
   footer {
-    background-color: #1A1C24;
+    background-color: #191f35;
   }
   form {
     margin: 0;
     padding: 0 4.5em;
   }
   .b-nav {
-    background-color: #1A1C24;
+    background-color: #191f35;
     padding: 4em 6em 0;
     margin: 0 1em;
   }
@@ -1608,7 +1634,7 @@ hr {
     width: 100%;
   }
   .address {
-    background-color: #1A1C24;
+    background-color: #191f35;
   }
   .address h3 {
     color: #fff;
@@ -1638,7 +1664,7 @@ hr {
     color: #9BA33F;
   }
   .copyright {
-    background-color: #1A1C24;
+    background-color: #191f35;
   }
   .copyright p {
     color: #fff;
