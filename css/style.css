@@ -554,7 +554,11 @@ sub {
 }
 
 .text-dark-blue {
-  color: #fff;
+  color: #191f35;
+}
+
+.text-green {
+  color: #9BA33F;
 }
 
 .center {
