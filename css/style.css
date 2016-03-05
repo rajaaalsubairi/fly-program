@@ -641,10 +641,6 @@ img {
   width: 100%;
 }
 
-main {
-  position: relative;
-}
-
 h1 {
   color: #9BA33F;
   font-family: "roboto", sans-serif;
@@ -918,10 +914,6 @@ body.noscript .navigation {
   z-index: 500;
 }
 
-.billboard-img {
-  position: relative;
-}
-
 .billboard-text {
   font-size: 2em;
   margin-bottom: 1em;
@@ -1160,13 +1152,13 @@ button[type=submit] {
   width: 100%;
   margin: 0 auto;
   background-color: #BAA2B9;
-  margin-bottom: 4em;
-  top: 4em;
+  position: relative;
 }
 
 .forms-donate {
   margin: 0 auto;
   width: 100%;
+  z-index: 400;
 }
 
 .forms-donate ul {
@@ -1472,10 +1464,10 @@ hr {
   }
   .form-wrapper-donate {
     width: 600px;
-    top: 50%;
-    position: absolute;
+    margin-top: -15em;
     left: 0;
     right: 0;
+    z-index: 400;
   }
   .donate-60 {
     height: 34em;
