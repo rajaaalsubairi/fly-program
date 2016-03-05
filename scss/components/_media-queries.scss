@@ -14,6 +14,10 @@
 }
 
 @media only screen and (min-width: 38em){
+  .padding-right {
+    padding-right: 1.5em;
+  }
+
   .btn-donate {
     width: 180px;
   }
@@ -45,7 +49,7 @@
   .billboard {
     top: 4em;
   }
-    
+
 }
 @media only screen and (min-width: 60em) {
 
@@ -141,7 +145,7 @@
   blockquote {
     padding: 6em;
   }
-    
+
     footer{
 
 background-color: $dark-blue;
@@ -154,7 +158,7 @@ padding: 0 4.5em;
 
 .b-nav {
   background-color: $dark-blue;
-  padding: 1em 6em 0;
+  padding: 4em 6em 0;
   margin: 0 1em;
 
     h4 {
@@ -165,7 +169,7 @@ padding: 0 4.5em;
       //border-bottom: solid $white 1px;
      // padding: .5em 1em .5em 0;
     }
-    
+
     h3{
     color: $white;
     font-weight: 400;
@@ -258,7 +262,7 @@ padding: 0 4.5em;
     li {
     color: $white;
     }
-     
+
      img {
      width: 50%;
     margin: 0 0 3em 0;
