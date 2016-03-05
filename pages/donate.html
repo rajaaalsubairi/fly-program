@@ -7,13 +7,12 @@ layout: default
     <img class="billboard-img" src="{{site.baseurl}}/img/donate-1.jpg" alt="Make a Donation to FLY">
     <h1 class="billboard-text push-0">Make a Donation</h1>
      <!-- Social Icon -->
-    <a class="btn social" href="#"><i class="icon-facebook"></i></a>
-    <a class="btn social social-2" href="#"><i class="icon-youtube"></i></a>
+    {% include social-icons.html %}
   </div>
 
   <div class="form-wrapper-donate forms-donate">
-    <form class="island pad-bottom">
-      <h2 class="">One Time Donation</h2>
+    <form action="https://donatenow.networkforgood.org/15022?code=Donate+Now+PHP" method="post" class="island pad-bottom">
+      <h2 class="peta">One Time Donation</h2>
       <ul class="center">
         <li><a href="#">$5</a></li>
         <li><a href="#">$25</a></li>
@@ -24,10 +23,10 @@ layout: default
       <button class="border-radius forms-btn-blue" type="submit">Continue</button>
     </form>
     <div class="island bg-green forms text-white">
-      <h2 class="text-white left-align-text">Other Ways to Give</h2>
+      <h2 class="text-white left-align-text peta">Other Ways to Give</h2>
       <p class="mega">Donate by Check – Please mail your check payable to Fresh Lifelines for Youth to:</p>
         <ul class="kilo">
-          <li><h3 class="mega push-0 bold">CORPORATE OFFICE</h4></li>
+          <li><h2 class="mega push-0 left-align-text bold">CORPORATE OFFICE</h2></li>
           <li>Sobrato Center for Nonprofits</li>
           <li>568 Valley Way</li>
           <li>Milpitas, CA 95035</li>
