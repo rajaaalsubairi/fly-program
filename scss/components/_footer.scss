@@ -12,7 +12,7 @@ padding: 0 4.5em;
 
 .b-nav {
   background-color: $dark-blue;
-  padding: 1em 6em 0;
+  padding: 1em 2em;
   margin: 0 1em;
 
     h4 {
@@ -82,12 +82,13 @@ padding: 0 4.5em;
     color: $white;
     font-weight: 400;
     font-size: 1.1250rem;
+    width: 100%;
     }
 
     input,{
     font-size: 1.25em;
-    width: 13.5em;
-      margin: 0 0 1em 0;
+    width: 100%;
+    margin: 0 0 1em 0;
     height: 2.85em;
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
@@ -99,7 +100,7 @@ padding: 0 4.5em;
 
 .sub-info {
     margin: 0;
-    width: 15em;
+    width: 100;
 
 }
 
@@ -142,7 +143,7 @@ font-size: 3em;
         p{
     color: $white;
     text-align: center;
-    margin: 0 15em;
+    margin: 0 1em;
     font-size: .75em;
         }
  }
@@ -158,5 +159,5 @@ font-size: 3em;
 hr {
 border-top: solid $white 1px;
 border-bottom: none;
-margin: 1em 6em 
+margin: 1em 2em;
 }
