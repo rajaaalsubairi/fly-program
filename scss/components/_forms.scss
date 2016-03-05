@@ -128,6 +128,19 @@ button[type=submit] {
   }
 }
 
+.forms-btn-purple {
+  background-color: $purple;
+  color: $white;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
 .main-forms {
   margin-bottom: 4em;
 }

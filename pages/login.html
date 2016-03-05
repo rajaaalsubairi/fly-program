@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<main id="main" role="main" class="">
-  <div class="form-wrapper">
-    <form>
-      <h1>Login to your account</h2>
-        <input type="email" id="email" placeholder="E-mail">
-        <input type="password" id="password" placeholder="Password">
-        <button class="border-radius" type="submit">Continue</button>
-    </form>
+<main id="main" role="main" class="main-forms">
+  <div class="form-wrapper-donate forms-donate">
+      <form action="{{site.baseurl}}/pages/thank-you" method="post">
+        <h1>Login to your account</h2>
+          <input type="email" id="email" placeholder="E-mail">
+          <input type="password" id="password" placeholder="Password">
+          <button class="border-radius forms-btn-purple" type="submit">Continue</button>
+      </form>
+
   </div>
 </main>
+

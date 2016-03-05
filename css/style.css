@@ -1204,6 +1204,18 @@ button[type=submit] {
   transition: all 300ms ease-in-out;
 }
 
+.forms-btn-purple {
+  background-color: #743C70;
+  color: #fff;
+}
+
+.forms-btn-purple:hover {
+  background-color: #9BA33F;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
 .main-forms {
   margin-bottom: 4em;
 }
