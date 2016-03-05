@@ -266,7 +266,7 @@ padding: 0 4.5em;
 
 }
 
-
+.follow{
 .icon-facebook,
 .icon-youtube{
 font-size: 3em;
@@ -279,6 +279,7 @@ font-size: 3em;
     &:hover{
     color: $green;
     }
+}
 }
  .copyright{
          background-color: $dark-blue;

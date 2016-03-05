@@ -1114,15 +1114,6 @@ button[type=submit] {
   font-size: 1.1250rem;
 }
 
-.billboard-img {
-  position: absolute;
-}
-
-.billboard-text {
-  position: absolute;
-  top: 5em;
-}
-
 footer {
   background-color: #1A1C24;
 }
@@ -1241,21 +1232,21 @@ form {
   margin: 0 0 3em 0;
 }
 
-.icon-facebook,
-.icon-youtube {
+.follow .icon-facebook,
+.follow .icon-youtube {
   font-size: 3em;
   display: inline-block;
   color: #fff;
   margin: 0;
 }
 
-.icon-facebook p,
-.icon-youtube p {
+.follow .icon-facebook p,
+.follow .icon-youtube p {
   font-size: 0;
 }
 
-.icon-facebook:hover,
-.icon-youtube:hover {
+.follow .icon-facebook:hover,
+.follow .icon-youtube:hover {
   color: #9BA33F;
 }
 
@@ -1497,19 +1488,19 @@ hr {
     width: 50%;
     margin: 0 0 3em 0;
   }
-  .icon-facebook,
-  .icon-youtube {
+  .follow .icon-facebook,
+  .follow .icon-youtube {
     font-size: 3em;
     display: inline-block;
     color: #fff;
     margin: 0;
   }
-  .icon-facebook p,
-  .icon-youtube p {
+  .follow .icon-facebook p,
+  .follow .icon-youtube p {
     font-size: 0;
   }
-  .icon-facebook:hover,
-  .icon-youtube:hover {
+  .follow .icon-facebook:hover,
+  .follow .icon-youtube:hover {
     color: #9BA33F;
   }
   .copyright {
