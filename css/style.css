@@ -1498,6 +1498,9 @@ hr {
   .donate-60 {
     height: 34em;
   }
+  .billboard {
+    margin-top: 5em;
+  }
   .billboard-text {
     font-size: 3em;
   }
