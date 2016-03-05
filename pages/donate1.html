@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<main id="main" role="main" class="">
+  <div class="">
+    <img class="billboard-img" src="{{site.baseurl}}/img/group.jpg" alt="">
+    <h1 class="billboard-text">Donate Page</h1>
+  </div>
+
+  <div class="form-wrapper">
+    <form action="thankyou.html" method="post">
+      <label for="email">E-mail address</label>
+      <input type="email" id="email" placeholder="Name">
+
+      <label for="homepage">Homepage</label>
+      <input type="url" id="homepage">
+
+      <label for="fav-color">Favourite colour</label>
+      <input type="color" id="fav-color">
+
+      <label for="message">Message</label>
+      <textarea id="message"></textarea>
+
+      <label for="province">Province or State</label>
+      <select id="province">
+        <optgroup label="Canada">
+          <option>Ontario</option>
+          <option>Québec</option>
+        </optgroup>
+        <optgroup label="United States">
+          <option>New York</option>
+          <option>California</option>
+        </optgroup>
+      </select>
+      <input type="checkbox" id="apato">
+      <label for="apato">Apatosaurus</label>
+
+      <fieldset>
+      <legend>What’s your favourite colour?</legend>
+
+      <input type="radio" id="green" name="fav-color">
+      <label for="green">Green</label>
+
+      <input type="radio" id="light-green" name="fav-color">
+      <label for="light-green">Light Green</label>
+
+      <input type="radio" id="dark-green" name="fav-color">
+      <label for="dark-green">Dark Green</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mailing Address</legend>
+        <div>
+          <label for="street-address">Street Address</label>
+          <input id="street-address">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input id="city">
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <input id="country">
+        </div>
+        <div>
+          <label for="postal-code">Postal Code</label>
+          <input id="postal-code">
+        </div>
+    </fieldset>
+
+    <button type="submit">Send</button>
+    </form>
+  </div>
+  <div>
+
+  </div>
+
+</main>
