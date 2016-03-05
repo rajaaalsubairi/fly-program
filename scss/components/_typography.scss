@@ -66,7 +66,7 @@ h4, .giga {
 h5, .mega {
   font-size: 1.1250rem;
   line-height: 1.4333;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 h6, .kilo {
@@ -221,6 +221,11 @@ sub {
 }
 
 .text-white {
+  color: $white;
+  text-decoration: none;
+}
+
+.text-dark-blue {
   color: $white;
 }
 
