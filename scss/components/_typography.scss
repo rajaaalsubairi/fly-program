@@ -160,6 +160,10 @@ sub {
   padding-top: 3.0000rem;
 }
 
+.pad-top-tripple, .pad-t-3 {
+  margin-top: 4.5000rem;
+}
+
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3.0000rem;
 }
@@ -214,4 +218,22 @@ sub {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
+}
+
+.text-white {
+  color: $white;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.left-align-text {
+  text-align: left;
+}
+
+.div-center {
+  margin-left: 0;
+  margin-right: 0;
 }

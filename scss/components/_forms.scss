@@ -1,9 +1,10 @@
 // Forms Footer
 
-form {
+.form-footer {
     div {
       margin: 0 auto 1.5em auto;
     }
+
     h2 {
       color: $white;
       text-align: center;
@@ -24,29 +25,135 @@ input,
 select,
 textarea {
   font-size: 1.25em;
-  width: 80%;
-  height: 2em;
+  width: 100%;
+  height: 3em;
   border-bottom-right-radius: 1em;
   border-top-left-radius: 1em;
   border: none;
-  margin: 0 10%;
-  padding-left: 1em;
+  padding: 1em;
 }
 
 textarea {
-height: 5.2em;
+height: 8.2em;
 }
 
 button[type=submit] {
     border: none;
     padding: 1em .8em;
     width: 15em;
-    background-color: $green;
-    color: $white;
     display: block;
     text-align: center;
     margin: 0 auto;
     font-weight: 400;
     font-size: 1.1250rem;
+}
 
+//DONATE page
+
+.form-wrapper-login {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $light-purple;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.form-wrapper-donate {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $light-purple;
+  margin-bottom: 4em;
+}
+
+.forms-donate {
+  margin: 0 auto;
+  width: 100%;
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      padding: .3em;
+      font-weight: 700;
+
+      &:last-child a {
+        border: 2px solid $purple;
+        padding: .9em;
+        background-color: $white;
+        color: $purple;
+        width: 7em;
+
+        &:hover {
+          border: 2px solid $dark-blue;
+        }
+      }
+
+      a {
+        display: block;
+        padding: 1em;
+        background-color: $purple;
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+          background-color: $dark-blue;
+          color: $white;
+
+          -webkit-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.forms-btn-blue {
+  background-color: $dark-blue;
+  color: $white;
+
+  &:hover {
+    background-color: $purple;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.forms-btn-green {
+  background-color: $green;
+  color: $white;
+
+  &:hover {
+    background-color: $purple;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.forms-btn-purple {
+  background-color: $purple;
+  color: $white;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.main-forms {
+  margin-bottom: 4em;
+}
+
+.forms ul li{
+  display: block;
+  padding: 0;
+  font-weight: 300;
 }
