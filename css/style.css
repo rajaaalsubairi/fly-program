@@ -378,7 +378,7 @@ h1, .exa {
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.8729;
+  line-height: 1.3729;
 }
 
 h3, .tera {
@@ -1109,7 +1109,7 @@ form {
 }
 
 .c-form {
-  background: linear-gradient(rgba(116, 60, 112, 0.7), rgba(116, 60, 112, 0.7)), url(../img/talk-with-young.jpg);
+  background: linear-gradient(rgba(116, 60, 112, 0.7), rgba(116, 60, 112, 0.7)), url(../img/donate-1.jpg);
   background-size: cover;
 }
 
