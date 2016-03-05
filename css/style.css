@@ -1074,6 +1074,11 @@ form h2 {
   text-align: center;
 }
 
+.c-form {
+  background: linear-gradient(rgba(116, 60, 112, 0.7), rgba(116, 60, 112, 0.7)), url(../img/talk-with-young.jpg);
+  background-size: cover;
+}
+
 .form-wrapper {
   width: 60%;
   margin: 0 auto;
@@ -1099,7 +1104,7 @@ textarea {
 button[type=submit] {
   border: none;
   padding: 1em .8em;
-  width: 50%;
+  width: 15em;
   background-color: #9BA33F;
   color: #fff;
   display: block;
@@ -1110,7 +1115,7 @@ button[type=submit] {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #1A1C24;
 }
 
 form {
@@ -1119,19 +1124,21 @@ form {
 }
 
 .b-nav {
-  background-color: #fff;
-  padding: 5em 5em;
+  background-color: #1A1C24;
+  padding: 1em 2em;
   margin: 0 1em;
-  width: 80%;
+}
+
+.b-nav h4 {
+  margin-bottom: .25em;
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: .5em;
 }
 
 .b-nav h3 {
-  margin-bottom: .25em;
-  font-size: 1em;
-  color: #1A1C24;
-  margin-bottom: .5em;
-  border-bottom: solid #1A1C24 1px;
-  padding: .5em 1em .5em 0;
+  color: #fff;
+  font-weight: 400;
 }
 
 .b-nav ul {
@@ -1143,13 +1150,13 @@ form {
   list-style: none;
   margin: 0 auto;
   font-size: 1em;
-  color: #1A1C24;
+  color: #fff;
   line-height: 1.3em;
 }
 
 .b-nav a {
   text-decoration: none;
-  color: #1A1C24;
+  color: #fff;
 }
 
 .b-nav a:hover {
@@ -1157,27 +1164,13 @@ form {
   color: #9BA33F;
 }
 
-.copyright {
-  background: #fff;
-}
-
-.copyright p {
-  color: #1A1C24;
-  text-align: center;
-  padding: 1em 0;
-  margin: 0 15em;
-  font-size: .75em;
-}
-
 .subscribe {
-  background-color: #fff;
   padding: 1em 0;
-  margin: 0 2em;
+  display: block;
 }
 
 .subscribe .sub-form {
-  display: inline-block;
-  float: left;
+  display: block;
 }
 
 .subscribe i {
@@ -1196,17 +1189,18 @@ form {
 }
 
 .subscribe .sub-btn {
-  margin: 1em .5em;
+  margin: 0;
   border: none;
-  width: 15em;
   color: #fff;
   font-weight: 400;
   font-size: 1.1250rem;
+  width: 100%;
 }
 
 .subscribe input {
   font-size: 1.25em;
-  width: 13.5em;
+  width: 100%;
+  margin: 0 0 1em 0;
   height: 2.85em;
   border-bottom-right-radius: 1em;
   border-top-left-radius: 1em;
@@ -1214,29 +1208,72 @@ form {
   color: #743C70;
 }
 
-.address {
-  background-color: #743C70;
+.sub-info {
+  margin: 0;
+  width: 100;
 }
 
-.address .b-nav {
-  background-color: #743C70;
+.address {
+  background-color: #1A1C24;
 }
 
 .address h3 {
   color: #fff;
   border: none;
+  line-height: 1em;
 }
 
 .address li {
   color: #fff;
 }
 
-.address .copyright {
-  background-color: #743C70;
+.address img {
+  width: 50%;
+  margin: 0 0 3em 0;
 }
 
-.address .copyright p {
+.follow .icon-facebook,
+.follow .icon-youtube {
+  font-size: 3em;
+  display: inline-block;
   color: #fff;
+  margin: 0;
+}
+
+.follow .icon-facebook p,
+.follow .icon-youtube p {
+  font-size: 0;
+}
+
+.follow .icon-facebook:hover,
+.follow .icon-youtube:hover {
+  color: #9BA33F;
+}
+
+.copyright {
+  background-color: #1A1C24;
+}
+
+.copyright p {
+  color: #fff;
+  text-align: center;
+  margin: 0 1em;
+  font-size: .75em;
+}
+
+.footer-qoute {
+  padding: 0;
+}
+
+.footer-qoute p {
+  font-size: 2em;
+  text-align: left;
+}
+
+hr {
+  border-top: solid #fff 1px;
+  border-bottom: none;
+  margin: 1em 2em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -1334,9 +1371,6 @@ form {
     background-color: #743C70;
     color: #fff;
   }
-  .b-nav {
-    padding: 1em 6em 0;
-  }
   .header-title-wrap {
     width: 60%;
     position: absolute;
@@ -1356,6 +1390,139 @@ form {
   }
   blockquote {
     padding: 6em;
+  }
+  footer {
+    background-color: #1A1C24;
+  }
+  form {
+    margin: 0;
+    padding: 0 4.5em;
+  }
+  .b-nav {
+    background-color: #1A1C24;
+    padding: 1em 6em 0;
+    margin: 0 1em;
+  }
+  .b-nav h4 {
+    margin-bottom: .25em;
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: .5em;
+  }
+  .b-nav h3 {
+    color: #fff;
+    font-weight: 400;
+  }
+  .b-nav ul {
+    margin-bottom: 1em;
+    padding: 0;
+  }
+  .b-nav li {
+    list-style: none;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.3em;
+  }
+  .b-nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .b-nav a:hover {
+    text-decoration: underline;
+    color: #9BA33F;
+  }
+  .subscribe {
+    padding: 1em 0;
+    display: block;
+  }
+  .subscribe .sub-form {
+    display: block;
+  }
+  .subscribe i {
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .subscribe a {
+    text-decoration: none;
+  }
+  .subscribe p {
+    font-size: 0;
+  }
+  .subscribe .sub-btn {
+    margin: 0;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1250rem;
+    width: 100%;
+  }
+  .subscribe input {
+    font-size: 1.25em;
+    width: 100%;
+    margin: 0 0 1em 0;
+    height: 2.85em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border: solid #743C70 2px;
+    color: #743C70;
+  }
+  .sub-info {
+    margin: 0;
+    width: 100%;
+  }
+  .address {
+    background-color: #1A1C24;
+  }
+  .address h3 {
+    color: #fff;
+    border: none;
+    line-height: 1em;
+  }
+  .address li {
+    color: #fff;
+  }
+  .address img {
+    width: 50%;
+    margin: 0 0 3em 0;
+  }
+  .follow .icon-facebook,
+  .follow .icon-youtube {
+    font-size: 3em;
+    display: inline-block;
+    color: #fff;
+    margin: 0;
+  }
+  .follow .icon-facebook p,
+  .follow .icon-youtube p {
+    font-size: 0;
+  }
+  .follow .icon-facebook:hover,
+  .follow .icon-youtube:hover {
+    color: #9BA33F;
+  }
+  .copyright {
+    background-color: #1A1C24;
+  }
+  .copyright p {
+    color: #fff;
+    text-align: center;
+    margin: 0 15em;
+    font-size: .75em;
+  }
+  .footer-qoute {
+    padding: 0;
+  }
+  .footer-qoute p {
+    font-size: 2em;
+    text-align: left;
+  }
+  hr {
+    border-top: solid #fff 1px;
+    border-bottom: none;
+    margin: 1em 6em;
   }
 }
 

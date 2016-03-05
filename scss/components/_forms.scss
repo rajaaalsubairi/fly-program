@@ -10,6 +10,11 @@ form {
     }
 }
 
+.c-form {
+    background: linear-gradient(rgba($purple, 0.7), rgba($purple, 0.7)),url(../img/talk-with-young.jpg);
+    background-size: cover;
+}
+
 .form-wrapper {
   width: 60%;
   margin: 0 auto;
@@ -35,7 +40,7 @@ height: 5.2em;
 button[type=submit] {
     border: none;
     padding: 1em .8em;
-    width: 50%;
+    width: 15em;
     background-color: $green;
     color: $white;
     display: block;
