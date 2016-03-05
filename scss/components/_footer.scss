@@ -12,7 +12,7 @@ padding: 0 4.5em;
 
 .b-nav {
   background-color: $dark-blue;
-  padding: 5em 5em;
+  padding: 1em 6em 0;
   margin: 0 1em;
 
     h4 {
@@ -118,30 +118,24 @@ padding: 0 4.5em;
      
      img {
      width: 50%;
+    margin: 0 0 3em 0;
      }
 
 }
 
 
-.follow-us {
-   float: right;
-    padding:0 0 0 4.5em;
 .icon-facebook,
 .icon-youtube{
-font-size: 2em;
+font-size: 3em;
     display: inline-block;
     color: $white;
-    margin: 0;
-   // padding:0 0 0 4.5em;
-    
+    margin:0;
     p{
     font-size: 0;
     }
     &:hover{
     color: $green;
     }
-}
-    
 }
  .copyright{
          background-color: $dark-blue;
@@ -156,13 +150,13 @@ font-size: 2em;
 .footer-qoute {
     padding: 0;
     p{
-    font-size: 1.6em;
-        text-align:center;
+    font-size: 2em;
+    text-align: left;
     }
 }
 
 hr {
 border-top: solid $white 1px;
 border-bottom: none;
-margin: 1em 6em 3em;
+margin: 1em 6em 
 }

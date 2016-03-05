@@ -1098,7 +1098,7 @@ form {
 
 .b-nav {
   background-color: #1A1C24;
-  padding: 5em 5em;
+  padding: 1em 6em 0;
   margin: 0 1em;
 }
 
@@ -1201,28 +1201,24 @@ form {
 
 .address img {
   width: 50%;
+  margin: 0 0 3em 0;
 }
 
-.follow-us {
-  float: right;
-  padding: 0 0 0 4.5em;
-}
-
-.follow-us .icon-facebook,
-.follow-us .icon-youtube {
-  font-size: 2em;
+.icon-facebook,
+.icon-youtube {
+  font-size: 3em;
   display: inline-block;
   color: #fff;
   margin: 0;
 }
 
-.follow-us .icon-facebook p,
-.follow-us .icon-youtube p {
+.icon-facebook p,
+.icon-youtube p {
   font-size: 0;
 }
 
-.follow-us .icon-facebook:hover,
-.follow-us .icon-youtube:hover {
+.icon-facebook:hover,
+.icon-youtube:hover {
   color: #9BA33F;
 }
 
@@ -1242,14 +1238,14 @@ form {
 }
 
 .footer-qoute p {
-  font-size: 1.6em;
-  text-align: center;
+  font-size: 2em;
+  text-align: left;
 }
 
 hr {
   border-top: solid #fff 1px;
   border-bottom: none;
-  margin: 1em 6em 3em;
+  margin: 1em 6em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -1346,9 +1342,6 @@ hr {
   .navigation > ul > li a:hover + ul:last-child a {
     background-color: #743C70;
     color: #fff;
-  }
-  .b-nav {
-    padding: 1em 6em 0;
   }
   .header-title-wrap {
     width: 60%;
