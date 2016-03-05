@@ -1495,6 +1495,9 @@ hr {
   .btn-donate {
     display: none;
   }
+  .error-404 {
+    margin-top: 20%;
+  }
   .navigation ul li:hover > ul {
     display: block;
   }
