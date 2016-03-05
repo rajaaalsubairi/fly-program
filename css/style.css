@@ -1143,9 +1143,9 @@ button[type=submit] {
 .form-wrapper-login {
   width: 100%;
   margin: 0 auto;
-  background-color: #BAA2B9;
-  margin-top: 8em;
-  margin-bottom: 8em;
+  background-color: #9BA33F;
+  margin-top: 5em;
+  margin-bottom: 3em;
 }
 
 .form-wrapper-donate {
@@ -1217,7 +1217,7 @@ button[type=submit] {
 }
 
 .forms-btn-green:hover {
-  background-color: #743C70;
+  background-color: #191f35;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1229,7 +1229,7 @@ button[type=submit] {
 }
 
 .forms-btn-purple:hover {
-  background-color: #9BA33F;
+  background-color: #191f35;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1450,11 +1450,28 @@ hr {
   .billboard {
     top: 4em;
   }
+  .form-wrapper-login {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+    padding: 1.5em 3em;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .form-wrapper-login {
+    padding: 1.5em 7em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
   header {
     padding: 0;
+  }
+  .form-wrapper-login {
+    margin-top: 10em;
+    width: 600px;
+    padding: 2em;
   }
   .div-wrap-m {
     width: 80%;
