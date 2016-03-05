@@ -1096,18 +1096,22 @@ blockquote footer {
   background-color: #9BA33F;
 }
 
-.form-footer div {
-  margin: 0 auto 1.5em auto;
+form {
+  margin: 0;
+  padding: 0em;
 }
 
-.form-footer h2 {
-  color: #fff;
-  text-align: center;
+.form-footer div {
+  margin: 0 auto 1.5em auto;
 }
 
 .c-form {
   background: linear-gradient(rgba(116, 60, 112, 0.7), rgba(116, 60, 112, 0.7)), url(../img/talk-with-young.jpg);
   background-size: cover;
+}
+
+.c-form h2 {
+  margin-bottom: 1em;
 }
 
 .form-wrapper {
@@ -1250,14 +1254,9 @@ footer {
   background-color: #1A1C24;
 }
 
-form {
-  margin: 0 auto;
-  padding: 0em;
-}
-
 .b-nav {
   background-color: #1A1C24;
-  padding: 1em 2em;
+  padding: 3em 2em;
   margin: 0 1em;
 }
 
@@ -1419,6 +1418,9 @@ hr {
 }
 
 @media only screen and (min-width: 38em) {
+  .padding-right {
+    padding-right: 1.5em;
+  }
   .btn-donate {
     width: 180px;
   }
@@ -1532,7 +1534,7 @@ hr {
   }
   .b-nav {
     background-color: #1A1C24;
-    padding: 1em 6em 0;
+    padding: 4em 6em 0;
     margin: 0 1em;
   }
   .b-nav h4 {

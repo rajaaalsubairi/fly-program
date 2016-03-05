@@ -1,19 +1,23 @@
 // Forms Footer
 
+form {
+  margin: 0;
+  padding: 0em;
+}
+
 .form-footer {
     div {
       margin: 0 auto 1.5em auto;
-    }
-
-    h2 {
-      color: $white;
-      text-align: center;
     }
 }
 
 .c-form {
     background: linear-gradient(rgba($purple, 0.7), rgba($purple, 0.7)),url(../img/talk-with-young.jpg);
     background-size: cover;
+
+    h2 {
+      margin-bottom: 1em;
+    }
 }
 
 .form-wrapper {

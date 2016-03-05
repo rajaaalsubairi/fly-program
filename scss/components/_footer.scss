@@ -1,18 +1,12 @@
 // Footer
 
 footer{
-
-background-color: $dark-blue;
-}
-
-form {
-margin: 0 auto;
-padding: 0em;
+  background-color: $dark-blue;
 }
 
 .b-nav {
   background-color: $dark-blue;
-  padding: 1em 2em;
+  padding: 3em 2em;
   margin: 0 1em;
 
     h4 {
@@ -127,38 +121,40 @@ padding: 0em;
 .follow {
 .icon-facebook,
 .icon-youtube{
-font-size: 3em;
-    display: inline-block;
-    color: $white;
-    margin:0;
+  font-size: 3em;
+  display: inline-block;
+  color: $white;
+  margin:0;
+
     p{
-    font-size: 0;
+      font-size: 0;
     }
-    &:hover{
-    color: $green;
+      &:hover{
+      color: $green;
+      }
     }
 }
-}
+
  .copyright{
-         background-color: $dark-blue;
-        p{
-    color: $white;
-    text-align: center;
-    margin: 0 1em;
-    font-size: .75em;
-        }
+   background-color: $dark-blue;
+    p{
+      color: $white;
+      text-align: center;
+      margin: 0 1em;
+      font-size: .75em;
+    }
  }
 
 .footer-qoute {
-    padding: 0;
-    p{
-    font-size: 2em;
-    text-align: left;
-    }
+  padding: 0;
+  p{
+  font-size: 2em;
+  text-align: left;
+  }
 }
 
 hr {
-border-top: solid $white 1px;
-border-bottom: none;
-margin: 1em 2em;
+  border-top: solid $white 1px;
+  border-bottom: none;
+  margin: 1em 2em;
 }
