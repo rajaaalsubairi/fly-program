@@ -14,12 +14,13 @@
 
 .billboard-img {
   position: relative;
-  display: block;
 }
 
 .billboard-text {
-  position: absolute;
-  margin-top: 5em;
+  position: relative;
+  background-color: rgba($dark-blue, .9);
+  padding: .5em;
+  font-size: 2em;
 
 }
 
@@ -199,4 +200,10 @@ blockquote {
       vertical-align: middle;
       }
     }
+}
+
+// Background colours
+
+.bg-green {
+  background-color: $green;
 }

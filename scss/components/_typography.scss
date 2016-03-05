@@ -215,3 +215,16 @@ sub {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+
+.text-white {
+  color: $white;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.left-align-text {
+  text-align: left;
+}
