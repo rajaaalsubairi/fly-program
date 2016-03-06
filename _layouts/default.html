@@ -2,49 +2,51 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
-    <title>Fly Program</title>
+    <title>{% if page.title %}{{page.title}} · {% endif %}{{site.name}}</title>
+    <meta name="description" content="{{page.meta}}">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
     <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
     <link href="https://file.myfontastic.com/MGBNLMU3WjcpkEBDsk5FqN/icons.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-    <meta name="handheldfriendly" content="true">
-    <meta name="mobileoptimized" content="240">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="author" href="{{site.baseurl}}/humans.txt">
     <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
   </head>
   <body class="noscript">
     <!-- skip links-->
     <ul class="skip-links">
       <li><a href="#main"> Jump to Main Content</a></li>
-       <li><a href="#navigation"> Jump to Navigation</a></li>
+      <li><a href="#navigation"> Jump to Navigation</a></li>
     </ul>
     <!-- skip links-->
     <div class="site-wrapper" data-state="slide-closed">
       <div class="sliding-canvas">
-        <header class="header">
+        <header class="header" id="navigation" role="navigation">
           <div class="grid logo-bg">
             <div class="unit xs-1 s-1 m-1 l-1-4">
               <a href="{{site.baseurl}}/">
-              <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="FLY Program Logo">
+              <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Return to main page">
               </a><a class="btn-donate" href="{{site.baseurl}}/pages/donate">Donate</a>
             </div>
             <div class="unit xs-1 s-1 m-1 l-3-4">
               <!-- Menu Toggle Icon -->
               <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
-              <nav class="navigation slide-menu" id="navigation" role="navigation">
+              <nav class="navigation slide-menu">
                 <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
                 <ul>
                   <li>
-                    <a href="#">About</a>
+                    <a href="#" class="bold">About</a>
                     <ul class="skew">
                       <li><a href="{{site.baseurl}}/pages/what-we-do">What We do</a></li>
                       <li><a href="{{site.baseurl}}/pages/who-we-are">Who We Are</a></li>
                       <li><a href="{{site.baseurl}}/pages/news-and-events">News and Events</a></li>
-                      <li><a href="{{site.baseurl}}/pages/">TBD</a></li>
+                      <li><a href="{{site.baseurl}}/pages/careers">Careers</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Our Programs</a>
+                    <a href="#" class="bold">Our Programs</a>
                     <ul class="skew">
                       <li><a href="{{site.baseurl}}/pages/law">Law</a></li>
                       <li><a href="{{site.baseurl}}/pages/leadership">Leadership</a></li>
@@ -53,13 +55,13 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Get Involved</a>
+                    <a href="#" class="bold">Get Involved</a>
                     <ul class="skew">
                       <li><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
                       <li><a href="{{site.baseurl}}/pages/volunteer">Volunteer</a></li>
                     </ul>
                   </li>
-                  <li><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
+                  <li class="bold"><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
                 </ul>
               </nav>
         </header>
@@ -102,7 +104,7 @@
                 <li><a href="{{site.baseurl}}/pages/what-we-do">What We Do</a></li>
                 <li><a href="{{site.baseurl}}/pages/who-we-are">Who We Are</a></li>
                 <li><a href="{{site.baseurl}}/pages/news-and-events">News and Events</a></li>
-                <li><a href="{{site.baseurl}}/pages/">TBD</a></li>
+                <li><a href="{{site.baseurl}}/pages/careers">Careers</a></li>
               </ul>
                 </div>
  <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
@@ -152,10 +154,10 @@
                 </ul>
               </div>
                 <div class="follow gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+                  <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">
                 <h3>Follow Us!</h3>
                 <a href="https://www.youtube.com/channel/UCmO5kWtKnDiLlg6gBHlCzZg" target="_blank"><i class="icon-youtube"><p>youtube</p></i></a>
                 <a href="https://www.facebook.com/flyprogram" target="_blank"><i class="icon-facebook"><p>facebook</p></i></a>
-                <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">
                </div>
             <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-xl-1-3">
               <h3 class="sub-info">Subscribe to our mailing list!</h3>
