@@ -575,6 +575,10 @@ sub {
   margin-right: 0;
 }
 
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -747,12 +751,24 @@ h2 {
   transition: all 300ms ease-in-out;
 }
 
-.dark-blue {
+.bg-dark-blue {
   background: #191f35;
 }
 
-.margin-bottom {
-  margin-bottom: 1em;
+.bg-green {
+  background: #9BA33F;
+}
+
+.bg-purple {
+  background: #743C70;
+}
+
+.bg-light-purple {
+  background: #BAA2B9;
+}
+
+.bg-dark-purple {
+  background: #4A0E3E;
 }
 
 header {
@@ -1057,37 +1073,61 @@ blockquote footer {
   margin-top: 1.5em;
 }
 
-.icons {
-  background-color: #9BA33F;
-}
-
-.icons ul {
-  list-style: none;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.icons ul li {
-  display: inline;
-  width: 33%;
-  padding-top: 1.5em;
-}
-
-.icons ul li:hover {
-  background-color: #743C70;
-}
-
-.icons ul li a {
+.icons a {
   text-decoration: none;
   color: #fff;
   text-align: center;
 }
 
-.icons ul li a i {
+.icons a p {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+
+.icons a i {
+  width: 1.45em;
+  height: 1.35em;
   display: block;
-  font-size: 4em;
+  font-size: 6em;
+  font-weight: 700;
   text-align: center;
   vertical-align: middle;
+  border-radius: 100px;
+  padding: 13px 9px;
+  margin: 0 auto;
+}
+
+.bg-purple i {
+  background-color: #9BA33F;
+}
+
+.bg-purple i:hover {
+  background-color: #F6F6F6;
+  color: #191f35;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.bg-green i {
+  background-color: #743C70;
+}
+
+.bg-green i:hover {
+  background-color: #F6F6F6;
+  color: #191f35;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.bg-dark-purple i {
+  background-color: #9BA33F;
+}
+
+.bg-dark-purple i:hover {
+  background-color: #F6F6F6;
+  color: #191f35;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .bg-green {
