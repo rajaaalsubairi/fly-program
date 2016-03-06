@@ -629,26 +629,37 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  top: -3em;
+  z-index: 500;
 }
 
-.skip-links li {
-  padding: 0.5em 0.75em;
+.skip-links a {
   position: absolute;
   top: -3em;
-  background-color: #9BA33F;
+  padding: 0.5em 0.75em;
+  background-color: rgba(25, 31, 53, 0.9);
   color: #fff;
-  font-size: 1.125em;
   font-weight: bold;
   text-decoration: none;
 }
 
-.skip-links li:focus {
+.skip-links a:focus {
   top: 0;
+}
+
+a:focus {
+  outline: 2px solid rgba(25, 31, 53, 0.9);
+  margin: 0;
 }
 
 img {
@@ -888,7 +899,7 @@ header {
     height: 100%;
     padding: 0;
     min-height: 100px;
-    text: #fff;
+    color: #fff;
     background-color: #743C70;
   }
 }
@@ -933,7 +944,6 @@ body.noscript .navigation {
 
 .div-wrap-m {
   background-color: #fff;
-  z-index: 500;
 }
 
 .billboard-text {
@@ -1016,7 +1026,6 @@ body.noscript .navigation {
   margin-top: -3px;
   width: 100%;
   background-color: #9BA33F;
-  z-index: 100;
 }
 
 .celebration h2 {
@@ -1382,7 +1391,7 @@ footer {
 
 .sub-info {
   margin: 0;
-  width: 100;
+  width: 100%;
 }
 
 .address {
@@ -1479,7 +1488,7 @@ hr {
     visibility: visible;
   }
   .padding-gutter {
-    padding: 1.5 2em;
+    padding: 1.52em;
   }
   h1 {
     padding: 0;
@@ -1552,7 +1561,7 @@ hr {
   }
   .quote-2 blockquote {
     position: relative;
-    marg-right: 0;
+    margin-right: 0;
     width: 59%;
     right: -40%;
   }
