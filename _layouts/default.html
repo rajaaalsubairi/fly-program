@@ -2,14 +2,16 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
-    <title>Fly Program</title>
+    <title>{% if page.title %}{{page.title}} · {% endif %}{{site.name}}</title>
+    <meta name="description" content="{{page.meta}}">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
     <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
     <link href="https://file.myfontastic.com/MGBNLMU3WjcpkEBDsk5FqN/icons.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-    <meta name="handheldfriendly" content="true">
-    <meta name="mobileoptimized" content="240">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="author" href="{{site.baseurl}}/humans.txt">
     <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
   </head>
   <body class="noscript">
