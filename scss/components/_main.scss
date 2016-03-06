@@ -26,25 +26,39 @@ body{
   }
 }
 
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  top: -3em;
-   li {
-    padding: 0.5em 0.75em;
-    position: absolute;
-    top: -3em;
-    background-color: $green;
-    color: $white;
-    font-size: 1.125em;
-    font-weight: bold;
-    text-decoration: none;
-      &:focus {
-        top: 0;
-      }
-   }
+  z-index: 500;
 }
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  padding: 0.5em 0.75em;
+  background-color: rgba($dark-blue, .9);
+  color: $white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+  }
+
+a:focus {
+  outline: 2px solid rgba($dark-blue, .9);
+  margin: 0;
+}
+
 
 img {
   display: block;
