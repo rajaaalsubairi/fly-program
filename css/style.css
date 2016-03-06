@@ -334,6 +334,7 @@
 
 html {
   font: normal 100%/1.5;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 60em) {
@@ -384,6 +385,7 @@ h2, .peta {
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
+  font-weight: 700;
 }
 
 h4, .giga {
@@ -1050,6 +1052,7 @@ blockquote {
   color: #fff;
   text-align: right;
   display: block;
+  width: 100%;
 }
 
 blockquote p {
@@ -1547,6 +1550,12 @@ hr {
   }
   .error-404 {
     margin-top: 20%;
+  }
+  .quote-2 blockquote {
+    position: relative;
+    marg-right: 0;
+    width: 59%;
+    right: -40%;
   }
   .navigation ul li:hover > ul {
     display: block;

@@ -130,6 +130,16 @@
     margin-top: 20%;
   }
 
+  .quote-2 {
+    blockquote {
+      position: relative;
+      marg-right: 0;
+      width: 59%;
+      right: -40%;
+
+    }
+  }
+
   .navigation ul li:hover > ul {
     display: block;
   }
@@ -208,9 +218,8 @@
     padding: 6em;
   }
 
-    footer{
-
-background-color: $dark-blue;
+footer{
+  background-color: $dark-blue;
 }
 
 form {
