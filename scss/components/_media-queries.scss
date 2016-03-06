@@ -233,10 +233,10 @@ padding: 0 4.5em;
   margin: 0 1em;
 
     h4 {
-      margin-bottom: .25em;
       font-size: 1em;
       color: $white;
       margin-bottom: .5em;
+      margin-top: .5em;
       //border-bottom: solid $white 1px;
      // padding: .5em 1em .5em 0;
     }
@@ -253,9 +253,8 @@ padding: 0 4.5em;
     li {
       list-style: none;
       margin: 0 auto;
-      font-size: 1em;
         color: $white;
-        line-height: 1.3em;
+        line-height: 1.9em;
     }
     a {
       text-decoration: none;

@@ -681,8 +681,8 @@ h2 {
   display: inline-block;
   color: #fff;
   background-color: #9BA33F;
-  right: 24%;
-  width: 110px;
+  right: 22%;
+  width: 130px;
   top: -1px;
   text-align: center;
   text-decoration: none;
@@ -699,7 +699,7 @@ h2 {
 .btn-green {
   padding: 1em .8em;
   display: block;
-  width: 50%;
+  width: 250px;
   color: #fff;
   background-color: #9BA33F;
   text-align: center;
@@ -1303,10 +1303,10 @@ footer {
 }
 
 .b-nav h4 {
-  margin-bottom: .25em;
   font-size: 1em;
   color: #fff;
   margin-bottom: .5em;
+  margin-top: .5em;
 }
 
 .b-nav h3 {
@@ -1322,9 +1322,8 @@ footer {
 .b-nav li {
   list-style: none;
   margin: 0 auto;
-  font-size: 1em;
   color: #fff;
-  line-height: 1.3em;
+  line-height: 1.9em;
 }
 
 .b-nav a {
@@ -1635,10 +1634,10 @@ hr {
     margin: 0 1em;
   }
   .b-nav h4 {
-    margin-bottom: .25em;
     font-size: 1em;
     color: #fff;
     margin-bottom: .5em;
+    margin-top: .5em;
   }
   .b-nav h3 {
     color: #fff;
@@ -1651,9 +1650,8 @@ hr {
   .b-nav li {
     list-style: none;
     margin: 0 auto;
-    font-size: 1em;
     color: #fff;
-    line-height: 1.3em;
+    line-height: 1.9em;
   }
   .b-nav a {
     text-decoration: none;
