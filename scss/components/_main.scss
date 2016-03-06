@@ -152,10 +152,23 @@ h2 {
   }
 }
 
-.dark-blue {
+.bg-dark-blue {
   background: $dark-blue;
 }
 
-.margin-bottom {
-  margin-bottom: 1em;
+.bg-green {
+  background: $green;
 }
+
+.bg-purple {
+  background: $purple;
+}
+
+.bg-light-purple {
+  background: $light-purple;
+}
+
+.bg-dark-purple {
+  background: $dark-purple;
+}
+
