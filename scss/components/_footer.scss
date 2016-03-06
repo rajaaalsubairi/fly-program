@@ -1,29 +1,28 @@
 // Footer
 
 footer{
-
-background-color: $purple;
-}
-
-form {
-background-color: $dark-blue;
-margin: 0;
+  background-color: $dark-blue;
 }
 
 .b-nav {
-  background-color: $purple;
-  padding: 5em 5em;
-  margin: 0 5em;
-    
-    h3 {
+  background-color: $dark-blue;
+  padding: 3em 2em;
+  margin: 0 1em;
+
+    h4 {
       margin-bottom: .25em;
-      font-size: 1.5em;
-      color: $light-grey;
+      font-size: 1em;
+      color: $white;
       margin-bottom: .5em;
-      border-bottom: solid $light-grey 2px;
-      padding: .5em 1em .5em 0;
+      //border-bottom: solid $white 1px;
+     // padding: .5em 1em .5em 0;
     }
-    
+
+    h3{
+    color: $white;
+    font-weight: 400;
+    }
+
     ul {
       margin-bottom: 1em;
       padding: 0;
@@ -45,37 +44,117 @@ margin: 0;
     }
 }
 
-.copyright {
-  background: $purple;
-    p {
-      color: $light-grey;
-      text-align: left;
-      padding: 1em 0;
-      margin: 0 5em;
-      font-size: .5em;
-    }
-}
 
 .subscribe {
-    
-    background-color: $purple;
-    
+
+   // background-color: $white;
+    padding: 1em 0;
+    display: block;
+
+    .sub-form{
+    display: block;
+    }
+
     i {
     color:$white;
-    font-size: 4em;
+    font-size: 2em;
     display: inline-block;
+    vertical-align: middle;
     }
-    
+
     a {
     text-decoration: none;
     }
+
     p{
     font-size: 0;
     }
+
+    .sub-btn {
+    margin: 0;
+    border: none;
+    color: $white;
+    font-weight: 400;
+    font-size: 1.1250rem;
+    width: 100%;
+    }
+
+    input,{
+    font-size: 1.25em;
+    width: 100%;
+    margin: 0 0 1em 0;
+    height: 2.85em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border: solid $purple 2px;
+    color: $purple;
+}
+
+}
+
+.sub-info {
+    margin: 0;
+    width: 100;
+
+}
+
+ .address {
+    background-color: $dark-blue;
+
+     h3{
+     color: $white;
+     border: none;
+     line-height: 1em;
+     }
+
+    li {
+    color: $white;
+    }
+
+     img {
+     width: 50%;
+    margin: 0 0 3em 0;
+     }
+
+}
+
+.follow {
+.icon-facebook,
+.icon-youtube{
+  font-size: 3em;
+  display: inline-block;
+  color: $white;
+  margin:0;
+
+    p{
+      font-size: 0;
+    }
+      &:hover{
+      color: $green;
+      }
+    }
+}
+
+ .copyright{
+   background-color: $dark-blue;
+    p{
+      color: $white;
+      text-align: center;
+      margin: 0 1em;
+      font-size: .75em;
+    }
+ }
+
+.footer-qoute {
+  padding: 0;
+  p{
+  font-size: 2em;
+  text-align: left;
+  }
 }
 
 hr {
-    margin: 0 5em;
-    border-bottom: solid $light-grey .5px;
-    border-top: none;
+  border-top: solid $white 1px;
+  border-bottom: none;
+  margin: 1em 2em;
 }
