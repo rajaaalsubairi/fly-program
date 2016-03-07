@@ -29,8 +29,10 @@
   }
 
   .form-wrapper-donate {
-    width: 80%;
-    margin-top: 4em;
+    width: 70%;
+    margin-top: -8em;
+    left: 0;
+    right: 0;
   }
 
   .btn-donate {
@@ -42,7 +44,7 @@
   }
 
   .padding-gutter {
-    padding: 1.5 2em;
+    padding: 1.52em;
   }
 
   h1 {
@@ -65,6 +67,10 @@
     top: 4em;
   }
 
+  .billboard-text {
+    font-size: 3em;
+  }
+
   .form-wrapper-login {
     width: 80%;
     margin: 0 auto;
@@ -75,6 +81,10 @@
 }
 
 @media only screen and (min-width: 45em) {
+  .form-wrapper-donate {
+    width: 600px;
+  }
+
   .form-wrapper-login {
     padding: 1.5em 7em;
   }
@@ -104,11 +114,7 @@
   }
 
   .form-wrapper-donate {
-    width: 600px;
-    margin-top: -15em;
-    left: 0;
-    right: 0;
-    z-index: 400;
+    margin-top: -10em;
   }
 
   .donate-60 {
@@ -118,6 +124,7 @@
   .billboard {
     margin-top: 5em;
   }
+
   .billboard-text {
     font-size: 3em;
   }
@@ -128,6 +135,20 @@
 
   .error-404 {
     margin-top: 20%;
+  }
+
+  .video-visible {
+    visibility: visible;
+  }
+
+  .quote-2 {
+    blockquote {
+      position: relative;
+      margin-right: 0;
+      width: 59%;
+      right: -40%;
+
+    }
   }
 
   .navigation ul li:hover > ul {
@@ -208,9 +229,8 @@
     padding: 6em;
   }
 
-    footer{
-
-background-color: $dark-blue;
+footer{
+  background-color: $dark-blue;
 }
 
 form {
@@ -224,10 +244,10 @@ padding: 0 4.5em;
   margin: 0 1em;
 
     h4 {
-      margin-bottom: .25em;
       font-size: 1em;
       color: $white;
       margin-bottom: .5em;
+      margin-top: .5em;
       //border-bottom: solid $white 1px;
      // padding: .5em 1em .5em 0;
     }
@@ -244,9 +264,8 @@ padding: 0 4.5em;
     li {
       list-style: none;
       margin: 0 auto;
-      font-size: 1em;
         color: $white;
-        line-height: 1.3em;
+        line-height: 1.9em;
     }
     a {
       text-decoration: none;
@@ -377,6 +396,10 @@ margin: 1em 6em;
 @media only screen and (min-width: 75em){
   .embed .celebration {
     top: 4em;
+  }
+
+  .form-wrapper-donate {
+    margin-top: -12em;
   }
 }
 

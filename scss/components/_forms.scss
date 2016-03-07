@@ -72,7 +72,6 @@ button[type=submit] {
 .forms-donate {
   margin: 0 auto;
   width: 100%;
-  z-index: 400;
 
   ul {
     padding: 0;
@@ -128,6 +127,19 @@ button[type=submit] {
 }
 
 .forms-btn-green {
+  background-color: $green;
+  color: $white;
+
+  &:hover {
+    background-color: $purple;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.forms-btn-green-2 {
   background-color: $green;
   color: $white;
 

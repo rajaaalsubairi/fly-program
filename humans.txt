@@ -1,35 +1,46 @@
-
-
 /* TEAM */
 
-Your title: Your name.
+Project Manager: Rajaa Al-Subairi
 
-Site: email, link to a contact form, etc.
+Site: rajaabairi.ca
 
-Twitter: your Twitter username.
+Location: Ottawa, Canada.
 
-Location: City, Country.
 
+Web Developer: Shaayaan Jameel
+
+Site: shaayaanjameel.ca
+
+Location: Ottawa, Canada.
+
+
+Web Developer: Anna Misak
+
+Site: annamisak.com
+
+Location: Ottawa, Canada.
+
+
+Designer: Rudy Gordon
+
+Site: rudygordon.ca
+
+Location: Ottawa, Canada.
+
+
+Designer: Ding Chang Xu
+
+Location: Ottawa, Canada.
 
                         [...]
-
-
-
-/* THANKS */
-
-Name: name or url
-
-
-                        [...]
-
 
 
 /* SITE */
 
-Last update: YYYY/MM/DD
+Last update: 2016/03/14
 
 Standards: HTML5, CSS3,..
 
 Components: Modernizr, jQuery, etc.
 
-Software: Software used for the development
+Software: Github, Brackets, Sumblime Text, Prepros
