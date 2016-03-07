@@ -26,11 +26,14 @@ body{
   }
 }
 
-a,
-a:link,
-a:visited {
-  text-decoration: none;
-  outline: none;
+a.skip-links:active,
+a.skip-links:focus,
+a.skip-links:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
 }
 
 .skip-links {
@@ -48,15 +51,16 @@ a:visited {
   color: $white;
   font-weight: bold;
   text-decoration: none;
+  text-align: left;
+  z-index: 500;
 }
 
 .skip-links a:focus {
   top: 0;
-  }
+}
 
 a:focus {
   outline: 2px solid rgba($dark-blue, .9);
-  margin: 0;
 }
 
 
