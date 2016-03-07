@@ -1,95 +1,186 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Fly Program</title>
-  <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
-  <link href="https://file.myfontastic.com/MGBNLMU3WjcpkEBDsk5FqN/icons.css" rel="stylesheet">
-  <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-  <meta name="handheldfriendly" content="true">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
-</head>
-<body>
-
-<body class="noscript">
-  <div class="site-wrapper" data state="slide-closed">
-    <div class="sliding-canvas">
-      <header class="header">
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-4">
-            <a href="{{site.baseurl}}/">
-              <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="FLY Logo">
-            </a><a class="btn-donate" href="donate.html">Donate</a>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{page.title}} · {% endif %}{{site.name}}</title>
+    <meta name="description" content="{{page.meta}}">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://file.myfontastic.com/pBDapGZPxoJbtmhrsaVmhK/icons.css" rel="stylesheet">
+    <link href="https://file.myfontastic.com/MGBNLMU3WjcpkEBDsk5FqN/icons.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+    <link rel="author" href="{{site.baseurl}}/humans.txt">
+    <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico">
+  </head>
+  <body class="noscript">
+    <!-- skip links-->
+    <ul class="skip-links">
+      <li><a href="#main"> Jump to Main Content</a></li>
+      <li><a href="#navigation"> Jump to Navigation</a></li>
+    </ul>
+    <!-- skip links-->
+    <div class="site-wrapper" data-state="slide-closed">
+      <div class="sliding-canvas">
+        <header class="header">
+          <div class="grid logo-bg" id="navigation" role="navigation">
+            <div class="unit xs-1 s-1 m-1 l-1-4">
+              <a href="{{site.baseurl}}/">
+              <img class="logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Return to main page">
+              </a><a class="btn-donate" href="{{site.baseurl}}/pages/donate">Donate</a>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-3-4">
+              <!-- Menu Toggle Icon -->
+              <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
+              <nav class="navigation slide-menu">
+                <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
+                <ul>
+                  <li>
+                    <a href="{{site.baseurl}}/pages/about" class="bold">About</a>
+                    <ul class="skew">
+                      <li><a href="{{site.baseurl}}/pages/what-we-do">What We do</a></li>
+                      <li><a href="{{site.baseurl}}/pages/who-we-are">Who We Are</a></li>
+                      <li><a href="{{site.baseurl}}/pages/news-and-events">News and Events</a></li>
+                      <li><a href="{{site.baseurl}}/pages/careers">Careers</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="{{site.baseurl}}/pages/our-programs" class="bold">Our Programs</a>
+                    <ul class="skew">
+                      <li><a href="{{site.baseurl}}/pages/law">Law</a></li>
+                      <li><a href="{{site.baseurl}}/pages/leadership">Leadership</a></li>
+                      <li><a href="{{site.baseurl}}/pages/mentor">Mentor</a></li>
+                      <li><a href="{{site.baseurl}}/pages/other-programs">Other Programs</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="bold">Get Involved</a>
+                    <ul class="skew">
+                      <li><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
+                      <li><a href="{{site.baseurl}}/pages/volunteer">Volunteer</a></li>
+                    </ul>
+                  </li>
+                  <li class="bold"><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
+        </header>
 
-          <div class="unit xs-1 s-1 m-1 l-3-4">
-            <!-- Menu Toggle Icon -->
-            <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
-
-            <nav class="navigation slide-menu">
-            <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
-              <ul>
-                  <li><a href="#">About</a>
-                    <!--<ul>
-                      <li><a href="#">What We do</a></li>
-                      <li><a href="#">Who We Are</a></li>
-                      <li><a href="#">News and Events</a></li>
-                    </ul>-->
-                  </li>
-                  <li><a href="#">Our Programs</a>
-                    <!--<ul>
-                      <li><a href="#">Law</a></li>
-                      <li><a href="#">Leadership</a></li>
-                      <li><a href="#">Mentor</a></li>
-                      <li><a href="#">Other Programs</a></li>
-                    </ul>-->
-                  </li>
-                  <li><a href="#">Get Involved</a>
-                    <!--<ul>
-                      <li><a href="#">Donate</a></li>
-                      <li><a href="#">Volunteer</a></li>
-                    </ul>-->
-                  </li>
-                  <li><a href="#">Donate</a></li>
-              </ul>
-            </nav>
-          </div>
-      </header>
-
-      <div class="embed embed-16by9">
-        <video class="embed-item smasher-vid" src="{{site.baseurl}}/vid/fly-vid.mp4" poster="" autoplay loop >
-          Crazy Balls
-        </video>
-      </div>
-
-      <button class="btn-pause kilo">Pause</button>
-
-      <div class="header-title-wrap island">
-        <h1 class="header-title">Spark change! Invest in a FLY Youth.</h1>
-        <p class="white mega">We are uniquely able to give teens the right environment, role models, and the right tools to turn their lives around and build better futures.</p>
-        <p><a class="btn-green mega" href="#">Donate to FLY</a></p>
-      </div>
-
-      <a class="btn social" href="#"><i class="icon-facebook-official"></i></a>
-      <a class="btn social social-2" href="#"><i class="icon-social-youtube"></i></a>
-
-      <main>
         {{content}}
-      </main>
 
-      <footer>
+        <form action="{{site.baseurl}}/pages/thank-you" method="post" class="c-form pad-t-2 pad-b-1">
+          <h2 class="zetta text-white center push-0">Contact Us</h2>
 
-      </footer>
+          <div class="grid island text-center form-footer push-0">
+            <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <div class="push-0 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 padding-right">
+                  <div class="form-left">
+                    <input id="name" placeholder="Name">
+                  </div>
+                  <div class="form-left">
+                    <input type="email" id="email" placeholder="E-mail">
+                  </div>
+                </div>
+            </div>
 
+            <div class="push-0 unit-1 unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <div class="form-right">
+                <textarea id="message" placeholder="Message"></textarea>
+              </div>
+            </div>
+
+            <div class="push-0 unit-1 unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+              <button class="border-radius tera forms-btn-green-2" type="submit">Send</button>
+            </div>
+          </div>
+        </form>
+
+        <footer class="pad-t-1">
+          <div class="grid b-nav" role="contentinfo">
+          <!--  <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">-->
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <h3>About</h3>
+              <ul>
+                <li><a href="{{site.baseurl}}/pages/what-we-do">What We Do</a></li>
+                <li><a href="{{site.baseurl}}/pages/who-we-are">Who We Are</a></li>
+                <li><a href="{{site.baseurl}}/pages/news-and-events">News and Events</a></li>
+                <li><a href="{{site.baseurl}}/pages/careers">Careers</a></li>
+              </ul>
+                </div>
+ <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <h3>Our Programs</h3>
+              <ul>
+                <li><a href="{{site.baseurl}}/pages/law">Law</a></li>
+                <li><a href="{{site.baseurl}}/pages/leadership">Leadership</a></li>
+                <li><a href="{{site.baseurl}}/pages/mentor">Mentor</a></li>
+                <li><a href="{{site.baseurl}}/pages/other-programs">Other Programs</a></li>
+              </ul>
+     </div>
+     <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
+              <h3>Get Involved</h3>
+              <ul>
+                <li><a href="{{site.baseurl}}/pages/donate">Donate</a></li>
+                <li><a href="{{site.baseurl}}/pages/volunteer">Volunteer</a></li>
+                <li><a href="{{site.baseurl}}/pages/login">Admin Login</a></li>
+              </ul>
+            </div>
+         </div>
+            <hr>
+            <div class="grid address b-nav">
+              <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+                  <h3>Find us!</h3>
+                <h4>CORPORATE OFFICE</h4>
+                <ul class="milli">
+                  <li>Sobrato Center for Nonprofits</li>
+                  <li>568 Valley Way</li>
+                  <li>Milpitas, CA 95035</li>
+                  <li class="pad-b">(408) 263-2630</li>
+                </ul>
+
+                <h4>SAN MATEO OFFICE</h4>
+                <ul class="milli">
+                  <li>Sobrato Center for Nonprofits</li>
+                  <li>330 Twin Dolphin Drive, Suite 109</li>
+                  <li>Redwood City, CA 94065</li>
+                  <li class="pad-b">(650) 450-6265</li>
+                </ul>
+
+                <h4>ALAMEDA COUNTY OFFICE</h4>
+                <ul class="milli">
+                  <li>333 Hegenberger Road</li>
+                  <li>Suite 707</li>
+                  <li>Oakland, CA 94621</li>
+                  <li class="pad-b-2">(510) 123-3456</li>
+                </ul>
+              </div>
+                <div class="follow gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+                  <img class="f-logo" src="{{site.baseurl}}/img/fly-logo.svg" alt="Fly Logo">
+                <h3>Follow Us!</h3>
+                <a href="https://www.youtube.com/channel/UCmO5kWtKnDiLlg6gBHlCzZg" target="_blank"><i class="icon-youtube"></i></a>
+                <a href="https://www.facebook.com/flyprogram" target="_blank"><i class="icon-facebook"></i></a>
+               </div>
+            <div class="gutter-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-xl-1-3">
+              <h3 class="sub-info">Subscribe to our mailing list!</h3>
+              <form class="subscribe sub-form">
+                <input type="email" id="email" placeholder="E-mail">
+                <button class="border-radius tera sub-btn forms-btn-green" type="submit">Subscribe</button>
+              </form>
+                  <blockquote class="footer-qoute">
+                  <p>15 years of making hope happen!</p>
+                  </blockquote>
+            </div>
+
+          </div>
+             <div class="copyright">
+              <p class="micro island">© 2016 Fresh Lifelines for Youth. Designed by Fly.</p>
+            </div>
+        </footer>
+      </div>
     </div>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="{{site.baseurl}}/js/push-menu.js"></script>
-  <script src="{{site.baseurl}}/js/video.js"></script>
-
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/push-menu.js"></script>
+    <script src="{{site.baseurl}}/js/video.js"></script>
+  </body>
 </html>

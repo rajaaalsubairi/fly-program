@@ -1,5 +1,6 @@
 html {
   font: normal 100%/1.5;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 60em) {
@@ -40,7 +41,7 @@ fieldset, pre, table {
 
 .zetta {
   font-size: 2.0273rem;
-  line-height: 1.1998;
+  line-height: 1.8998;
 }
 
 h1, .exa {
@@ -50,12 +51,13 @@ h1, .exa {
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.8729;
+  line-height: 1.3729;
 }
 
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
+  font-weight: 700;
 }
 
 h4, .giga {
@@ -66,7 +68,7 @@ h4, .giga {
 h5, .mega {
   font-size: 1.1250rem;
   line-height: 1.4333;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 h6, .kilo {
@@ -117,7 +119,7 @@ sub {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .italic {
@@ -158,6 +160,10 @@ sub {
 
 .pad-top-double, .pad-t-2 {
   padding-top: 3.0000rem;
+}
+
+.pad-top-tripple, .pad-t-3 {
+  margin-top: 4.5000rem;
 }
 
 .pad-bottom-double, .pad-b-2 {
@@ -214,4 +220,35 @@ sub {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
+}
+
+.text-white {
+  color: $white;
+  text-decoration: none;
+}
+
+.text-dark-blue {
+  color: $dark-blue;
+}
+
+.text-green {
+  color: $green;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.left-align-text {
+  text-align: left;
+}
+
+.div-center {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
 }

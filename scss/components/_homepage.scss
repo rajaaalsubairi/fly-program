@@ -1,0 +1,232 @@
+//Billboard
+
+.billboard {
+  top: 1em;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.div-wrap-m {
+  background-color: $white;
+}
+
+.billboard-text {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/* Video STARTS */
+
+.embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-item {
+  position: absolute;
+  left: -12%;
+  top: -12%;
+  width: 125%;
+  height: 125%;
+}
+
+.embed-16by9 {
+  margin-top: -6%;
+  padding-top: 56.25%;
+}
+
+.btn-pause {
+  position: absolute;
+  display:block;
+  width: 80px;
+  background-color: $green;
+  color: $white;
+  border: 0 solid $green;
+  padding: 1em 1em;
+  cursor: pointer;
+  margin-bottom: 3px;
+  right: 0;
+  top: 10em;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.video-hide {
+  visibility: hidden;
+}
+
+// Social Icons over video
+
+.social {
+  position: absolute;
+  background-color: $dark-purple;
+  color: $white;
+  text-decoration: none;
+  font-size: 4em;
+  width: 1.2em;
+  height: 1em;
+  text-align: center;
+  margin-bottom: 3px;
+  right: 0;
+  top: 4em;
+  visibility: hidden;
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.social i {
+  vertical-align: bottom;
+}
+
+.social-2 {
+  top: 5.1em;
+}
+
+.celebration {
+  margin-top: -3px;
+  width: 100%;
+  background-color: $green;
+
+  h2 {
+    color: $white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+// Quotes
+
+.quote-1 {
+  width: 100%;
+  background-image: url("../img/home-quote.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($purple, 0.8);
+      width: 100%;
+    }
+}
+
+.quote-2 {
+  width: 100%;
+  background-image: url("../img/home-quote-1.jpg");
+  background-size: cover;
+
+    div {
+      background-color: rgba($green, 0.8);
+      width: 100%;
+    }
+}
+
+blockquote {
+  color: $white;
+  text-align: right;
+  display: block;
+  width: 100%;
+
+  p {
+    font-family: $display-text;
+    font-weight: 100;
+    text-align: right;
+  }
+
+  footer {
+    text-align: right;
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+// Events
+
+.events {
+  width: 100%;
+  color: $dark-blue;
+
+  h3 {
+    margin-top: 1.5em;
+  }
+}
+
+// 3 icons
+
+.icons {
+
+    a {
+      text-decoration: none;
+      color: $white;
+      text-align: center;
+
+      p {
+        margin-top: 1.5em;
+        margin-bottom: 0;
+      }
+
+      i {
+      width: 1.45em;
+      height: 1.35em;
+      display: block;
+      font-size: 6em;
+      font-weight: 700;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 100px;
+      padding: 13px 9px;
+      margin: 0 auto;
+      }
+    }
+}
+
+.bg-purple i {
+  background-color: $green;
+  &:hover {
+    background-color: $light-grey;
+    color: $dark-blue;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.bg-green i {
+  background-color: $purple;
+  &:hover {
+    background-color: $light-grey;
+    color: $dark-blue;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.bg-dark-purple i {
+  background-color: $green;
+  &:hover {
+    background-color: $light-grey;
+    color: $dark-blue;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+// Background colours
+
+.bg-green {
+  background-color: $green;
+}
