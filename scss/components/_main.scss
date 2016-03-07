@@ -22,29 +22,47 @@ body{
   // Hides close button if there is no js
   &.noscript .close-btn,
   &.noscript .toggle-btn{
-      display: none;
+    display: none;
   }
+}
+
+a.skip-links:active,
+a.skip-links:focus,
+a.skip-links:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
 }
 
 .skip-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  top: -3em;
-   li {
-    padding: 0.5em 0.75em;
-    position: absolute;
-    top: -3em;
-    background-color: $green;
-    color: $white;
-    font-size: 1.125em;
-    font-weight: bold;
-    text-decoration: none;
-      &:focus {
-        top: 0;
-      }
-   }
+  z-index: 500;
 }
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  padding: 0.5em 0.75em;
+  background-color: rgba($dark-blue, .9);
+  color: $white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  z-index: 500;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 2px solid rgba($dark-blue, .9);
+}
+
 
 img {
   display: block;
@@ -77,8 +95,8 @@ h2 {
   display: inline-block;
   color: $nav-color;
   background-color: $green;
-  right: 24%;
-  width: 110px;
+  right: 22%;
+  width: 130px;
   top: -1px;
   text-align: center;
   text-decoration: none;
@@ -95,7 +113,7 @@ h2 {
 .btn-green {
   padding: 1em .8em;
   display: block;
-  width: 50%;
+  width: 250px;
   color: $white;
   background-color: $green;
   text-align: center;
@@ -104,7 +122,7 @@ h2 {
   margin: 0 auto;
 
   &:hover {
-    background-color: $light-purple;
+    background-color: $purple;
     color: $white;
 
     -webkit-transition: all 300ms ease-in-out;
@@ -152,10 +170,23 @@ h2 {
   }
 }
 
-.dark-blue {
+.bg-dark-blue {
   background: $dark-blue;
 }
 
-.margin-bottom {
-  margin-bottom: 1em;
+.bg-green {
+  background: $green;
 }
+
+.bg-purple {
+  background: $purple;
+}
+
+.bg-light-purple {
+  background: $light-purple;
+}
+
+.bg-dark-purple {
+  background: $dark-purple;
+}
+
