@@ -1344,8 +1344,9 @@ button[type=submit] {
 }
 
 .pageintro {
-  margin: 0 1.5em 1em 1.5em;
+  margin: 0 1.5em 1em 2em;
   max-width: 1400px;
+  font-size: .8em;
 }
 
 .subtitle {
@@ -1358,6 +1359,16 @@ button[type=submit] {
 .subinfo {
   margin: 0 1.5em 0 2em;
   font-size: .75em;
+}
+
+.subp {
+  margin: 0 1.5em .5em 2em;
+  font-size: .8em;
+  max-width: 1400px;
+}
+
+.subli {
+  font-size: .8em;
   max-width: 1400px;
 }
 
