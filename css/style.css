@@ -1362,7 +1362,7 @@ button[type=submit] {
 }
 
 .subp {
-  margin: 0 1.5em .5em 2em;
+  margin: 0 1.5em .5em 1.9em;
   font-size: .8em;
   max-width: 1400px;
 }
@@ -1370,6 +1370,13 @@ button[type=submit] {
 .subli {
   font-size: .8em;
   max-width: 1400px;
+  list-style-type: none;
+  margin: 0 1.5em 0 -1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #743C70;
 }
 
 footer {
@@ -1843,6 +1850,9 @@ hr {
     border-bottom: none;
     margin: 1em 6em;
   }
+  .subli {
+    margin: 0 1.5em 0 -1em;
+  }
 }
 
 @media only screen and (min-width: 75em) {
@@ -1851,6 +1861,9 @@ hr {
   }
   .form-wrapper-donate {
     margin-top: -12em;
+  }
+  .subli {
+    margin: 0 1.5em 0 -.5em;
   }
 }
 

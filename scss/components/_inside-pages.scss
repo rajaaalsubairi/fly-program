@@ -28,7 +28,7 @@
 }
 
 .subp {
-  margin: 0 1.5em .5em 2em;
+  margin: 0 1.5em .5em 1.9em;
   font-size: .8em;
   max-width: 1400px;
 }
@@ -36,4 +36,12 @@
 .subli {
   font-size: .8em;
   max-width: 1400px;
+  list-style-type: none;
+  margin: 0 1.5em 0 -1.25em;
 }
+
+a {
+  text-decoration: none;
+  color: $purple;
+}
+
