@@ -6,6 +6,10 @@
     width: 140px;
     }
 
+  .btn-green, .btn-green-2, .btn-purple, .btn-dark-blue {
+    width: 11em;
+  }
+
   .icons {
     ul li {
       display: inline-block;
@@ -210,7 +214,7 @@
     width: 60%;
     position: absolute;
     left: 5%;
-    top: 8em;
+    top: 10em;
     background-color: rgba($dark-blue, 0.8);
   }
 
@@ -337,7 +341,7 @@ padding: 0 4.5em;
      h3{
      color: $white;
      border: none;
-     line-height: 1em;
+     line-height: 1.4em;
      }
 
     li {
@@ -405,12 +409,12 @@ margin: 1em 6em;
 
 @media only screen and (min-width: 70em){
   .header-title-wrap {
-    top: 25vh;
+    top: 15em;
   }
 }
 
 @media only screen and (min-width: 80em){
   .header-title-wrap {
-    top: 35vh;
+    top: 19em;
   }
 }
