@@ -1379,6 +1379,10 @@ a {
   color: #743C70;
 }
 
+li {
+  list-style-type: none;
+}
+
 footer {
   background-color: #191f35;
 }
