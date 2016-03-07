@@ -1,2 +1,27 @@
 // Inside pages
 
+.pages {
+  color: $dark-blue;
+}
+
+.pagetitle {
+  margin: .5em 0 .25em .75em;
+}
+
+.pageintro {
+  margin: 0 1.5em 1em 1.5em;
+  max-width: 1400px;
+}
+
+.subtitle {
+  text-align: left;
+  color: $purple;
+  font-size: 1em;
+  margin: 0 0 0 1.5em;
+}
+
+.subinfo {
+  margin: 0 0 0 2em;
+  font-size: .75em;
+  max-width: 1400px;
+}

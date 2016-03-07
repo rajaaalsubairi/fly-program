@@ -1334,6 +1334,32 @@ button[type=submit] {
   font-weight: 300;
 }
 
+.pages {
+  color: #191f35;
+}
+
+.pagetitle {
+  margin: .5em 0 .25em .75em;
+}
+
+.pageintro {
+  margin: 0 1.5em 1em 1.5em;
+  max-width: 1400px;
+}
+
+.subtitle {
+  text-align: left;
+  color: #743C70;
+  font-size: 1em;
+  margin: 0 0 0 1.5em;
+}
+
+.subinfo {
+  margin: 0 0 0 2em;
+  font-size: .75em;
+  max-width: 1400px;
+}
+
 footer {
   background-color: #191f35;
 }
