@@ -14,7 +14,7 @@ html {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 120%;
+    font-size: 130%;
   }
 
 }
@@ -22,7 +22,15 @@ html {
 @media only screen and (min-width: 120em) {
 
   html {
-    font-size: 130%;
+    font-size: 150%;
+  }
+
+}
+
+@media only screen and (min-width: 150em) {
+
+  html {
+    font-size: 180%;
   }
 
 }
@@ -37,27 +45,32 @@ fieldset, pre, table {
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
+  text-transform: uppercase;
 }
 
 .zetta {
   font-size: 2.0273rem;
-  line-height: 1.8998;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
 
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.2648;
+  text-transform: uppercase;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.3729;
+  line-height: 1.2729;
+  text-transform: uppercase;
 }
 
 h3, .tera {
   font-size: 1.4238rem;
-  line-height: 1.0535;
+  line-height: 1.1535;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 h4, .giga {
