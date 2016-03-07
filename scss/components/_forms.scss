@@ -132,6 +132,19 @@ button[type=submit] {
   color: $white;
 
   &:hover {
+    background-color: $purple;
+    color: $white;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.forms-btn-green-2 {
+  background-color: $green;
+  color: $white;
+
+  &:hover {
     background-color: $dark-blue;
     color: $white;
 
