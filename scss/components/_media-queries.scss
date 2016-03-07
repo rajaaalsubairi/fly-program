@@ -394,6 +394,9 @@ border-bottom: none;
 margin: 1em 6em;
 }
 
+.subli {
+  margin: 0 1.5em 0 -1em;
+}
 
 }
 
@@ -404,6 +407,10 @@ margin: 1em 6em;
 
   .form-wrapper-donate {
     margin-top: -12em;
+  }
+  
+  .subli {
+    margin: 0 1.5em 0 -.5em;
   }
 }
 
