@@ -755,7 +755,6 @@ h2 {
 .btn-green-2:hover {
   background-color: #191f35;
   color: #fff;
-  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
@@ -1340,7 +1339,8 @@ button[type=submit] {
 }
 
 .pagetitle {
-  margin: .5em 0 .25em .75em;
+  margin: .5em 0 .25em .8em;
+  font-size: 1.75em;
 }
 
 .pageintro {
@@ -1352,11 +1352,11 @@ button[type=submit] {
   text-align: left;
   color: #743C70;
   font-size: 1em;
-  margin: 0 0 0 1.5em;
+  margin: 0 0 .5em 1.5em;
 }
 
 .subinfo {
-  margin: 0 0 0 2em;
+  margin: 0 1.5em 0 2em;
   font-size: .75em;
   max-width: 1400px;
 }
