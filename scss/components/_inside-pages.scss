@@ -2,6 +2,8 @@
 
 .pages {
   color: $dark-blue;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .pagetitle {
@@ -10,16 +12,14 @@
 }
 
 .pageintro {
-  margin: 0 1.5em 1em 2em;
-  max-width: 1400px;
-  font-size: .8em;
+  margin: 0 1.5em 1em 1.5em;
 }
 
 .subtitle {
   text-align: left;
   color: $purple;
-  font-size: 1em;
-  margin: 0 0 .5em 1.5em;
+  font-size: 1.25em;
+  margin: 0 0 .5em 1.15em;
 }
 
 .subinfo {
@@ -28,16 +28,15 @@
 }
 
 .subp {
-  margin: 0 1.5em .5em 1.9em;
-  font-size: .8em;
-  max-width: 1400px;
+  margin: 0 0 .5em 1.6em;
 }
 
-.subli {
-  font-size: .8em;
-  max-width: 1400px;
+.subul {
   list-style-type: none;
-  margin: 0 1.5em 0 -1.25em;
+  
+  li {
+    margin: 0 1.5em 0 -1em;  
+  }
 }
 
 a {
