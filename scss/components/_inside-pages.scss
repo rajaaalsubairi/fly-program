@@ -18,17 +18,22 @@
 .subtitle {
   text-align: left;
   color: $purple;
-  font-size: 1.25em;
-  margin: 0 0 .5em 1.15em;
+  font-size: 1em;
+  margin: 0 0 .5em 1.45em;
 }
 
-.subinfo {
-  margin: 0 1.5em 0 2em;
-  font-size: .75em;
-}
+//.subinfo {
+//  margin: 0 1.5em 0 2em;
+//  font-size: 1em;
+//}
 
 .subp {
   margin: 0 0 .5em 1.6em;
+}
+
+.subh2 {
+  margin: 0 0 0 1.6em;
+  color: $light-purple;
 }
 
 .subul {
