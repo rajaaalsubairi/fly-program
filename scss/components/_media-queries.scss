@@ -94,12 +94,11 @@
     margin: 0 0 0 1.4em;
   }
   
-  .subul {
-  
+  .subul2 {
     li {
-      margin: 0 1.5em 0 -.9em;  
+      margin: 0 1.5em 0 .05em;  
     }
-  }
+  }  
 
 }
 
@@ -409,7 +408,7 @@ margin: 1em 6em;
   .subul {
   
     li {
-      margin: 0 1.5em 0 -.5em;  
+      margin: 0 1.5em 0 -.9em;  
     }
   }
 
@@ -435,5 +434,19 @@ margin: 1em 6em;
 @media only screen and (min-width: 80em){
   .header-title-wrap {
     top: 19em;
+  }
+  
+  .subul {
+  
+    li {
+      margin: 0 1.5em 0 -.5em;  
+    }
+  }
+  
+  .subul2 {
+  
+    li {
+      margin: 0 1.5em 0 .5em;  
+    }
   }
 }
