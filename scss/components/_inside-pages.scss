@@ -6,36 +6,28 @@
 
 .pagetitle {
   margin: .5em 0 .25em .8em;
-  font-size: 1.75em;
 }
 
 .pageintro {
   margin: 0 1.5em 1em 2em;
-  max-width: 1400px;
-  font-size: .8em;
+
 }
 
 .subtitle {
   text-align: left;
   color: $purple;
-  font-size: 1em;
   margin: 0 0 .5em 1.5em;
 }
 
 .subinfo {
   margin: 0 1.5em 0 2em;
-  font-size: .75em;
 }
 
 .subp {
   margin: 0 1.5em .5em 1.9em;
-  font-size: .8em;
-  max-width: 1400px;
 }
 
 .subli {
-  font-size: .8em;
-  max-width: 1400px;
   list-style-type: none;
   margin: 0 1.5em 0 -1.25em;
 }
@@ -43,4 +35,36 @@
 a {
   text-decoration: none;
   color: $purple;
+}
+
+// News page
+
+.date-wrap {
+  position: relative;
+  background-color: $light-purple;
+  padding: .5em;
+
+  h3, h4 {
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    font-weight: 200;
+    font-size: 2em;
+    width: 100%;
+  }
+}
+
+.read-btn {
+  a {
+
+    padding-right: 2px;
+    display: block;
+    background-color: $green;
+    color: $white;
+    padding: .5em;
+    width: 7em;
+    text-align: center;
+
+  }
 }

@@ -640,6 +640,13 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
 a.skip-links:active,
 a.skip-links:focus,
 a.skip-links:hover {
@@ -650,11 +657,19 @@ a.skip-links:hover {
   overflow: visible;
 }
 
+a:focus {
+  outline: 2px solid rgba(25, 31, 53, 0.9);
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
   z-index: 500;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 
 .skip-links a {
@@ -667,14 +682,6 @@ a.skip-links:hover {
   text-decoration: none;
   text-align: left;
   z-index: 500;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-
-a:focus {
-  outline: 2px solid rgba(25, 31, 53, 0.9);
 }
 
 img {
@@ -1352,36 +1359,27 @@ button[type=submit] {
 
 .pagetitle {
   margin: .5em 0 .25em .8em;
-  font-size: 1.75em;
 }
 
 .pageintro {
   margin: 0 1.5em 1em 2em;
-  max-width: 1400px;
-  font-size: .8em;
 }
 
 .subtitle {
   text-align: left;
   color: #743C70;
-  font-size: 1em;
   margin: 0 0 .5em 1.5em;
 }
 
 .subinfo {
   margin: 0 1.5em 0 2em;
-  font-size: .75em;
 }
 
 .subp {
   margin: 0 1.5em .5em 1.9em;
-  font-size: .8em;
-  max-width: 1400px;
 }
 
 .subli {
-  font-size: .8em;
-  max-width: 1400px;
   list-style-type: none;
   margin: 0 1.5em 0 -1.25em;
 }
@@ -1389,6 +1387,32 @@ button[type=submit] {
 a {
   text-decoration: none;
   color: #743C70;
+}
+
+.date-wrap {
+  position: relative;
+  background-color: #BAA2B9;
+  padding: .5em;
+}
+
+.date-wrap h3, .date-wrap h4 {
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 200;
+  font-size: 2em;
+  width: 100%;
+}
+
+.read-btn a {
+  padding-right: 2px;
+  display: block;
+  background-color: #9BA33F;
+  color: #fff;
+  padding: .5em;
+  width: 7em;
+  text-align: center;
 }
 
 footer {
