@@ -11,18 +11,12 @@
 }
 
 .pageintro {
-<<<<<<< HEAD
-  margin: 0 1.5em 1em 2em;
-
-=======
   margin: 0 1.5em 1em 1.5em;
->>>>>>> gh-pages
 }
 
 .subtitle {
   text-align: left;
   color: $purple;
-<<<<<<< HEAD
   margin: 0 0 .5em 1.5em;
 }
 
@@ -35,7 +29,6 @@
 }
 
 .subli {
-=======
   font-size: 1em;
   margin: 0 0 .5em 1.45em;
 }
@@ -55,18 +48,17 @@
 }
 
 .subul {
->>>>>>> gh-pages
   list-style-type: none;
-  
+
   li {
-    margin: 0 1.5em 0 -1.15em;  
+    margin: 0 1.5em 0 -1.15em;
   }
 }
 
 .subul2 {
-  
+
   li {
-    margin: 0 1.5em 0 .25em;  
+    margin: 0 1.5em 0 .25em;
   }
 }
 
@@ -76,6 +68,15 @@ a {
 }
 
 // News page
+
+.news-wrap {
+  vertical-align: middle;
+  height: auto;
+  p {
+    line-height: 1.4em;
+    margin-bottom: 0;
+  }
+}
 
 .date-wrap {
   position: relative;
@@ -88,14 +89,12 @@ a {
     text-transform: uppercase;
     color: $white;
     font-weight: 200;
-    font-size: 2em;
     width: 100%;
   }
 }
 
 .read-btn {
   a {
-
     padding-right: 2px;
     display: block;
     background-color: $green;
@@ -103,6 +102,12 @@ a {
     padding: .5em;
     width: 7em;
     text-align: center;
+    margin-top: .5em;
+    margin-bottom: 0;
+
+    &:hover {
+      background-color: $purple;
+    }
 
   }
 }
