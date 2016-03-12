@@ -1424,8 +1424,9 @@ a {
 
 .date-wrap {
   position: relative;
-  background-color: #BAA2B9;
-  padding: .5em;
+  background-color: #743C70;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
 }
 
 .date-wrap h3, .date-wrap h4 {
@@ -1437,20 +1438,18 @@ a {
   width: 100%;
 }
 
-.read-btn a {
-  padding-right: 2px;
-  display: block;
-  background-color: #9BA33F;
-  color: #fff;
-  padding: .5em;
-  width: 7em;
-  text-align: center;
-  margin-top: .5em;
-  margin-bottom: 0;
+.read-btn {
+  margin-top: 1em;
 }
 
-.read-btn a:hover {
-  background-color: #743C70;
+.read-btn a {
+  display: block;
+  border-bottom: 2px dotted #9BA33F;
+  color: #743C70;
+  width: 5em;
+  text-align: left;
+  margin-top: .5em;
+  margin-bottom: 0;
 }
 
 footer {

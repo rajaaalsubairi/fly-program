@@ -67,7 +67,6 @@ a {
   color: $purple;
 }
 
-<<<<<<< Updated upstream
 // News page
 
 .news-wrap {
@@ -81,8 +80,10 @@ a {
 
 .date-wrap {
   position: relative;
-  background-color: $light-purple;
-  padding: .5em;
+  background-color: $purple;
+  //padding: .5em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
 
   h3, h4 {
     margin-bottom: 0;
@@ -95,24 +96,19 @@ a {
 }
 
 .read-btn {
+    margin-top: 1em;
   a {
-    padding-right: 2px;
     display: block;
-    background-color: $green;
-    color: $white;
-    padding: .5em;
-    width: 7em;
-    text-align: center;
+    border-bottom: 2px dotted $green;
+    //background-color: $green;
+    color: $purple;
+    width: 5em;
+    text-align: left;
     margin-top: .5em;
     margin-bottom: 0;
 
     &:hover {
-      background-color: $purple;
+     // background-color: $purple;
     }
-
   }
-=======
-.mainimg {
-width: 50%;
->>>>>>> Stashed changes
-}
+  }
