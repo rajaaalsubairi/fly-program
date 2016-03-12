@@ -22,8 +22,15 @@ body{
   // Hides close button if there is no js
   &.noscript .close-btn,
   &.noscript .toggle-btn{
-    display: none;
+  display: none;
   }
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
 }
 
 a.skip-links:active,
@@ -36,33 +43,32 @@ a.skip-links:hover {
   overflow: visible;
 }
 
+a:focus {
+  outline: 2px solid rgba($dark-blue, .9);
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
   z-index: 500;
-}
 
-.skip-links a {
-  position: absolute;
-  top: -3em;
-  padding: 0.5em 0.75em;
-  background-color: rgba($dark-blue, .9);
-  color: $white;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: left;
-  z-index: 500;
-}
+  a:focus {
+    top: 0;
+  }
 
-.skip-links a:focus {
-  top: 0;
+  a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: rgba($dark-blue, .9);
+    color: $white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    z-index: 500;
+  }
 }
-
-a:focus {
-  outline: 2px solid rgba($dark-blue, .9);
-}
-
 
 img {
   display: block;
