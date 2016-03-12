@@ -81,6 +81,24 @@
     margin-top: 5em;
     padding: 1.5em 3em;
   }
+  
+  .pagetitle {
+    text-align: center;
+  }
+  
+  .subp {
+    margin: 0 0 .5em 1.4em;
+  }
+  
+  .subh2 {
+    margin: 0 0 0 1.4em;
+  }
+  
+  .subul2 {
+    li {
+      margin: 0 1.5em 0 .05em;  
+    }
+  }  
 
 }
 
@@ -329,12 +347,6 @@ padding: 0 4.5em;
 
 }
 
-.sub-info {
-    margin: 0;
-    width: 100%;
-
-}
-
  .address {
     background-color: $dark-blue;
 
@@ -393,10 +405,12 @@ border-top: solid $white 1px;
 border-bottom: none;
 margin: 1em 6em;
 }
-
-.subli {
-  margin: 0 1.5em 0 -1em;
-}
+  .subul {
+  
+    li {
+      margin: 0 1.5em 0 -.9em;  
+    }
+  }
 
 }
 
@@ -408,10 +422,7 @@ margin: 1em 6em;
   .form-wrapper-donate {
     margin-top: -12em;
   }
-  
-  .subli {
-    margin: 0 1.5em 0 -.5em;
-  }
+
 }
 
 @media only screen and (min-width: 70em){
@@ -423,5 +434,19 @@ margin: 1em 6em;
 @media only screen and (min-width: 80em){
   .header-title-wrap {
     top: 19em;
+  }
+  
+  .subul {
+  
+    li {
+      margin: 0 1.5em 0 -.5em;  
+    }
+  }
+  
+  .subul2 {
+  
+    li {
+      margin: 0 1.5em 0 .5em;  
+    }
   }
 }

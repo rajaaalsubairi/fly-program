@@ -2,6 +2,8 @@
 
 .pages {
   color: $dark-blue;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .pagetitle {
@@ -9,13 +11,18 @@
 }
 
 .pageintro {
+<<<<<<< HEAD
   margin: 0 1.5em 1em 2em;
 
+=======
+  margin: 0 1.5em 1em 1.5em;
+>>>>>>> gh-pages
 }
 
 .subtitle {
   text-align: left;
   color: $purple;
+<<<<<<< HEAD
   margin: 0 0 .5em 1.5em;
 }
 
@@ -28,8 +35,39 @@
 }
 
 .subli {
+=======
+  font-size: 1em;
+  margin: 0 0 .5em 1.45em;
+}
+
+//.subinfo {
+//  margin: 0 1.5em 0 2em;
+//  font-size: 1em;
+//}
+
+.subp {
+  margin: 0 0 .5em 1.6em;
+}
+
+.subh2 {
+  margin: 0 0 0 1.6em;
+  color: $light-purple;
+}
+
+.subul {
+>>>>>>> gh-pages
   list-style-type: none;
-  margin: 0 1.5em 0 -1.25em;
+  
+  li {
+    margin: 0 1.5em 0 -1.15em;  
+  }
+}
+
+.subul2 {
+  
+  li {
+    margin: 0 1.5em 0 .25em;  
+  }
 }
 
 a {
