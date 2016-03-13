@@ -1669,6 +1669,7 @@ hr {
   }
   .billboard-text {
     font-size: 3em;
+    margin-bottom: 0;
   }
   .form-wrapper-login {
     width: 80%;
